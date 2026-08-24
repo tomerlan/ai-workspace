@@ -213,7 +213,7 @@ if start_page and end_page:
 base_name = f"{base_name}_reconstruct"
 
 output_dir = Path("outputs/books")
-json_dir = Path("outputs/json/books")
+json_dir = Path("outputs/books/raw")
 
 output_dir.mkdir(parents=True, exist_ok=True)
 json_dir.mkdir(parents=True, exist_ok=True)

@@ -44,7 +44,7 @@ for f in sorted(MD.glob("*.md")):
                      score=score, density=round(dens, 1), hits=hits))
 
 rows.sort(key=lambda r: -r["score"])
-json.dump(rows, open("outputs/kruse_circadian/circadian_rank.json", "w"), indent=1)
+json.dump(rows, open("outputs/circadian/raw/circadian_rank.json", "w"), indent=1)
 
 print(f"{'score':>6} {'dens':>6} {'kB':>5}  {'date':10}  title")
 for r in rows[:45]:

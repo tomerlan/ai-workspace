@@ -11,7 +11,7 @@ cd "$(dirname "$0")/.."
 
 COOKIES="${COOKIES:-cookies.txt}"
 MODEL="${MODEL:-gpt-5.2}"
-OUT="outputs/kruse_evolution"
+OUT="outputs/evolution"
 
 if [[ "$1" != "--no-fetch" ]]; then
     echo "=== Fetching posts ==="
@@ -21,7 +21,7 @@ fi
 
 echo "=== Building digest ==="
 .venv/bin/python3 scripts/evolution_cancer_digest.py \
-    --input "$OUT/kruse_evolution_raw.json" \
+    --input "$OUT/raw/kruse_evolution_raw.json" \
     --output "$OUT/evolution_cancer_digest.md" \
     --model "$MODEL"
 

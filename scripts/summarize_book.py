@@ -6,7 +6,7 @@ Usage:
   python scripts/summarize_book.py Herrera_Melanin_the_Master_Molecule
   python scripts/summarize_book.py Herrera_Melanin_the_Master_Molecule --model gpt-4o
 
-Reads: outputs/json/books/<book>*_reconstruct.json (sorted by page range).
+Reads: outputs/books/raw/<book>*_reconstruct.json (sorted by page range).
 Writes: outputs/books/<book>_book_summary.md
 """
 

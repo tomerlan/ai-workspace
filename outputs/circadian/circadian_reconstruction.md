@@ -20,7 +20,7 @@ This reconstruction does three things:
 
 The labeling is not an attempt to score points. The framework's most interesting feature is precisely that its foundation is often textbook-correct and the extrapolation is layered on top with no visible seam. Separating the layers is the whole exercise.
 
-**Method note.** All 737 posts were scored on a weighted circadian vocabulary (SCN, melanopsin, clock genes, zeitgeber, entrainment, melatonin, chronodisruption, etc.); 463 posts registered a hit, 62 scored ≥100. The reconstruction draws on a 23-post spine covering the top-scoring posts and the dedicated series — *Time* #1–25 (2015–16), *Ubiquitination* #2/3/16/17 (2015), *Quantum Engineering* #1/18/23/44 (2021–23), the *Decentralized Medicine* applications (2025), and the 2011–13 leptin/sleep foundations. Ranking script: `scripts/rank_circadian.py`; full scores in `outputs/kruse_circadian/circadian_rank.json`.
+**Method note.** All 737 posts were scored on a weighted circadian vocabulary (SCN, melanopsin, clock genes, zeitgeber, entrainment, melatonin, chronodisruption, etc.); 463 posts registered a hit, 62 scored ≥100. The reconstruction draws on a 23-post spine covering the top-scoring posts and the dedicated series — *Time* #1–25 (2015–16), *Ubiquitination* #2/3/16/17 (2015), *Quantum Engineering* #1/18/23/44 (2021–23), the *Decentralized Medicine* applications (2025), and the 2011–13 leptin/sleep foundations. Ranking script: `scripts/rank_circadian.py`; full scores in `outputs/circadian/raw/circadian_rank.json`.
 
 ---
 
@@ -198,7 +198,7 @@ Three practical rules from doing this reconstruction:
 
 ## 8. Relation to existing work in this repo
 
-- `outputs/Chronotherapy/` (Feb 2026) approaches the same territory **mainstream-first** — chronobiology and circadian oncology as the spine, with Kruse as a bounded section (§9 of `circadian.md`). It was built from the UV/melanin source docs, not the blog archive.
+- `outputs/circadian/circadian_*.md` (Feb 2026) approaches the same territory **mainstream-first** — chronobiology and circadian oncology as the spine, with Kruse as a bounded section (§9 of `circadian.md`). It was built from the UV/melanin source docs, not the blog archive.
 - **This document is the mirror image**: Kruse-first, reconstructed from his own 737-post corpus, with mainstream science as the reference frame against which his claims are graded.
-- `outputs/kruse_evolution/semiconductor_theory.md` covers the solid-state/semiconductor substrate — claim 9 in §4 above — in far more depth. The two documents share that layer; this one treats it as a dependency rather than the subject.
+- `outputs/evolution/semiconductor_theory.md` covers the solid-state/semiconductor substrate — claim 9 in §4 above — in far more depth. The two documents share that layer; this one treats it as a dependency rather than the subject.
 - Open follow-on: a **claim ledger** (structured extraction of each discrete assertion with source post, mechanism, and falsifiability rating) would make the graded claims here machine-queryable across the whole archive rather than the 23-post spine.

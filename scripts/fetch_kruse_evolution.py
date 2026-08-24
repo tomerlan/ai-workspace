@@ -8,7 +8,7 @@ plain text for downstream digest use — no PDFs or intermediate steps needed.
 
 Usage:
     python3 scripts/fetch_kruse_evolution.py --cookies cookies.txt
-    python3 scripts/fetch_kruse_evolution.py --cookies cookies.txt --out outputs/kruse_evolution
+    python3 scripts/fetch_kruse_evolution.py --cookies cookies.txt --out outputs/evolution
     python3 scripts/fetch_kruse_evolution.py --cookies cookies.txt --min-score 2
 
 Getting cookies.txt:
@@ -214,14 +214,21 @@ def collect_posts(opener, queries, delay=2.0) -> list[dict]:
 # Output
 # ---------------------------------------------------------------------------
 
+def _raw_dir(out_dir: Path) -> Path:
+    """Raw scrape artifacts live in <out_dir>/raw/; digests live in <out_dir>/."""
+    d = Path(out_dir) / "raw"
+    d.mkdir(parents=True, exist_ok=True)
+    return d
+
+
 def write_json(posts, out_dir: Path):
-    out = out_dir / "kruse_evolution_raw.json"
+    out = _raw_dir(out_dir) / "kruse_evolution_raw.json"
     out.write_text(json.dumps(posts, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"JSON:     {out}")
 
 
 def write_markdown(posts, out_dir: Path, min_score: int = 1):
-    out = out_dir / "kruse_evolution_posts.md"
+    out = _raw_dir(out_dir) / "kruse_evolution_posts.md"
     qualifying = [p for p in posts if p["relevance_score"] >= min_score]
 
     with open(out, "w", encoding="utf-8") as f:
@@ -257,7 +264,7 @@ def main():
                         help="Netscape cookies.txt (default: cookies.txt)")
     parser.add_argument("--queries",   default=None,
                         help="Comma-separated search terms (default: built-in list)")
-    parser.add_argument("--out",       default="outputs/kruse_evolution")
+    parser.add_argument("--out",       default="outputs/evolution")
     parser.add_argument("--delay",     type=float, default=2.0)
     parser.add_argument("--min-score", type=int,   default=1,
                         help="Minimum relevance score to include in Markdown (default: 1)")

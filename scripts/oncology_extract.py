@@ -7,7 +7,7 @@ Usage:
   python scripts/oncology_extract.py --book Herrera_Melanin_the_Master_Molecule --model gpt-4o
   python scripts/oncology_extract.py -b Other_Book_Id
 
-Reads: outputs/json/books/<book>*_reconstruct.json (sorted by page range).
+Reads: outputs/books/raw/<book>*_reconstruct.json (sorted by page range).
 Writes: outputs/books/<book>_oncology.md
 """
 

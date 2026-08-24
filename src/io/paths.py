@@ -18,13 +18,13 @@ def get_reconstruct_paths(
 ) -> tuple[Path, Path, str]:
     """
     Returns (markdown_path, json_path, base_name) for reconstruct outputs.
-    Outputs go under outputs/books and outputs/json/books.
+    Outputs go under outputs/books and outputs/books/raw.
     """
     root = Path(root)
     base = _base_name_with_pages(source_path, start_page, end_page)
     base = f"{base}_reconstruct"
     md_path = root / "outputs" / "books" / f"{base}.md"
-    json_path = root / "outputs" / "json" / "books" / f"{base}.json"
+    json_path = root / "outputs" / "books" / "raw" / f"{base}.json"
     return md_path, json_path, base
 
 

@@ -5,9 +5,9 @@ and life-history theory, using posts scraped by fetch_kruse_evolution.py.
 
 Usage:
     python3 scripts/evolution_cancer_digest.py
-    python3 scripts/evolution_cancer_digest.py --input outputs/kruse_evolution/kruse_evolution_raw.json
+    python3 scripts/evolution_cancer_digest.py --input outputs/evolution/raw/kruse_evolution_raw.json
     python3 scripts/evolution_cancer_digest.py --model gpt-4o --max-posts 20 --max-chars 4000
-    python3 scripts/evolution_cancer_digest.py -o outputs/kruse_evolution/digest.md
+    python3 scripts/evolution_cancer_digest.py -o outputs/evolution/digest.md
 """
 
 from __future__ import annotations
@@ -23,8 +23,8 @@ from src.io import get_openai_client, write_text
 from src.io.env import get_project_root
 from src.config import DIGEST_DEFAULT_MODEL
 
-DEFAULT_INPUT  = "outputs/kruse_evolution/kruse_evolution_raw.json"
-DEFAULT_OUTPUT = "outputs/kruse_evolution/evolution_cancer_digest.md"
+DEFAULT_INPUT  = "outputs/evolution/raw/kruse_evolution_raw.json"
+DEFAULT_OUTPUT = "outputs/evolution/evolution_cancer_digest.md"
 
 # Themes that define this angle of Kruse's work — used for framing the prompt.
 SYNTHESIS_FRAME = """

@@ -402,6 +402,13 @@ def run(opener, queries, csrf_token, delay=2.5, fetch_posts=True):
     return threads
 
 
+def _raw_dir(out_dir: Path) -> Path:
+    """Raw scrape artifacts live in <out_dir>/raw/; digests live in <out_dir>/."""
+    d = Path(out_dir) / "raw"
+    d.mkdir(parents=True, exist_ok=True)
+    return d
+
+
 def write_markdown(threads, out_dir):
     out_file = out_dir / "kruse_forum_results.md"
     total_posts = sum(len(t["posts"]) for t in threads)
@@ -441,7 +448,7 @@ def write_markdown(threads, out_dir):
 
 
 def write_json(threads, out_dir):
-    out_file = out_dir / "kruse_forum_raw.json"
+    out_file = _raw_dir(out_dir) / "kruse_forum_raw.json"
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump(threads, f, indent=2, ensure_ascii=False)
     print(f"JSON:     {out_file}")
@@ -453,7 +460,7 @@ def main():
                         help="Netscape cookies.txt from Cookie-Editor (default: forum_cookies.txt)")
     parser.add_argument("--queries", default=None,
                         help="Comma-separated search terms (default: built-in list)")
-    parser.add_argument("--out",     default="outputs/kruse_forum")
+    parser.add_argument("--out",     default="outputs/forum")
     parser.add_argument("--delay",   type=float, default=2.5)
     parser.add_argument("--no-fetch-posts", action="store_true")
     args = parser.parse_args()

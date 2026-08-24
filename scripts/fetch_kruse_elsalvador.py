@@ -10,8 +10,8 @@ Usage:
     python3 scripts/fetch_kruse_elsalvador.py  # auto-loads from .env
 
 Output:
-    outputs/kruse_elsalvador/el_salvador_results.md
-    outputs/kruse_elsalvador/el_salvador_raw.json
+    outputs/el_salvador/el_salvador_results.md
+    outputs/el_salvador/el_salvador_raw.json
 """
 
 import argparse
@@ -487,6 +487,13 @@ def build_contact_list(threads):
     )
 
 
+def _raw_dir(out_dir: Path) -> Path:
+    """Raw scrape artifacts live in <out_dir>/raw/; digests live in <out_dir>/."""
+    d = Path(out_dir) / "raw"
+    d.mkdir(parents=True, exist_ok=True)
+    return d
+
+
 def write_markdown(threads, out_dir):
     contacts = build_contact_list(threads)
     out_file = out_dir / "el_salvador_results.md"
@@ -565,7 +572,7 @@ def write_markdown(threads, out_dir):
 
 
 def write_json(threads, out_dir):
-    out_file = out_dir / "el_salvador_raw.json"
+    out_file = _raw_dir(out_dir) / "el_salvador_raw.json"
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump(threads, f, indent=2, ensure_ascii=False)
     print(f"JSON:     {out_file}")
@@ -579,7 +586,7 @@ def main():
                         help="Netscape cookies.txt (default: forum_cookies.txt)")
     parser.add_argument("--queries", default=None,
                         help="Comma-separated extra queries")
-    parser.add_argument("--out", default="outputs/kruse_elsalvador")
+    parser.add_argument("--out", default="outputs/el_salvador")
     parser.add_argument("--delay", type=float, default=3.0)
     parser.add_argument("--no-search", action="store_true",
                         help="Skip searching, only fetch known threads")
