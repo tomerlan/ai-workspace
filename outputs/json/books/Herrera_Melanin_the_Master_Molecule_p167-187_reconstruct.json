@@ -1,0 +1,311 @@
+{
+  "claims": [
+    {
+      "id": 1,
+      "claim": "Traditional respiration models require atmospheric oxygen to be transported from exchange surfaces to all body cells, implying substantial energy expenditure and speed matched to tissue metabolic demand.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 2,
+      "claim": "Respiratory pigments are traditionally treated as passive oxygen carriers.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 3,
+      "claim": "Melanin transforms light energy into chemical energy by dissociating the water molecule in a manner analogous to chlorophyll in plants.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 4,
+      "claim": "Melanin can dissociate and re-form the water molecule.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 5,
+      "claim": "Respiratory pigments can dissociate the water molecule irreversibly.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 6,
+      "claim": "Oxygen associated with respiratory pigments is primarily due to constant water dissociation inside the pigment rather than transport from lungs to tissues.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 7,
+      "claim": "There are four types of O2-binding pigments in animals: hemoglobin, hemocyanin, hemerythrin, and chlorocruorin.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 8,
+      "claim": "These respiratory pigments are metalloproteins with iron or copper at the binding site.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 9,
+      "claim": "In hemoglobin, the prosthetic group is protoheme (Fe(II)-protoporphyrin) that binds one ligand.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 10,
+      "claim": "Hemocyanin and hemerythrin binding sites contain two metal atoms.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 11,
+      "claim": "Chlorocruorin is a hemoprotein whose heme differs from protoheme by one substituent.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 12,
+      "claim": "Hemocyanin and chlorocruorin are dissolved in plasma; hemerythrin is only intracellular; hemoglobin can be intra- and extracellular depending on species.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 13,
+      "claim": "Extracellular blood pigments can reach molecular masses up to several million kDa and often have more than 100 O2-binding sites.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 14,
+      "claim": "Oxygen does not come from the atmosphere/lungs; it comes from water dissociation inside the cell.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 15,
+      "claim": "Dry air at 1 atm has partial pressures of about 159 mmHg O2, 594 mmHg N2, and 0.23 mmHg CO2.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 16,
+      "claim": "When air is saturated with water vapor at 20\u00b0C and 760 mmHg, O2 partial pressure decreases to about 155.6 mmHg.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 17,
+      "claim": "Gas solubility in water decreases as temperature increases; O2 absorption coefficients drop from about 49 to 31 to 23 ml/L at 0\u00b0C, 20\u00b0C, 40\u00b0C (at 760 mmHg).",
+      "alignment": "Supported"
+    },
+    {
+      "id": 18,
+      "claim": "Increasing salinity decreases O2 solubility.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 19,
+      "claim": "At equilibrium, the partial pressure of a gas in solution equals the partial pressure of that gas in the contacting gas phase.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 20,
+      "claim": "CO2 reacts with water to form bicarbonate/carbonate, allowing seawater to dissolve much more CO2 than distilled water before equilibrating with atmospheric CO2.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 21,
+      "claim": "Hemoglobin-bound O2 does not contribute to the partial pressure of dissolved O2 in blood.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 22,
+      "claim": "Oxygen diffuses about 300,000 times faster in air than in water.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 23,
+      "claim": "Water viscosity is about 35 times that of air at 40\u00b0C and more than 100 times at 0\u00b0C.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 24,
+      "claim": "Human resting ventilation costs about 1\u20132% of metabolism; fish gill ventilation at rest can exceed about 20% of metabolism.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 25,
+      "claim": "No example of active gas transport exists in animals except carbonic anhydrase.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 26,
+      "claim": "Oxygen diffusion in tissues is slower than in water, and diffusion alone is efficient only over short distances; circulatory convection is required in larger organisms.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 27,
+      "claim": "Deep ocean waters have high oxygen pressure due to melanin absorbing energy (including pressure) and dissipating it by dissociating water.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 28,
+      "claim": "Molecular homology supports common origin of life; melanin is proposed as the first spark/origin of life.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 29,
+      "claim": "Carbonic anhydrase is near-ubiquitous, has about 6 subtypes, and catalyzes CO2\u2194bicarbonate rapidly in both directions.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 30,
+      "claim": "Carbonic anhydrase turnover can reach about one million reactions per second.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 31,
+      "claim": "Death from asphyxia is due to CO2 accumulation rather than hypoxia/anoxia.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 32,
+      "claim": "Hemoglobin does not require oxidation of Fe(II) to Fe(III) to bind O2; methemoglobin (Fe(III)) cannot bind O2.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 33,
+      "claim": "Structural similarity between heme and chlorophyll makes it conceivable hemoglobin can dissociate water.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 34,
+      "claim": "Hemoglobin passively capturing/releasing O2 would require chemical energy, which is not possible because erythrocytes lack mitochondria.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 35,
+      "claim": "Increased CO2 in blood decreases hemoglobin-mediated water dissociation, lowering PO2 primarily by reduced internal O2 generation rather than tissue O2 extraction.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 36,
+      "claim": "Only one-third of alveolar oxygen passes into blood.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 37,
+      "claim": "Blood oxygen solubility is about 40 ml/L or less.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 38,
+      "claim": "CO2 transport is crucial because PCO2 above about 45 mmHg impairs energy generation/distribution via effects on water and melanin, causing dysfunction and death.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 39,
+      "claim": "Hemoglobin water dissociation continuously produces H2 and O2; H2 diffuses out of erythrocytes, acts as energy carrier and antioxidant, and can reduce O2 to form water.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 40,
+      "claim": "Cells do not burn glucose for energy; glucose mainly supplies carbon chains, while energy comes from H2 generated by water dissociation.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 41,
+      "claim": "Hemoglobin oxygen saturation can remain about 96% even when inspired oxygen is as low as 7\u20138%.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 42,
+      "claim": "Decreased body temperature causes a marked fall of blood oxygen tension, analogized to reduced photochemical energy conversion at low temperature in plants.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 43,
+      "claim": "In decapod crustaceans, post-gill hemocyanin is often only 50\u201370% saturated even in well-aerated water; this has been interpreted as a diffusion barrier at gills.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 44,
+      "claim": "Carbon monoxide experiments are misleading because low doses stimulate water dissociation and high doses block it.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 45,
+      "claim": "Umbilical arterial blood oxygen saturation is about 50% lower than maternal arterial blood saturation.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 46,
+      "claim": "Fetal energy is derived from amniotic fluid water via the same water-based energy mechanism, while maternal blood supplies building blocks.",
+      "alignment": "Contradicted"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Respiratory pigments",
+      "definition": "Metalloproteins that reversibly bind O2 (and sometimes other ligands) to facilitate oxygen transport or storage.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Hemoglobin",
+      "definition": "Tetrameric heme protein in vertebrate erythrocytes enabling cooperative O2 binding and transport.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Myoglobin",
+      "definition": "Monomeric heme protein in muscle that stores O2 and facilitates intracellular O2 diffusion.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Hemocyanin",
+      "definition": "Copper-based O2-binding protein in many arthropods and mollusks, typically extracellular.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Hemerythrin",
+      "definition": "Non-heme diiron O2-binding protein in some invertebrates, typically intracellular.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Chlorocruorin",
+      "definition": "Extracellular annelid respiratory pigment related to hemoglobin with modified heme, greenish when oxygenated.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Heme (protoheme)",
+      "definition": "Fe-protoporphyrin IX prosthetic group enabling ligand binding and redox chemistry in hemoglobin and cytochromes.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Chlorophyll",
+      "definition": "Mg-porphyrinoid pigment in photosystems; oxygenic water splitting occurs at photosystem II\u2019s oxygen-evolving complex.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Carbonic anhydrase",
+      "definition": "Enzyme catalyzing CO2 + H2O \u21cc HCO3\u2212 + H+, accelerating CO2 transport and acid\u2013base regulation.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Henry\u2019s law / gas partial pressure equilibrium",
+      "definition": "At equilibrium, dissolved gas concentration is proportional to its partial pressure in the gas phase (with caveats for reactive gases).",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Bohr effect",
+      "definition": "Increased CO2/H+ decreases hemoglobin O2 affinity, promoting O2 unloading in tissues.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Melanin-driven 'human photosynthesis'",
+      "definition": "Proposed mechanism that melanin (and/or respiratory pigments) photochemically splits water to generate chemical energy and O2/H2 in animals.",
+      "mainstream_status": "Fringe"
+    }
+  ],
+  "logical_flow": [
+    "Physical constraints -> O2 solubility and diffusion are limited in water/tissues; aquatic ventilation is energetically expensive.",
+    "Physiology baseline -> Gas exchange uses diffusion across membranes and convection via circulation; respiratory pigments bind O2 stoichiometrically.",
+    "Problem framing -> Atmospheric-to-cell O2 delivery is asserted to be too difficult under diffusion/solubility limits.",
+    "Mechanism proposal -> Melanin and respiratory pigments are asserted to dissociate water using absorbed energy (light and other forms).",
+    "Reinterpretation -> Blood/tissue O2 is asserted to originate mainly from internal water dissociation; CO2 removal becomes the primary driver of ventilation/circulation.",
+    "Enzymatic emphasis -> Carbonic anhydrase ubiquity and high turnover are taken to indicate CO2 management dominance.",
+    "Extensions -> Exercise, deep-sea oxygenation, erythrocyte energetics, and fetal metabolism are re-explained via pigment-driven water dissociation and H2-based energy carriage.",
+    "Conclusion -> Revising respiration around melanin/pigment water dissociation is asserted to resolve outstanding physiological 'mysteries'."
+  ],
+  "source_file": "data/books/Herrera_Melanin_the_Master_Molecule.pdf",
+  "pages": "167-187",
+  "model": "gpt-5.2",
+  "prompt_version": "reconstruct_v_final",
+  "generated_at_utc": "2026-02-15T02:16:38.296985"
+}

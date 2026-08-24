@@ -1,0 +1,2 @@
+# For scripts/push_to_notion.py
+md2notionpage>=0.1.5

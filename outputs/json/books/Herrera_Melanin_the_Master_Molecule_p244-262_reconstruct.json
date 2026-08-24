@@ -1,0 +1,320 @@
+{
+  "claims": [
+    {
+      "id": 1,
+      "claim": "Water has historically been treated in nutrition mainly as solvent/volume/cleaner/thermoregulator rather than as an energy source.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 2,
+      "claim": "Melanin has an intrinsic property to split and re-form the water molecule.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 3,
+      "claim": "Human cells use water as a source of electrons in a plant-like manner.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 4,
+      "claim": "Water is the primary energy source, and meals are merely the source of biomass.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 5,
+      "claim": "Glucose is a universal building block from which the organism can synthesize even nucleic acids.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 6,
+      "claim": "Energy for cellular change is obtained from dissociation and re-formation of water.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 7,
+      "claim": "Melanin is the equivalent of human chlorophyll.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 8,
+      "claim": "Both melanin and chlorophyll can transform photonic energy into free chemical energy usable by eukaryotic cells.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 9,
+      "claim": "Most metabolic pathways explaining glucose as the premier energy source are controversial in 95%.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 10,
+      "claim": "The beginning of life likely required conversion of light to chemical energy via water dissociation.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 11,
+      "claim": "Energy from melanin is transported by molecular hydrogen (H2) and high-energy electrons.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 12,
+      "claim": "Organic molecules within melanin-derived growing spheres change chemical behavior in a highly ordered way.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 13,
+      "claim": "Melanin water dissociation/reformation alternates liquid/gas states and can be represented as a 0/1 binary code.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 14,
+      "claim": "Every molecule involved in life processes must be continuously immersed in melanin energy spheres night and day.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 15,
+      "claim": "Food\u2019s main aim is replenishment of biomass; the energy content of meals is very low.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 16,
+      "claim": "The body can store carbon chains but cannot store energy.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 17,
+      "claim": "Oxygen\u2019s role over nutrient molecules is merely for biomass production/replenishment, not energy production.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 18,
+      "claim": "The chemo-osmotic theory is only a theory and does not explain ATP energy storage/release.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 19,
+      "claim": "Yeast growth without oxygen is energetically nonsensical because 2 ATP vs 30\u201336 ATP has no sense.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 20,
+      "claim": "ATP and mitochondria are more oriented to phosphate-group regulation than energy production.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 21,
+      "claim": "ATP hydrolysis absorbs more energy than it releases.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 22,
+      "claim": "In healthy people all copies of mitochondrial DNA are identical.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 23,
+      "claim": "Red blood cells and eye lens have no mitochondria and therefore cannot respire aerobically.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 24,
+      "claim": "Heme and chlorophyll can both split water irreversibly.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 25,
+      "claim": "The dissociation of water is the real source of energy of erythrocytes.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 26,
+      "claim": "The iris has about 40% more melanin than skin.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 27,
+      "claim": "Cancer cells and embryonic tissues producing lactate in oxygen is difficult to reconcile with glucose-as-energy.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 28,
+      "claim": "Warburg-like metabolism reflects prioritization of biomass carbon incorporation and phosphate handling rather than ATP production.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 29,
+      "claim": "Enzyme activity loss in cancer is due to low chemical energy from water dissociation rather than glucose.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 30,
+      "claim": "Utero-placental tissue consumes more O2 per kg than fetus; fetal O2 uptake is about 45% of total in cited measurements.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 31,
+      "claim": "Low fetal pO2 and lower fetal O2 consumption are paradoxical if glucose oxidation is the energy source.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 32,
+      "claim": "Adult energy comes from ingested water and fetal energy comes mainly from amniotic fluid.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 33,
+      "claim": "Intracellular oxygen comes mainly from in situ water dissociation/reformation.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 34,
+      "claim": "The fundamental reaction 2H2O \u2194 2H2 + O2 + 4e\u2212 occurs in perinuclear space.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 35,
+      "claim": "Melanosomes are mainly perinuclear and form a wrapper around the nucleus.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 36,
+      "claim": "ATP cannot reach the nucleus interior; therefore melanin supplies nuclear energy.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 37,
+      "claim": "Oxygen is toxic at any level.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 38,
+      "claim": "Melanin content is inversely related to mitochondrial number up to 83%.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 39,
+      "claim": "Cold acclimation increases mitochondrial density and mitochondrial volume fraction in fish muscle as reported.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 40,
+      "claim": "Cold reduces water-dissociation turnover; mitochondria increase mainly for thermogenesis/signaling/phosphate-calcium regulation rather than energy.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 41,
+      "claim": "Melanin absorbs the entire electromagnetic spectrum from radio waves to gamma rays.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 42,
+      "claim": "Melanin uniquely dissipates absorbed energy by dissociating water; laboratory water dissociation requires about 2000 \u00b0C.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 43,
+      "claim": "Molecular hydrogen is the best antioxidant and melanin produces it.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 44,
+      "claim": "Heavy metals poison melanin, impairing the reaction and causing free radical production (monoatomic H/O and hydroxyl species).",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 45,
+      "claim": "Melanin is the missing link in the origin of life sequence.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 46,
+      "claim": "Melanin\u2019s light-to-chemical-energy ability declines starting at age 26 by about 10% per decade and drops sharply after the 50s.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 47,
+      "claim": "Age-related loss of bone/muscle/skin mass follows from declining melanin energy production because loss of energy causes loss of mass.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 48,
+      "claim": "Seasonal depression is proof that affective problems relate to altered energy generation/distribution.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 49,
+      "claim": "Every cell/tissue requires light; lower skin melanin in cold countries allows light penetration to meet energy needs even for bone.",
+      "alignment": "Contested"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Human Photosynthesis\u2122",
+      "definition": "Proposed melanin-mediated photochemical conversion of light energy into chemical energy via water dissociation/reformation in human cells.",
+      "mainstream_status": "Fringe"
+    },
+    {
+      "term": "Sol\u00eds-Herrera\u2122 cycle",
+      "definition": "Proposed reversible reaction 2H2O \u2194 2H2 + O2 + 4e\u2212 occurring in perinuclear space around melanosomes.",
+      "mainstream_status": "Fringe"
+    },
+    {
+      "term": "Growing spheres of energy",
+      "definition": "Proposed diffusion-like radial propagation of alternating dissociated/re-formed water states carrying H2 and electrons outward from melanin.",
+      "mainstream_status": "Fringe"
+    },
+    {
+      "term": "Warburg effect",
+      "definition": "Aerobic glycolysis in many cancers (lactate production despite oxygen availability).",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Chemiosmotic theory",
+      "definition": "ATP synthesis driven by proton motive force across inner mitochondrial membrane via ATP synthase.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "mPTP",
+      "definition": "Mitochondrial permeability transition pore phenomenon; transient openings can occur under some conditions.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "\u0394\u03c8m",
+      "definition": "Mitochondrial membrane potential (matrix negative) contributing to proton motive force.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Melanosome",
+      "definition": "Membrane-bound organelle containing melanin pigment, produced by melanocytes and transferred to other cells.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Neuromelanin",
+      "definition": "Pigment accumulating in certain catecholaminergic neurons such as substantia nigra.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Fontana\u2013Masson reaction",
+      "definition": "Histochemical silver reduction method used to visualize melanin/argentaffin substances.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Henry\u2019s law (temperature dependence of gas solubility)",
+      "definition": "Gas solubility in liquids depends on partial pressure and temperature; oxygen solubility decreases with increasing temperature.",
+      "mainstream_status": "Established"
+    }
+  ],
+  "logical_flow": [
+    "Observation -> Water is abundant in the body and historically treated as a passive medium in nutrition.",
+    "Hypothesis -> Melanin can dissociate and re-form water using light, generating usable chemical energy.",
+    "Mechanism -> Photonic energy drives 2H2O \u2194 2H2 + O2 + 4e\u2212; energy is carried by H2/e\u2212 and spreads as diffusion-like spheres.",
+    "Implication -> Food supplies biomass precursors; energy is supplied primarily by melanin-water cycling rather than glucose oxidation.",
+    "Reinterpretation -> Oxygen is not primarily for energy extraction; ATP/mitochondria primarily regulate phosphate (and calcium) rather than produce energy.",
+    "Extension -> Cancer metabolism, fetal oxygen patterns, oxygen toxicity, and aging are reframed as consequences of altered melanin-driven energy generation/distribution.",
+    "Clinical implication -> Age-related diseases and mood disorders become targets via restoring mass\u2013energy balance through melanin-centered mechanisms."
+  ],
+  "source_file": "data/books/Herrera_Melanin_the_Master_Molecule.pdf",
+  "pages": "244-262",
+  "model": "gpt-5.2",
+  "prompt_version": "reconstruct_v_final",
+  "generated_at_utc": "2026-02-15T02:24:38.548301"
+}

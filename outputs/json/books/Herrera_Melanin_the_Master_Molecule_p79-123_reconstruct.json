@@ -1,0 +1,328 @@
+{
+  "claims": [
+    {
+      "id": 1,
+      "claim": "Cells require a steady, continuous supply of chemical energy to maintain function and avoid cellular destruction.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 2,
+      "claim": "Generation and distribution of chemical energy are determining factors in organismal form and function.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 3,
+      "claim": "Organisms differ from machines because catalysts needed for operation must be generated internally.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 4,
+      "claim": "Microtubules are differentially sensitive to gravity.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 5,
+      "claim": "Mechanical forces (adhesion tension, division forces, cytoskeletal waves) significantly contribute to embryonic morphogenesis.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 6,
+      "claim": "Cell differentiation and morphogenesis are examples of self-organization/entropy reduction.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 7,
+      "claim": "The first law of thermodynamics states energy cannot be created or destroyed, only transferred or transformed.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 8,
+      "claim": "Entropy is the unavailability of a system\u2019s thermal energy for conversion into mechanical work and is often interpreted as disorder.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 9,
+      "claim": "A system in thermodynamic equilibrium has no net flows of mass/energy, no phase changes, and no driving forces.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 10,
+      "claim": "Evolution is thermodynamically impossible because entropy and evolution are opposing and mutually exclusive concepts.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 11,
+      "claim": "The second law is an impenetrable barrier that no evolutionary mechanism has overcome.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 12,
+      "claim": "Living systems are thermodynamically open and far-from-equilibrium systems.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 13,
+      "claim": "Living cells decrease internal entropy by using an influx of chemical energy and exporting heat and waste.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 14,
+      "claim": "Pigmented cells contain high amounts of calcium due to melanin\u2019s enormous calcium-binding capacity, exceeding all other tissues.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 15,
+      "claim": "In skin, melanin is a major determinant of skin color and provides protection against radiation and sun-induced damage including skin cancer.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 16,
+      "claim": "Melanin\u2019s biological role outside skin (e.g., ocular tissues) is still under intense debate.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 17,
+      "claim": "Melanin has an intrinsic property to transform visible and invisible light into free chemical energy by dissociating and re-forming water.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 18,
+      "claim": "Skin pigmentation primarily regulates how much light reaches internal cells to meet metabolic energy needs.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 19,
+      "claim": "Melanin in trees is located in the trunk and is called lignin.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 20,
+      "claim": "Of biological pigments, melanin is the most widely distributed in nature across kingdoms.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 21,
+      "claim": "There is no complete picture of eumelanin macromolecular structure in natural or synthetic form.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 22,
+      "claim": "EPR/ESR studies provide evidence for semiquinone radicals in eumelanin.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 23,
+      "claim": "Melanin added to cell culture medium can be taken up into cytosol and subcellular compartments.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 24,
+      "claim": "Albinism is reduced melanin synthesis rather than total absence, with normal melanocyte numbers in skin and eyes.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 25,
+      "claim": "Melanin is present in 'albino' Wistar rat ocular tissues in abundant amounts.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 26,
+      "claim": "Melanin is synthesized in melanosomes; epidermal melanosomes can be degraded after lysosomal fusion into 'melanin dust'.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 27,
+      "claim": "Neuromelanin accumulates with age in substantia nigra until about 50\u201360 years then decreases.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 28,
+      "claim": "Melanin has efficient non-radiative de-excitation that improves when hydrated.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 29,
+      "claim": "Higher intraocular PO2 in African-American patients than Caucasian patients is indirect evidence that more melanin captures more light and dissipates it via water dissociation/reformation.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 30,
+      "claim": "Kleiber\u2019s law (metabolic rate scaling approximately as body mass^(3/4)) is universal across life and remains unexplained.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 31,
+      "claim": "Melanin-driven water dissociation/reformation is the long-sought explanation for Kleiber\u2019s law.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 32,
+      "claim": "Photoreceptor layer requires about 10\u00d7 more energy than cerebral cortex and has no blood vessels under normal conditions.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 33,
+      "claim": "Retinal venous oxygen content is about 38% lower than retinal arterial blood, while choroidal venous-arterial difference is about 3%.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 34,
+      "claim": "Choroidal blood flow is approximately 27\u00d7 faster than retinal blood flow.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 35,
+      "claim": "Water dissociation/reformation by melanin produces a vacuum around vessels that increases blood flow.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 36,
+      "claim": "The identified melanin reaction is 2H2O \u2194 2H2 + O2 + 4e\u2212 occurring in nano-/picoseconds.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 37,
+      "claim": "Diatomic hydrogen released by melanin is the best known antioxidant and maintains minimal intracellular oxidation.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 38,
+      "claim": "Melanin is strategically placed in the perinuclear space surrounding the nucleus to regulate metabolic rate.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 39,
+      "claim": "Melanin absorbs the entire electromagnetic spectrum from radio waves to gamma rays without reflection/refraction.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 40,
+      "claim": "Chlorophyll irreversibly dissociates water into diatomic hydrogen and oxygen at room temperature.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 41,
+      "claim": "Human photosynthesis is more efficient than plant photosynthesis because it both dissociates and re-forms water, yielding four high-energy electrons per two re-formed water molecules.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 42,
+      "claim": "Glucose is not an energy source; it is only a biomass precursor.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 43,
+      "claim": "Mitchell\u2019s chemiosmotic theory for mitochondrial ATP production remains unresolved and is still just a theory.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 44,
+      "claim": "The human body requires roughly 50\u2013180 kg of ATP daily while containing about 50 g at any moment, implying rapid recycling.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 45,
+      "claim": "The ability to dissociate water decreases from age 26 by about 10% per decade and falls sharply after the 50s; it also decreases with cold, contaminated water, iron supplements, alcohol, anesthetics, antidepressants, pesticides, herbicides, and certain drugs.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 46,
+      "claim": "Inadequate melanin-driven photosynthesis is the major reason diseases develop.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 47,
+      "claim": "Pharmacologic intensification of human photosynthesis improved age-related macular degeneration anatomy within 8 weeks in an example case.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 48,
+      "claim": "Pharmacologic intensification of human photosynthesis produced remarkable improvement in an Alzheimer\u2019s disease case over 8 months.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 49,
+      "claim": "Alzheimer\u2019s disease is fundamentally an energy problem rather than a biomass problem.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 50,
+      "claim": "Preventive and curative medicine will be transformed by pharmacologically modulating melanin-mediated water dissociation/reformation.",
+      "alignment": "Speculative"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Thermodynamic equilibrium (TE)",
+      "definition": "A state with no net macroscopic flows and no driving gradients (thermal, mechanical, chemical, radiative) within the system.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Entropy",
+      "definition": "A thermodynamic state function quantifying energy dispersal; constrains directionality of processes and relates to reversible heat transfer by dS = \u03b4Q_rev/T.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Open far-from-equilibrium system",
+      "definition": "A system exchanging energy/matter with its environment and maintained away from equilibrium by fluxes, enabling local order formation with net entropy export.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Chaos (sensitive dependence on initial conditions)",
+      "definition": "Deterministic dynamics where small differences in initial conditions can yield large differences in outcomes, limiting predictability.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Kleiber\u2019s law",
+      "definition": "Empirical allometric scaling of basal metabolic rate with body mass, often approximated as E \u221d M^(3/4) across many taxa.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Eumelanin structural heterogeneity",
+      "definition": "The unresolved detailed supramolecular organization and structure\u2013property mapping of eumelanin due to chemical and morphological heterogeneity.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "EPR/ESR semiquinone radicals in melanin",
+      "definition": "Persistent paramagnetic signals attributed to semiquinone-like moieties embedded within melanin materials.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Chemiosmotic coupling",
+      "definition": "ATP synthesis driven by proton-motive force across the inner mitochondrial membrane via ATP synthase.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Human photosynthesis (melanin-driven water splitting/reformation)",
+      "definition": "Proposed light-driven reversible reaction 2H2O \u2194 2H2 + O2 + 4e\u2212 mediated by melanin in human tissues to supply cellular free chemical energy.",
+      "mainstream_status": "Fringe"
+    },
+    {
+      "term": "Melanin as universal metabolic regulator",
+      "definition": "Proposed mechanism that melanin photochemistry sets cellular metabolic rate and explains cross-species metabolic scaling.",
+      "mainstream_status": "Fringe"
+    },
+    {
+      "term": "Melanin\u2013lignin equivalence",
+      "definition": "Proposed identity of plant lignin with melanin located in tree trunks.",
+      "mainstream_status": "Fringe"
+    }
+  ],
+  "logical_flow": [
+    "Cellular requirement -> Continuous free chemical energy is necessary for coordinated intracellular work and maintenance of order.",
+    "Thermodynamic framing -> Second law is interpreted as forcing disorder; evolution is asserted to require an opposing ordering principle.",
+    "Search for ordering principle -> A universal conserved mechanism is posited to reconcile biological complexity with entropy.",
+    "Candidate selection -> Melanin is chosen due to ubiquity, optical absorption, redox/radical properties, and anatomical placement (notably in eye).",
+    "Mechanism proposal -> Light absorbed by melanin drives reversible water dissociation/reformation producing H2, O2, and electrons, yielding free chemical energy.",
+    "Indirect supports -> Persistent EPR radicals, oxygen consumption, ocular PO2 differences, and avascular photoreceptors near melanin-rich tissues are treated as consistent with the mechanism.",
+    "Unification -> The mechanism is proposed to explain Kleiber\u2019s law and universal metabolic regulation across life.",
+    "Bioenergetic revision -> Glucose is reassigned to biomass only; ATP-centric and chemiosmotic explanations are deemed insufficient.",
+    "Disease model -> Disease is attributed primarily to declining melanin-driven water dissociation (age and exposures).",
+    "Translational implication -> Pharmacologic enhancement of the melanin-water reaction is proposed for prevention and treatment (e.g., AMD, AD)."
+  ],
+  "source_file": "data/books/Herrera_Melanin_the_Master_Molecule.pdf",
+  "pages": "79-123",
+  "model": "gpt-5.2",
+  "prompt_version": "reconstruct_v_final",
+  "generated_at_utc": "2026-02-14T22:00:27.158595"
+}

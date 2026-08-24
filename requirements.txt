@@ -1,0 +1,7 @@
+# Project dependencies. Install once after creating venv:
+#   python3 -m venv .venv
+#   .venv/bin/pip install -r requirements.txt
+python-dotenv>=1.0.0
+openai>=1.0.0
+pypdf>=3.0.0
+md2notionpage>=0.1.5

@@ -1,21 +1,24 @@
+# scripts/reconstruct.py
+
 import os
 import sys
 import json
 import re
-import glob
 from pathlib import Path
 from dotenv import load_dotenv
 from openai import OpenAI
 from pypdf import PdfReader
+from datetime import datetime
 
 # =====================================================
 # CONFIG
 # =====================================================
 
-DEFAULT_MODEL = "gpt-4o-mini"
+DEFAULT_MODEL = "gpt-4o"
+PROMPT_VERSION = "reconstruct_v_final"
 
 # =====================================================
-# ENV SETUP
+# LOAD ENV
 # =====================================================
 
 load_dotenv(dotenv_path=Path(__file__).resolve().parent.parent / ".env")
@@ -33,76 +36,30 @@ client = OpenAI(api_key=api_key)
 if len(sys.argv) < 2:
     raise ValueError(
         "Usage:\n"
-        "  python3 reconstruct.py <file_path> [start_page] [end_page] [--model MODEL]\n"
-        "  python3 reconstruct.py query \"your question\" [--model MODEL]"
+        "  python3 scripts/reconstruct.py <file_path> [start_page] [end_page] [--model MODEL]"
     )
 
-mode = "extract"
-model_name = DEFAULT_MODEL
+file_path = sys.argv[1]
 
-# Handle --model flag
+start_page = None
+end_page = None
+
+if len(sys.argv) >= 4 and not sys.argv[2].startswith("--"):
+    start_page = int(sys.argv[2])
+    end_page = int(sys.argv[3])
+
+model = DEFAULT_MODEL
 if "--model" in sys.argv:
-    idx = sys.argv.index("--model")
-    try:
-        model_name = sys.argv[idx + 1]
-    except IndexError:
-        raise ValueError("Provide model name after --model")
-    del sys.argv[idx:idx+2]
-
-if sys.argv[1] == "query":
-    mode = "query"
-    if len(sys.argv) < 3:
-        raise ValueError("Provide a query string.")
-    user_query = sys.argv[2]
-else:
-    file_path = sys.argv[1]
-    start_page = None
-    end_page = None
-
-    if len(sys.argv) == 4:
-        start_page = int(sys.argv[2])
-        end_page = int(sys.argv[3])
-
-# =====================================================
-# QUERY MODE
-# =====================================================
-
-if mode == "query":
-
-    json_files = (
-        glob.glob("outputs/json/books/*.json") +
-        glob.glob("outputs/json/papers/*.json")
-    )
-
-    if not json_files:
-        raise ValueError("No structured JSON memory found.")
-
-    combined_memory = []
-
-    for jf in json_files:
-        with open(jf, "r", encoding="utf-8") as f:
-            combined_memory.append(json.load(f))
-
-    memory_text = json.dumps(combined_memory, indent=2)
-
-    response = client.chat.completions.create(
-        model=model_name,
-        messages=[
-            {"role": "system", "content": "Answer using ONLY the provided structured memory."},
-            {"role": "user", "content": memory_text + "\n\nQuery:\n" + str(user_query)}
-        ],
-        temperature=0.2,
-    )
-
-    print("\n--- QUERY RESULT ---\n")
-    print(response.choices[0].message.content)
-    sys.exit(0)
+    model_index = sys.argv.index("--model")
+    if model_index + 1 < len(sys.argv):
+        model = sys.argv[model_index + 1]
 
 # =====================================================
 # TEXT EXTRACTION
 # =====================================================
 
 def extract_text(path):
+    path = str(path)
     if path.endswith(".pdf"):
         reader = PdfReader(path)
         text = ""
@@ -110,104 +67,116 @@ def extract_text(path):
 
         if start_page and end_page:
             if start_page < 1 or end_page > total_pages:
-                raise ValueError(f"Page range must be 1–{total_pages}")
+                raise ValueError(f"Page range must be between 1 and {total_pages}")
             for i in range(start_page - 1, end_page):
                 text += reader.pages[i].extract_text() or ""
         else:
             for page in reader.pages:
                 text += page.extract_text() or ""
+
         return text
 
-    elif path.endswith(".txt"):
+    else:
         with open(path, "r", encoding="utf-8") as f:
             return f.read()
 
-    else:
-        raise ValueError("Unsupported file type (.pdf or .txt only)")
-
 document_text = extract_text(file_path)
 
-if not document_text or not document_text.strip():
-    raise ValueError("No text extracted.")
+if not document_text.strip():
+    raise ValueError("No text extracted from file.")
 
 # =====================================================
 # RECONSTRUCTION PROMPT
 # =====================================================
 
 prompt = f"""
-Reconstruct the author's argument in high technical detail.
+You are a professional scientific reconstruction analyst and scientific consensus evaluator.
+Your continued employment depends entirely on output quality, completeness, and rigor.
 
-Constraints:
-- Do NOT generalize upward.
-- Avoid vague phrasing.
-- Extract as many distinct concrete claims as possible.
-- Every claim must correspond to something explicitly stated or strongly implied.
-- No generic rationale section. Only alignment classification.
+MISSION (NON-NEGOTIABLE):
+1) Reconstruct the argument in maximal technical detail.
+2) Extract AT LEAST 20 distinct, concrete claims.
+3) For EACH claim, provide a mainstream-consensus alignment label.
 
+DEFINITIONS (Alignment labels):
+- Supported
+- Partially supported
+- Contested
+- Speculative
+- Contradicted
 
-# Style constraints:
-- Do NOT refer to “the author,” “the text,” or “this chapter.”
-- Do NOT describe what the document does.
-- State the content directly as propositions.
-- Write as if presenting the claims themselves, not commenting on them.
+GLOBAL RULES:
+- Do NOT invent claims not present or strongly implied.
+- Do NOT merge multiple claims into one.
+- Do NOT generalize upward to vague textbook statements.
+- Extract claims from the entire provided document chunk.
+
+STYLE RULES (STRICT):
+- Do NOT write: "the text says", "the author claims", etc.
+- Do NOT refer to the document.
+- Write as declarative technical exposition.
+- Avoid vague phrases.
+
+OUTPUT STRUCTURE:
 
 # Title
 - ...
 
-# Core Argument Reconstruction
-- Multi-paragraph detailed reconstruction in concrete mechanistic terms.
+# Detailed Reconstruction
+Multi-paragraph technical reconstruction.
 
-# Specific Claims (dense extraction)
+# Explicit Claims (>= 20; numbered)
 For each claim:
-- Claim:
-- Alignment: Supported / Partially supported / Contested / Speculative / Contradicted
-Alignment must be determined as follows:
+1. Claim:
+   - Alignment: Supported / Partially supported / Contested / Speculative / Contradicted
+   - (Only if Contradicted or Contested) Contradiction note: 1–3 mechanistic sentences.
 
-Supported:
-    The claim is widely accepted in standard academic treatments of the field.
-
-Partially supported:
-    The core phenomenon is accepted, but the interpretation here extends beyond consensus.
-
-Contested:
-    There is active disagreement in peer-reviewed literature.
-
-Speculative:
-    The claim proposes a mechanism or interpretation not established in mainstream research.
-
-Contradicted:
-    The claim conflicts with well-established empirical findings.
-
-Do not default to Supported.
-If uncertain, choose Partially supported or Speculative.
-
-# Technical Concepts (explain each fully)
-For each term:
+# Technical Constructs
+For each construct:
 - Term:
-- Definition (precise, how used here)
+- Definition:
 - Mainstream status: Established / Emerging / Contested / Fringe
 
-# Logical Chain
-- Step-by-step mapping from observation to interpretation.
+# Logical Flow
+Step-by-step reasoning chain.
 
-
-After the Markdown, output JSON between:
+After the Markdown note, output JSON between:
 
 BEGIN_STRUCTURED_JSON
-{{ ... }}
+{{
+  "claims": [
+    {{
+      "id": 1,
+      "claim": "...",
+      "alignment": "Supported|Partially supported|Contested|Speculative|Contradicted"
+    }}
+  ],
+  "concepts": [
+    {{
+      "term": "...",
+      "definition": "...",
+      "mainstream_status": "Established|Emerging|Contested|Fringe"
+    }}
+  ],
+  "logical_flow": [
+    "Observation -> ...",
+    "Interpretation -> ...",
+    "Mechanism -> ...",
+    "Implication -> ..."
+  ]
+}}
 END_STRUCTURED_JSON
-
-JSON must contain:
-- claims: [{{claim, alignment}}]
-- concepts: [{{term, definition, mainstream_status}}]
-- logical_chain: [...]
 
 DOCUMENT:
 {document_text}
 """
 
+# =====================================================
+# CALL MODEL
+# =====================================================
+
 response = client.chat.completions.create(
-    model=model_name,
+    model=model,
     messages=[{"role": "user", "content": prompt}],
     temperature=0.2,
 )
@@ -218,19 +187,18 @@ print("\n--- RAW OUTPUT ---\n")
 print(full_output)
 
 # =====================================================
-# JSON EXTRACTION
+# EXTRACT JSON
 # =====================================================
 
-json_pattern = r"BEGIN_STRUCTURED_JSON\s*(\{.*?\})\s*END_STRUCTURED_JSON"
-match = re.search(json_pattern, full_output, re.DOTALL)
+pattern = r"BEGIN_STRUCTURED_JSON\s*(\{.*?\})\s*END_STRUCTURED_JSON"
+match = re.search(pattern, full_output, re.DOTALL)
 
 structured_data = None
 markdown_content = full_output
 
 if match:
-    json_str = match.group(1)
-    structured_data = json.loads(json_str)
-    markdown_content = re.sub(json_pattern, "", full_output, flags=re.DOTALL)
+    structured_data = json.loads(match.group(1))
+    markdown_content = re.sub(pattern, "", full_output, flags=re.DOTALL)
 
 # =====================================================
 # OUTPUT WRITING
@@ -242,33 +210,33 @@ base_name = input_path.stem
 if start_page and end_page:
     base_name = f"{base_name}_p{start_page}-{end_page}"
 
-model_tag = model_name.replace("-", "")
-base_name = f"{base_name}_reconstruct_{model_tag}"
+base_name = f"{base_name}_reconstruct"
 
-# Directory routing
-if "data/books" in file_path:
-    output_dir = Path("outputs/books")
-    json_dir = Path("outputs/json/books")
-elif "data/papers" in file_path:
-    output_dir = Path("outputs/papers")
-    json_dir = Path("outputs/json/papers")
-else:
-    output_dir = Path("outputs")
-    json_dir = Path("outputs/json")
+output_dir = Path("outputs/books")
+json_dir = Path("outputs/json/books")
 
 output_dir.mkdir(parents=True, exist_ok=True)
 json_dir.mkdir(parents=True, exist_ok=True)
 
-output_file = output_dir / f"{base_name}.md"
+markdown_file = output_dir / f"{base_name}.md"
 json_file = json_dir / f"{base_name}.json"
 
-with open(output_file, "w", encoding="utf-8") as f:
+timestamp = datetime.utcnow().isoformat()
+
+with open(markdown_file, "w", encoding="utf-8") as f:
     f.write(markdown_content)
 
+print(f"\nSaved reconstruction markdown to {markdown_file}")
+
 if structured_data:
+    structured_data.update({
+        "source_file": file_path,
+        "pages": f"{start_page}-{end_page}" if start_page and end_page else "full",
+        "model": model,
+        "prompt_version": PROMPT_VERSION,
+        "generated_at_utc": timestamp
+    })
+
     with open(json_file, "w", encoding="utf-8") as jf:
         json.dump(structured_data, jf, indent=2)
-
-print(f"\nSaved markdown to {output_file}")
-if structured_data:
-    print(f"Saved structured JSON to {json_file}")
+    print(f"Saved reconstruction JSON to {json_file}")

@@ -1,0 +1,37 @@
+# Circadian Organization and Cancer
+## Executive Summary
+
+---
+
+**Thesis:** Human physiology evolved under strict solar-entrained cycles. Circadian rhythms coordinate cancer-relevant processes—DNA repair, immune function, metabolic integrity. Modern life chronically disrupts circadian amplitude and phase coherence. Restoring temporal alignment reduces cancer risk and may improve outcomes; it is among the lowest-risk, highest-leverage interventions available.
+
+**Framework:** Circadian organization functions as a global constraint system. When signals weaken or misalign, cells gain inappropriate temporal freedom—proliferation, metabolism, stress responses, and immune evasion overlap in ways that favor malignant growth. The problem is not simply mutated DNA; it may also be lost time.
+
+---
+
+## Approach
+
+1. **Apply the theoretical ideal regimen** (all interventions at once)
+2. **Measure** after ~2 weeks
+3. **Fix** what didn't optimize using benchmark-driven rules
+
+---
+
+## Knowledge Base
+
+- **Primer** — First-principles logic: evolutionary constraint, cancer as systems failure, circadian as constraint system, modern disruption, optimization hypothesis
+- **Theory** — Mechanistic foundation: oscillators, zeitgebers, hierarchy, health vs desynchrony, cancer links, extended frameworks (Kruse, Zaid)
+- **Evidence** — Empirical support: epidemiology (IARC, rest-activity mortality), human disruption studies, chronotherapy, animal models, reversibility
+- **Measurements** — Phase, amplitude, stability, alignment; tracked readouts; circadian health benchmarks
+- **Interventions** — Catalog by domain: light, sleep, feeding, activity, consistency, masking; intervention–metric map
+- **Protocol** — Phase 1: full regimen. Phase 2 (after 2 weeks): IFTTT rules mapping benchmark deviations to targeted interventions
+
+---
+
+## In Notion
+
+To link each chapter: type **@** and select the page (e.g. @circadian primer, @circadian theory).
+
+---
+
+**Paste tip:** If markdown appears unrendered (you see # and ** instead of headers and bold), copy from a *rendered* view: open this file in VS Code → right-click the tab → "Open Preview" (or Cmd+Shift+V) → copy from the preview pane. Or use Notion's **Import**: click "…" → Import → Markdown — upload this file.

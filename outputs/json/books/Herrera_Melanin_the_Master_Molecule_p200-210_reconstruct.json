@@ -1,0 +1,341 @@
+{
+  "claims": [
+    {
+      "id": 1,
+      "claim": "Ventricular enlargement was reported decades ago as associated with a clinical diagnosis of schizoaffective illness.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 2,
+      "claim": "Mental disorders show changes in cerebral ventricle volume beyond daily physiological variation.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 3,
+      "claim": "Research attention has more often focused on nervous tissue alterations than on ventricular volumetric changes.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 4,
+      "claim": "Melanin can transform light energy into chemical energy through dissociation of water, analogous to chlorophyll in plants.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 5,
+      "claim": "The real source of CNS energy is visible and invisible light.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 6,
+      "claim": "Melanin is the principal energy transducer in the CNS, with water as its perfect substrate.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 7,
+      "claim": "Mammalian CNS has an invariant pattern of being coated inside and out by CSF that is 99% water to keep water constantly in contact with neurons.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 8,
+      "claim": "Brain sulci exist to allow water to reach the most recondite places of the brain.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 9,
+      "claim": "Ventricles and subarachnoid space are the source of CNS energy.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 10,
+      "claim": "Changes in ventricular/subarachnoid volumetrics must be interpreted as significant alterations in generation and distribution of chemical energy.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 11,
+      "claim": "Walter Dandy introduced pneumoencephalography in 1919 by replacing CSF with air to visualize brain contours and morphological changes.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 12,
+      "claim": "In 1935, Moore et al. reported evidence of cortical atrophy in many patients with schizophrenia and no consistent encephalographic picture for manic-depressive psychosis.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 13,
+      "claim": "Hauge reported abnormal pneumoencephalograms in 58% of schizophrenia cases, usually ventricular dilatation or increased subarachnoid space suggestive of cortical atrophy.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 14,
+      "claim": "CT studies provide evidence of enlarged ventricles and enlarged cortical sulci in large proportions of persons with schizophrenia, suggesting decreased brain volume.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 15,
+      "claim": "In patients with these CT findings, ventricular and sulcal enlargement is evident at onset and does not progress over the course of illness.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 16,
+      "claim": "Ventricular enlargement may be more common in males with schizophrenia.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 17,
+      "claim": "Ventricular enlargement correlates with larger numbers of hospitalizations.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 18,
+      "claim": "Some authors report skull volume reduced by 3\u20135% in schizophrenia, implying a pre\u2013age-18 developmental process.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 19,
+      "claim": "Meta-analyses most often support increased ventricular volume and selected decreases in cortex and hippocampus in mental illness.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 20,
+      "claim": "Lumbar puncture opening pressure and CSF analysis have not proven useful in the study of schizophrenia.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 21,
+      "claim": "Epidemiological studies identified three schizophrenia risk factors: genetic characteristics, gestational/birth complications, and winter birth.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 22,
+      "claim": "A more benign course of schizophrenia occurs in developing countries compared with developed cold/less-sunlight countries.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 23,
+      "claim": "The dopamine hypothesis is the most enduring biochemical explanation for schizophrenia but lacks decisive evidence.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 24,
+      "claim": "Evidence for dopamine involvement includes increased dopamine or homovanillic acid and increased dopamine receptor numbers in postmortem schizophrenia tissue.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 25,
+      "claim": "MRI studies replicate ventricular abnormalities and show temporal lobe abnormalities including decreased amygdala and hippocampus volume.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 26,
+      "claim": "Structural and metabolic abnormalities occur in prefrontal white matter in schizophrenia.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 27,
+      "claim": "Ventricular abnormality is the most robust structural finding in schizophrenia.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 28,
+      "claim": "Ventricular enlargement is usually attributed to developmental delay in childhood.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 29,
+      "claim": "CSF water content is commonly treated as static/irrelevant and as passively filling space left by cortical atrophy.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 30,
+      "claim": "Water content of CSF is highly dynamic.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 31,
+      "claim": "If water dissociation is the real energy source, ventricular volume is determined by the water dissociation/re-association ratio.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 32,
+      "claim": "Chlorophyll was the only known molecule transforming light into chemical energy via water dissociation until this melanin-based proposal.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 33,
+      "claim": "Glucose cannot provide both mass and energy and cannot provide the energy required for its own metabolism.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 34,
+      "claim": "The body continuously obtains energy from light by separating water molecules, like plants.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 35,
+      "claim": "The Solis-Herrera cycle reaction 2H2O \u2194 2H2 + O2 + 4e\u2212 occurs incessantly in every melanin molecule day and night.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 36,
+      "claim": "Melanin can harvest enough energy from the full electromagnetic spectrum to split water in about 3\u00d710\u221212 seconds.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 37,
+      "claim": "Molecular oxygen is toxic at any concentration and at any level.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 38,
+      "claim": "Energy released by water dissociation is carried by molecular hydrogen, the energy carrier par excellence in nature and in the body.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 39,
+      "claim": "Water reformation releases reconstituted water plus an orderly flow of high-energy electrons, providing a second type of chemical energy.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 40,
+      "claim": "Dissociation of CSF water by neuromelanin in choroid plexus/substantia nigra/locus coeruleus releases H2 and later reformation releases water and electrons; imbalance changes ventricular size.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 41,
+      "claim": "Diminished water dissociation increases water amount, enlarges ventricles, and impairs 99% of cellular energy supply, producing unpredictable functional alterations.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 42,
+      "claim": "Energy failure precedes metabolic abnormalities, which precede anatomical changes interpreted as cortical atrophy.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 43,
+      "claim": "Pollutants damage melanin, shrinking the sphere of energy distribution and causing brain tissue deterioration.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 44,
+      "claim": "Exogenous oxygen therapy accelerates water reformation, consumes hydrogen, lowers tissue energy, and causes edema/ventricular enlargement.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 45,
+      "claim": "High-energy electrons have little penetration because they are absorbed almost immediately; hydrogen energy is more assimilable by cellular structures.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 46,
+      "claim": "From a thermodynamic point of view, it is not possible for glucose to provide the energy required for its own metabolism.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 47,
+      "claim": "Plasma glucose decreases or increases produce anatomic and functional brain alterations due to a delicate balance between energy and mass.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 48,
+      "claim": "If glucose supplied energy, diabetic patients would fly; instead diabetes causes comparatively more severe neurological damage such as in cerebrovascular events.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 49,
+      "claim": "Brain sulci ensure neurons remain in direct contact with the energy source: CSF water in ventricles and subarachnoid space.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 50,
+      "claim": "Locus coeruleus neuromelanin is formed by polymerization of noradrenaline and is analogous to dopamine-based neuromelanin in substantia nigra.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 51,
+      "claim": "Locus coeruleus function may figure in clinical depression, panic disorder, anxiety, and PTSD.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 52,
+      "claim": "Up to 70% loss of locus coeruleus neurons occurs in Alzheimer\u2019s disease.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 53,
+      "claim": "Loss of locus coeruleus neurons in Alzheimer\u2019s disease implies impoverished neuromelanin-derived chemical energy, preventing regular neuronal function.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 54,
+      "claim": "High-metabolism zones are expected above pigmented areas because molecular hydrogen tends to go upward.",
+      "alignment": "Contradicted"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Cerebrospinal fluid (CSF)",
+      "definition": "Fluid produced mainly by choroid plexus that circulates through ventricles and subarachnoid space, supporting buoyancy, cushioning, solute transport, and waste clearance.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Ventriculomegaly",
+      "definition": "Increased cerebral ventricular volume relative to norms, often reflecting neurodevelopmental differences, tissue loss, or CSF dynamic disorders.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Subarachnoid space",
+      "definition": "CSF-filled compartment between arachnoid and pia mater surrounding the brain and spinal cord.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Pneumoencephalography",
+      "definition": "Obsolete imaging method replacing CSF with air to visualize ventricles/brain contours on radiographs.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "CT/MRI volumetry",
+      "definition": "Imaging-based measurement of brain and CSF-space volumes to assess structural differences across individuals or groups.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Dopamine hypothesis of schizophrenia",
+      "definition": "Model implicating dopaminergic signaling dysregulation in psychosis, refined by receptor subtype and circuit-level findings.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Neuromelanin",
+      "definition": "Pigment in catecholaminergic neurons derived from catecholamine metabolism, associated with metal binding and vulnerability in neurodegeneration.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Human Photosynthesis\u00ae",
+      "definition": "Proposed process in which melanin converts light into chemical energy by splitting water in human tissues.",
+      "mainstream_status": "Fringe"
+    },
+    {
+      "term": "Solis-Herrera cycle",
+      "definition": "Proposed bidirectional reaction 2H2O \u2194 2H2 + O2 + 4e\u2212 in melanin claimed to generate energy and regulate CSF volume.",
+      "mainstream_status": "Fringe"
+    },
+    {
+      "term": "Molecular hydrogen as energy carrier in humans",
+      "definition": "Proposed primary carrier of chemical energy produced by melanin-mediated water dissociation.",
+      "mainstream_status": "Fringe"
+    }
+  ],
+  "logical_flow": [
+    "Observation -> Ventricular enlargement and increased subarachnoid space are repeatedly observed in schizophrenia and related disorders.",
+    "Interpretation -> Conventional accounts emphasize neurodevelopmental delay and/or cortical atrophy with CSF passively filling space.",
+    "Premise -> Light is asserted to be the true CNS energy source; melanin is asserted to transduce light using water.",
+    "Mechanism -> A bidirectional melanin-mediated reaction (2H2O \u2194 2H2 + O2 + 4e\u2212) is proposed to generate hydrogen-carried energy and electron flow.",
+    "Bridge -> CSF water in ventricles/subarachnoid space is positioned as the energy substrate kept near neurons by brain morphology.",
+    "Prediction -> Ventricular volume is asserted to depend on dissociation/reformation balance; reduced dissociation increases water and enlarges ventricles.",
+    "Pathophysiology -> Uneven energy distribution is proposed to cause cognitive/clinical manifestations and later anatomical changes labeled cortical atrophy.",
+    "Modifiers -> Pollutants and exogenous oxygen are proposed to shift the cycle and worsen energy availability, affecting ventricular size."
+  ],
+  "source_file": "data/books/Herrera_Melanin_the_Master_Molecule.pdf",
+  "pages": "200-210",
+  "model": "gpt-5.2",
+  "prompt_version": "reconstruct_v_final",
+  "generated_at_utc": "2026-02-15T02:20:07.609470"
+}

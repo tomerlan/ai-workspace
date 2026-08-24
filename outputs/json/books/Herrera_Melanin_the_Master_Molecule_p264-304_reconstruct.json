@@ -1,0 +1,306 @@
+{
+  "claims": [
+    {
+      "id": 1,
+      "claim": "Melanin dissociates liquid water into gaseous H2 and O2 inside biological systems.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 2,
+      "claim": "Melanin-driven water dissociation produces molecular hydrogen that functions as a major antioxidant.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 3,
+      "claim": "Visible and invisible light can penetrate all mammalian tissues to considerable depth, including detection within the brain of a living sheep.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 4,
+      "claim": "Melanin absorbs electromagnetic radiation broadly (from gamma rays to radio waves).",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 5,
+      "claim": "Melanin dissipates absorbed electromagnetic radiation by splitting water molecules.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 6,
+      "claim": "Free radicals generated randomly by normal biochemistry or direct radiation\u2013matter interaction are too disordered to originate or preserve life without an ordering molecule.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 7,
+      "claim": "Melanin is a strong electron acceptor that can impose order on charge-transfer processes in mammals.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 8,
+      "claim": "The main source of chemical energy for living cells is sunshine.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 9,
+      "claim": "Foodstuffs function primarily as hydrogen packets, making hydrogen the key energy carrier.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 10,
+      "claim": "Progressive oxidation of glucose is a messy process that releases monoatomic hydrogen and radical oxygen, making it hard to imagine life arising from it.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 11,
+      "claim": "Water is a direct source of energy for life.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 12,
+      "claim": "There is no life without Light, Melanin, and Water.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 13,
+      "claim": "Chlorophyll fluorescence yield reflects competition among photochemistry, heat dissipation, and fluorescence emission (about 1\u20132% of absorbed light).",
+      "alignment": "Supported"
+    },
+    {
+      "id": 14,
+      "claim": "Mitochondria generate most ATP through oxidative phosphorylation as described by chemiosmotic coupling.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 15,
+      "claim": "Mitchell\u2019s chemiosmotic theory remains unproven and is still only a theory.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 16,
+      "claim": "Because the mitochondrial membrane is impermeable to cytosolic NADH, oxidative phosphorylation remains only theoretical.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 17,
+      "claim": "ATP is not used for energy; ATP primarily controls phosphate levels.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 18,
+      "claim": "ATP hydrolysis absorbs energy and ADP-to-ATP formation releases energy.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 19,
+      "claim": "Solubilized ATP synthase hydrolyzes ATP, whereas membrane-bound ATP synthase can synthesize ATP.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 20,
+      "claim": "Relaxed muscle is a higher-energy state than contracted muscle.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 21,
+      "claim": "Achieving relaxation by overcoming actin\u2013myosin attraction requires more chemical energy than achieving contraction.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 22,
+      "claim": "Muscle contains no free ATP.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 23,
+      "claim": "Rigor mortis cannot be adequately explained by glucose or ATP as energy sources.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 24,
+      "claim": "ATP content and muscle tension often correlate inversely, arguing against ATP as energy source and favoring molecular hydrogen as energy source.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 25,
+      "claim": "ATP hydrolysis in myosin is not coincident with the force-generating step.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 26,
+      "claim": "ATP binding reduces myosin affinity for actin and hydrolysis yields a metastable myosin\u2013ADP\u2013Pi complex.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 27,
+      "claim": "Rigor mortis is caused by cessation or damage of melanin-driven water dissociation, lowering H2 and preventing ATP reconstitution.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 28,
+      "claim": "ATP must be reconstituted about every 20 seconds.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 29,
+      "claim": "Myoglobin dissociates water to generate O2 and H2 rather than storing oxygen.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 30,
+      "claim": "Heme-containing molecules such as myoglobin, hemoglobin, cytochrome P450, bilirubin, and chlorophyll can dissociate water irreversibly.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 31,
+      "claim": "Neuromuscular depolarization initiates contraction by decreasing chemical energy levels, with ATP acting secondarily.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 32,
+      "claim": "Voluntary contraction decreases chemical energy levels and voluntary relaxation increases chemical energy levels.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 33,
+      "claim": "Caffeine, quinine, iodoacetic acid, chloroform, and anesthetics cause contracture by decreasing melanin\u2019s transformation of light into chemical energy.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 34,
+      "claim": "Calcium chloride causes immediate local contraction because melanin binds calcium about 1000 times more strongly than bone.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 35,
+      "claim": "Freezing/thawing elicits contraction because cold reduces melanin/myoglobin energy generation and distribution.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 36,
+      "claim": "Metals such as copper decrease transformation of light into chemical energy because melanin binds metals and metals alter water properties.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 37,
+      "claim": "More melanin correlates with fewer ocular blood vessels due to a consistent anti-angiogenic effect.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 38,
+      "claim": "Pigmented ocular areas have substantially higher oxygen levels (up to about 34% difference) than less pigmented areas.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 39,
+      "claim": "A renewable source of high, constant ocular oxygen must be melanin-mediated water dissociation.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 40,
+      "claim": "Melanin-mediated water splitting is reversible and can be represented as 2H2O \u2194 2H2 + O2 + 4e\u2212.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 41,
+      "claim": "Melanin is the most stable substance known to humans.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 42,
+      "claim": "Cell nuclei lack ATP, so melanin-derived hydrogen explains nuclear energy supply.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 43,
+      "claim": "ATP cannot maintain common intracellular energy levels because ATP/mitochondria are not evenly distributed and ATP turnover would be too costly.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 44,
+      "claim": "Lactic fermentation enzymes are soluble whereas oxidation enzymes are insoluble and bound to structural proteins.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 45,
+      "claim": "Soluble cell parts mainly use H2 and insoluble parts mainly use high-energy electrons, both coming from melanin.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 46,
+      "claim": "Catabolism predominates in damaged tissues because disturbed common energy levels cause electrons to fall randomly to lower levels.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 47,
+      "claim": "Glucose as an energy source is an obsolete paradigm analogous to phlogiston.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 48,
+      "claim": "Clinical use of long-wavelength light in rehabilitation supports the idea that light impacts muscle work via energy accumulation.",
+      "alignment": "Partially supported"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Common energy levels (intracytoplasmic)",
+      "definition": "Hypothesized spatially uniform shared energetic/electronic states enabling coordinated work across many biomolecules.",
+      "mainstream_status": "Contested"
+    },
+    {
+      "term": "Chemiosmotic theory",
+      "definition": "ATP synthesis driven by proton motive force across membranes generated by electron transport chains.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Oxidative phosphorylation",
+      "definition": "Mitochondrial coupling of electron transfer to oxygen with ATP synthesis via proton gradients.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Actomyosin",
+      "definition": "Functional complex of actin and myosin responsible for force generation via cross-bridge cycling.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Rigor mortis",
+      "definition": "Post-mortem muscle stiffening due to ATP depletion, Ca2+ dysregulation, and persistent actin\u2013myosin cross-bridges.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Photobiomodulation",
+      "definition": "Biological effects of red/NIR light mediated by chromophore absorption and downstream signaling.",
+      "mainstream_status": "Emerging"
+    },
+    {
+      "term": "Melanin water-splitting (human photosynthesis)",
+      "definition": "Proposed melanin-catalyzed reversible dissociation of water into H2/O2/e\u2212 to supply cellular energy.",
+      "mainstream_status": "Fringe"
+    },
+    {
+      "term": "Molecular hydrogen as systemic energy currency",
+      "definition": "Proposed role of H2 gas as primary diffusible carrier of usable chemical energy in mammals.",
+      "mainstream_status": "Fringe"
+    },
+    {
+      "term": "Myoglobin water dissociation",
+      "definition": "Proposed heme-mediated splitting of water to generate O2/H2 in muscle.",
+      "mainstream_status": "Fringe"
+    }
+  ],
+  "logical_flow": [
+    "Observation -> Light (visible/invisible) penetrates tissue and melanin is widespread (notably in eye).",
+    "Observation -> Pigmented ocular regions appear associated with altered vascularity and reported oxygen differences.",
+    "Interpretation -> A renewable oxygen/energy source is required; water is abundant in tissues such as the eye.",
+    "Mechanism -> Melanin absorbs radiation and dissociates water to H2 and O2; water re-formation yields electrons.",
+    "Mechanism -> H2 diffuses to create uniform intracellular 'common energy levels' supplying cytoplasm and nucleus.",
+    "Application -> High basal energy maintains actin\u2013myosin separation (relaxation); lowered energy permits attraction (contraction).",
+    "ATP role -> ATP hydrolysis absorbs energy and lowers local energy to trigger contraction; ADP\u2192ATP releases energy to support relaxation.",
+    "Implication -> Death/disease reduces melanin-derived energy; rigor mortis/cramps/spasticity reflect low basal energy; light therapy may help."
+  ],
+  "source_file": "data/books/Herrera_Melanin_the_Master_Molecule.pdf",
+  "pages": "264-304",
+  "model": "gpt-5.2",
+  "prompt_version": "reconstruct_v_final",
+  "generated_at_utc": "2026-02-15T02:29:04.706164"
+}

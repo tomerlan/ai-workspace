@@ -1,0 +1,355 @@
+{
+  "claims": [
+    {
+      "id": 1,
+      "claim": "Glycobiology is the study of the structure, biosynthesis, and biology of saccharides (sugar chains/glycans).",
+      "alignment": "Supported"
+    },
+    {
+      "id": 2,
+      "claim": "Glycobiology is fast emerging as a primary field of interest in biomolecular and biomedical research worldwide.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 3,
+      "claim": "Sugars influence almost every aspect of cellular processes, including cell-cell interactions, adhesion, signaling, clotting, receptor binding, hormone regulation, embryonic development, and structural roles.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 4,
+      "claim": "Simple sugars have a complex language possibly more complex than DNA due to unpredictability.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 5,
+      "claim": "Many proteins require post-translational glycosylation (glycoprotein formation) to function properly.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 6,
+      "claim": "Monosaccharides are carbohydrates that cannot be hydrolyzed into simpler carbohydrate units and are the basic structural units of glycans.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 7,
+      "claim": "The glycome is the current population pattern of sugars in and out of the cell, in free or conjugated forms such as glycoproteins and glycolipids.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 8,
+      "claim": "Glycans continuously change over time, making them challenging to study.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 9,
+      "claim": "Glycan structures cannot be easily predicted from genetic code in the way protein sequences can.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 10,
+      "claim": "More than half of human proteins have sugars conjugated to them.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 11,
+      "claim": "Neurons do not use glucose as the primary source of energy; believing they do is a mistake.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 12,
+      "claim": "Cognitive impairment occurs when plasma glucose falls to about 2\u20133 mM and levels below about 1 mM can cause confusion and coma with sustained deprivation.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 13,
+      "claim": "Stroke injury is more extensive in patients with hyperglycemia or diabetes than in normoglycemic patients.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 14,
+      "claim": "If glucose were the primary energy source, higher glucose should improve resistance/restoration after stroke rather than worsen outcomes.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 15,
+      "claim": "Treatment with exogenous ATP in experimental ischemic stroke is associated with exaggerated ischemic outcomes and dangerous systemic effects.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 16,
+      "claim": "When ATP is degraded to ADP or AMP, energy is absorbed rather than released.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 17,
+      "claim": "Constant darkness increases AMP levels in blood.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 18,
+      "claim": "Injection of exogenous AMP induces hypothermia and a hibernation-like condition in mice and rats.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 19,
+      "claim": "High levels of AMP indicate decreased cellular energy state.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 20,
+      "claim": "Tardive dyskinesia occurs more frequently in patients with elevated blood glucose levels.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 21,
+      "claim": "Aerobic glucose metabolism proceeds via glycolysis to ATP and pyruvate, then pyruvate to acetyl-CoA and the TCA cycle generating ATP and reducing equivalents.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 22,
+      "claim": "Glucose is mainly a source of building blocks (e.g., adenosine, ATP, nucleic acids, glycans) rather than energy.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 23,
+      "claim": "A continuous supply of both oxygen and glucose is vital for normal brain metabolic function including synthesis, synaptic transmission, ionic gradients, and integrity.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 24,
+      "claim": "Because melanin can dissociate water to produce oxygen, oxygen is not essential since each cell can produce its own oxygen.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 25,
+      "claim": "Molecular hydrogen (H2) is a crucial reducing factor for cellular energy supply.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 26,
+      "claim": "Hyperglycemia does not change retinal lactate, pyruvate, and ATP in certain cited in vitro and in vivo models.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 27,
+      "claim": "DG/FDG methods identify magnitude of functional metabolic activity but do not resolve cell-type-specific pathway contributions or specific energy-requiring processes.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 28,
+      "claim": "Overall brain metabolic imaging cannot provide glucose metabolism at the cellular level.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 29,
+      "claim": "Glucose transport into brain cells requires multiple GLUT isoforms and therefore requires additional energy.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 30,
+      "claim": "GLUT1 and GLUT3 abundance increases region-specifically following chronic seizures.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 31,
+      "claim": "Most cell surfaces are covered with a dense coating of sugars called the glycocalyx.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 32,
+      "claim": "Monosaccharides can generate far more linkage variation than nucleotides or amino acids, yielding vastly more possible oligosaccharide structures.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 33,
+      "claim": "Most well-characterized glycan biosynthesis pathways occur in the ER\u2013Golgi\u2013plasma membrane pathway with co- or post-translational modification during trafficking.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 34,
+      "claim": "Glycosylation in the cytosol and nucleus is common, with O-GlcNAc among the most common intracellular glycoconjugates.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 35,
+      "claim": "Melanin transforms light energy into chemical energy through dissociation of the water molecule.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 36,
+      "claim": "Melanin is about a thousand times more efficient than chlorophyll at transforming light energy into chemical energy.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 37,
+      "claim": "Chlorophyll dissociates water irreversibly as 2H2O \u2192 2H2 + O2.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 38,
+      "claim": "Melanin captures the entire electromagnetic spectrum from gamma rays to radio waves for energy conversion.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 39,
+      "claim": "Melanin reforms water and generates four high-energy electrons per two water molecules via 2H2O \u2194 2H2 + O2 + 4e\u2212.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 40,
+      "claim": "Melanin releases chemical energy in the form of diatomic hydrogen and high-energy electrons distributed throughout the cell from perinuclear melanosomes.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 41,
+      "claim": "Diatomic hydrogen does not combine with water.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 42,
+      "claim": "The nucleus has neither mitochondria nor ATP.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 43,
+      "claim": "Nuclear energy requirements are fulfilled by overlapping melanosome-derived energy spheres that concentrate chemical energy in the nuclear center.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 44,
+      "claim": "ATP-based pathways are insufficient for glycosylation energy needs and ATP\u2192ADP would absorb energy.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 45,
+      "claim": "Glucose is a crucial building block for cartilage function in vivo and for chondrocyte nutritional requirements.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 46,
+      "claim": "Because humans survive longer without food than without water, water must be a more efficient energy source than food.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 47,
+      "claim": "Polyphosphate storage organelles (acidocalcisomes) occur across bacteria, archaea, and eukaryotes and may represent a universal organelle.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 48,
+      "claim": "The genetic code is essentially the same in all known living organisms.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 49,
+      "claim": "Origin-of-life models are displaced by a melanin-first scenario, including the possibility of melanin in space.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 50,
+      "claim": "Greater melanin content corresponds to fewer mitochondria (up to 83% less) and about 30% lower respiration, reflecting metabolic differences between Black and White populations.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 51,
+      "claim": "One cup of alcohol decreases light-to-chemical energy transduction for almost two weeks due to ethanol forming covalent bonds with receptors.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 52,
+      "claim": "Lower suicide rates in sunny countries are explained by higher melanin-derived chemical energy reducing depression.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 53,
+      "claim": "Black and White skin burn similarly, but melanin increases chemical energy and accelerates tissue recovery.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 54,
+      "claim": "Higher melanin content implies higher tissue oxygen levels and explains less coronary obstruction in Black veterans with acute coronary insufficiency.",
+      "alignment": "Contradicted"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Glycobiology",
+      "definition": "Study of glycan (saccharide) structure, biosynthesis, and biological function.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Glycan (oligosaccharide)",
+      "definition": "Covalently linked monosaccharide chain attached to proteins/lipids or present as a free carbohydrate structure.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Glycome",
+      "definition": "The set and distribution of glycans in a cell/tissue/organism under specific conditions.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Glycocalyx",
+      "definition": "Carbohydrate-rich coating on the cell surface formed by glycoproteins, glycolipids, and proteoglycans.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "N-linked glycosylation",
+      "definition": "Attachment of glycans to asparagine residues of proteins in the secretory pathway.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "O-linked glycosylation",
+      "definition": "Attachment of glycans to serine/threonine residues; includes mucin-type O-glycans.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "O-GlcNAcylation",
+      "definition": "Dynamic intracellular addition/removal of single GlcNAc residues on nuclear/cytosolic proteins.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Glycoform micro-heterogeneity",
+      "definition": "Coexistence of multiple glycan structures at a given glycosylation site within a protein population.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "GLUT1/GLUT3",
+      "definition": "Facilitative glucose transporters important for BBB transport (GLUT1) and neuronal uptake (GLUT3).",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "FDG-PET / 2-deoxyglucose methods",
+      "definition": "Tracer approaches measuring glucose uptake/phosphorylation as proxies for metabolic activity.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Melanosome",
+      "definition": "Lysosome-related organelle where melanin is synthesized and stored.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Melanin-mediated water splitting (human photosynthesis)",
+      "definition": "Proposed mechanism that melanin dissociates and reforms water to yield H2, O2, and electrons as cellular energy.",
+      "mainstream_status": "Fringe"
+    },
+    {
+      "term": "Acidocalcisome",
+      "definition": "Acidic, polyphosphate- and cation-rich organelle described in many microbes; related compartments exist broadly.",
+      "mainstream_status": "Emerging"
+    }
+  ],
+  "logical_flow": [
+    "Observation -> Glycans are ubiquitous, structurally complex, and dynamically remodeled in cells.",
+    "Inference -> Continuous remodeling and biosynthesis imply continuous chemical-energy demand.",
+    "Reinterpretation -> Glucose is treated primarily as a biomass/carbon-chain source rather than an energy source.",
+    "Clinical interpretation -> Hyperglycemia-associated harms and ATP/AMP intervention failures are treated as inconsistent with glucose/ATP-centered energy models.",
+    "Mechanism proposal -> Melanin is proposed to convert light into chemical energy by splitting/reforming water, yielding H2, O2, and electrons.",
+    "Physiological implication -> Oxygen becomes less essential and hydrogen/electrons become primary energy carriers; melanosomes distribute this energy intracellularly.",
+    "Extension -> The mechanism is used to explain nuclear energy needs, evolutionary origins (melanin-first), and population health differences linked to melanin content."
+  ],
+  "source_file": "data/books/Herrera_Melanin_the_Master_Molecule.pdf",
+  "pages": "129-149",
+  "model": "gpt-5.2",
+  "prompt_version": "reconstruct_v_final",
+  "generated_at_utc": "2026-02-14T21:49:36.968519"
+}

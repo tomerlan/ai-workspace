@@ -1,0 +1,305 @@
+{
+  "claims": [
+    {
+      "id": 1,
+      "claim": "The nucleus is the defining hallmark of eukaryotic cells (\u201ctrue nucleus\u201d).",
+      "alignment": "Supported"
+    },
+    {
+      "id": 2,
+      "claim": "The nucleus is enclosed by a double membrane (nuclear envelope).",
+      "alignment": "Supported"
+    },
+    {
+      "id": 3,
+      "claim": "The inner nuclear membrane is stabilized by a meshwork of intermediate filament proteins termed \u201claminins.\u201d",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 4,
+      "claim": "The nucleus contains most of the cell\u2019s genetic material and regulates cellular activities via gene expression control.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 5,
+      "claim": "Chromatin consists of nuclear DNA plus associated proteins, with most protein mass being histones.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 6,
+      "claim": "Histones are enriched in positively charged lysine and arginine residues that bind negatively charged DNA phosphates.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 7,
+      "claim": "Histone\u2013DNA binding does not depend on DNA nucleotide sequence but depends critically on histone amino-acid sequence.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 8,
+      "claim": "Histones are highly conserved across evolution (e.g., H4 differs by only ~2 residues between calf and pea in a 102-aa chain).",
+      "alignment": "Supported"
+    },
+    {
+      "id": 9,
+      "claim": "Nuclear pores allow free movement of small molecules and ions but not ATP.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 10,
+      "claim": "Transport of large molecules through nuclear pore complexes is active and requires energy and carrier proteins.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 11,
+      "claim": "All proteins are synthesized in the cytosol and nuclear proteins must be imported through NPCs using nuclear localization sequences.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 12,
+      "claim": "Most nuclear RNAs are degraded in the nucleus and only ~5% reach the cytoplasm as ribosomes.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 13,
+      "claim": "Approximately 10% of total cellular RNA is present in the nucleus and ~90% in the cytoplasm.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 14,
+      "claim": "The nucleus is the largest organelle in animals and lacks mitochondria.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 15,
+      "claim": "Nuclear pore complexes are ~100 nm in overall diameter with a functional diffusion channel on the order of ~9 nm.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 16,
+      "claim": "ATP cannot be stored; therefore ATP consumption closely follows ATP synthesis.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 17,
+      "claim": "Living cells maintain ATP/ADP ratios about ten orders of magnitude from equilibrium, with ATP concentrations ~1000-fold higher than ADP.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 18,
+      "claim": "The human body contains ~250 g ATP and turns over approximately its own body weight in ATP each day.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 19,
+      "claim": "ATP and mitochondria are absent from the nucleus.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 20,
+      "claim": "Melanin is usually located in the perinuclear space.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 21,
+      "claim": "A \u201chuman photosystem\u201d composed of light\u2013melanin\u2013water converts visible and invisible light into chemical energy by using water as an electron source.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 22,
+      "claim": "The proposed light\u2013melanin\u2013water photosystem explains the absence of mitochondria and ATP in the nucleus.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 23,
+      "claim": "Plant photosystems are light\u2013water\u2013chlorophyll and perform only one-way, irreversible water dissociation.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 24,
+      "claim": "The melanin-based photosystem is fully reversible, splitting water and re-forming water from H2 and O2 depending on conditions.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 25,
+      "claim": "The melanin photosystem is thousands of times more efficient than chlorophyll photosystems.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 26,
+      "claim": "Melanin absorbs the entire electromagnetic spectrum from radio waves to gamma rays.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 27,
+      "claim": "The melanin photosystem operates continuously day and night for decades because it absorbs visible and invisible light.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 28,
+      "claim": "When the system releases H2, the cell gains a type of energy \u201cwith no mass,\u201d analogous to photonic energy.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 29,
+      "claim": "When water is re-formed, energy is liberated as an orderly flow of electrons resembling physiological action potentials.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 30,
+      "claim": "Molecular hydrogen is \u201cthe best antioxidant.\u201d",
+      "alignment": "Contested"
+    },
+    {
+      "id": 31,
+      "claim": "Melanosomes containing melanin tend to surround the nucleus like a spherical envelope in eukaryotic cells.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 32,
+      "claim": "Perinuclear melanin arrangement concentrates energy toward the nucleus via concentric spherical diffusion, preferentially energizing nuclear functions without reducing cytoplasmic energy.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 33,
+      "claim": "Melanin-driven water dissociation produces four high-energy electrons.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 34,
+      "claim": "High-energy electrons have a probabilistic cloud farther from the atomic nucleus than low-energy electrons and are easily exchanged between atoms and molecules.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 35,
+      "claim": "The capacity of the proposed human photosystem to split water decreases starting at ~26 years by ~10% per decade and declines rapidly after the 50s.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 36,
+      "claim": "Environmental/physiological factors (pesticides, herbicides, alcohol, iron supplements, diabetes, hormones, lifestyle, etc.) detrimentally affect the proposed human photosynthesis.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 37,
+      "claim": "Abrupt reduction of the proposed human photosynthesis causes edema and hemorrhage; chronic reduction causes fibrosis and/or mitosis.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 38,
+      "claim": "Splitting the first water molecule requires a trillionth of a second.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 39,
+      "claim": "Chromatin can adopt left-handed Z-DNA and some sequences can form triple helices.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 40,
+      "claim": "Many mitochondrial DNA-like sequences are detectable in nuclear genomes due to evolutionary transfer.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 41,
+      "claim": "Mitochondria lack a DNA repair system.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 42,
+      "claim": "Any biochemical reaction requires activation energy that comes from water dissociation products (H2 and high-energy electrons).",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 43,
+      "claim": "Importing ATP from cytoplasm into nucleus would be a formidable challenge that would make life almost impossible because ATP would need reconstitution at least every ~20 seconds.",
+      "alignment": "Contradicted"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Nuclear envelope",
+      "definition": "Double lipid bilayer surrounding the nucleus, continuous with ER, containing nuclear pore complexes.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Nuclear lamina (lamins)",
+      "definition": "Meshwork of lamin intermediate filaments underlying the inner nuclear membrane providing structural support and regulatory roles.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Laminins",
+      "definition": "Extracellular matrix glycoproteins of basement membranes; not the nuclear lamina.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Chromatin",
+      "definition": "DNA\u2013protein complex (histones + non-histone proteins) packaging the genome and regulating access for transcription/replication/repair.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Histones / nucleosome",
+      "definition": "Core histones (H2A, H2B, H3, H4) form an octamer around which DNA wraps to form nucleosomes.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Nuclear pore complex (NPC)",
+      "definition": "Large multiprotein channel (nucleoporins) mediating selective nucleocytoplasmic transport.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Nuclear localization sequence (NLS)",
+      "definition": "Short amino-acid motif enabling importin-mediated nuclear import of proteins.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "ATP/ADP nonequilibrium ratio",
+      "definition": "Cellular maintenance of high phosphorylation potential enabling work via ATP hydrolysis.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Oxygenic photosynthesis (PSII water splitting)",
+      "definition": "Light-driven oxidation of water to O2 in photosystem II, providing electrons to the photosynthetic electron transport chain.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Proposed \u201chuman photosystem\u201d (light\u2013melanin\u2013water)",
+      "definition": "Hypothesized melanin-mediated photochemical cycle splitting and re-forming water to supply H2 and electrons as cellular energy.",
+      "mainstream_status": "Fringe"
+    },
+    {
+      "term": "Z-DNA",
+      "definition": "Left-handed DNA helix conformation favored by certain sequences/supercoiling and sometimes associated with transcriptional activity.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Triple-helix DNA",
+      "definition": "Noncanonical nucleic-acid structure where a third strand binds in the major groove via Hoogsteen interactions in specific sequence contexts.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "NUMTs (nuclear mitochondrial DNA segments)",
+      "definition": "Mitochondrial-derived DNA fragments integrated into nuclear genomes over evolution.",
+      "mainstream_status": "Established"
+    }
+  ],
+  "logical_flow": [
+    "Observation -> The nucleus performs continuous, energy-requiring functions (gene regulation, replication, RNA processing, transport).",
+    "Observation -> NPC-mediated transport of macromolecules is energy-dependent; nucleus is large and structurally isolated by the envelope.",
+    "Premise -> ATP is treated as the dominant cellular energy currency but is asserted to be absent from the nucleus and non-storable.",
+    "Premise -> Mitochondria are absent from the nucleus, so local mitochondrial ATP production cannot occur there.",
+    "Question -> A distinct nuclear energy source is required to meet nuclear energetic demands.",
+    "Proposed mechanism -> Perinuclear melanin forms a light\u2013melanin\u2013water photosystem that converts electromagnetic radiation into chemical energy.",
+    "Mechanistic detail -> The system splits water to H2 and O2 and can also re-form water; direction depends on environmental variables.",
+    "Energy carriers -> Water splitting yields H2 as an energy carrier; water re-formation yields an electron flow (high-energy electrons).",
+    "Spatial argument -> Perinuclear melanin geometry concentrates energy delivery toward the nucleus via concentric diffusion patterns.",
+    "Implication -> Nuclear energetics and nuclear transport demands are satisfied by melanin-derived H2/electrons rather than ATP import or nuclear mitochondria.",
+    "Extension -> Decline of this photosystem with age/environment explains pathology patterns (edema/hemorrhage vs fibrosis/mitosis).",
+    "Generalization -> Biological order is reframed as originating primarily from the energy source (melanin-driven water dissociation) rather than genes."
+  ],
+  "source_file": "data/books/Herrera_Melanin_the_Master_Molecule.pdf",
+  "pages": "188-199",
+  "model": "gpt-5.2",
+  "prompt_version": "reconstruct_v_final",
+  "generated_at_utc": "2026-02-15T02:18:12.846663"
+}

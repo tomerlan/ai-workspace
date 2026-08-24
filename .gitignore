@@ -1,5 +1,19 @@
+# Secrets
 .env
+cookies.txt
+forum_cookies.txt
+
+# Environments
 .venv/
 __pycache__/
 *.pyc
-outputs/
+
+# OS junk
+.DS_Store
+.Rhistory
+
+# Source corpora: 1.7GB of scraped/third-party material, regenerable via scripts/fetch_*.py
+input/
+
+# Large binaries
+*.pdf

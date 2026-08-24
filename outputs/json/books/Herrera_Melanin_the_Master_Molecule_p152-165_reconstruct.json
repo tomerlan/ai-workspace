@@ -1,0 +1,315 @@
+{
+  "claims": [
+    {
+      "id": 1,
+      "claim": "The main source of energy of the CNS is widely believed to be blood vessels/bloodstream supply.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 2,
+      "claim": "The bloodstream cannot transport energy and can only carry substances that may participate in endergonic reactions.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 3,
+      "claim": "Glucose is only a source of biomass rather than an energy provider.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 4,
+      "claim": "Glycans have complex roles but function only as provision of essential metabolic intermediates and not as energy providers.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 5,
+      "claim": "Any cell needs water not only as solvent/vehicle but as a fundamental chemical energy source.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 6,
+      "claim": "Eukaryotic cells can dissociate water at room temperature to obtain energy.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 7,
+      "claim": "Melanin in animals is analogous to chlorophyll in plants because both split/dissociate water.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 8,
+      "claim": "\u201cHuman photosynthesis\u201d is an appropriate analogy for melanin-mediated water splitting in humans.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 9,
+      "claim": "Pharmacologic modulation of \u201chuman photosynthesis\u201d offers efficient new treatments for several diseases.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 10,
+      "claim": "Sugars are vital components influencing many cellular processes (cell-cell interactions, adhesion, signaling, clotting, blood types, development, structural roles).",
+      "alignment": "Supported"
+    },
+    {
+      "id": 11,
+      "claim": "When blood glucose falls to about 2\u20133 mM, cognitive impairment signs occur; below about 1 mM, confusion and coma may result with prolonged deprivation.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 12,
+      "claim": "Peripheral tissues including muscle, fat, pancreas, and liver directly control transport, synthesis, storage, and metabolism of glucose.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 13,
+      "claim": "Glucose cannot be considered the main energy provider of the human body and is instead only an indispensable metabolic intermediate.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 14,
+      "claim": "Mitochondria are found in all human cells except mature erythrocytes.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 15,
+      "claim": "Mitochondria generate ATP, which cells use for the majority of energy needs.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 16,
+      "claim": "All organisms from bacteria to humans use ATP as their primary energy currency.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 17,
+      "claim": "ATP is produced by one set of reactions and almost immediately consumed by another rather than stored long-term.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 18,
+      "claim": "At any instant each cell contains about one billion ATP molecules and this suffices only for a few minutes, requiring rapid recycling.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 19,
+      "claim": "Total human body ATP content is about 50 grams and must be constantly recycled every day.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 20,
+      "claim": "A 2,500 kcal/day intake corresponds to about 180 kg/day ATP turnover and this is thermodynamically impossible.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 21,
+      "claim": "Heart daily energy consumption is about 6 kg of ATP and exceeds other organs.",
+      "alignment": "Partially supported"
+    },
+    {
+      "id": 22,
+      "claim": "ATP breakdown to ADP absorbs more energy than it releases.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 23,
+      "claim": "The prime function of the choroid plexus is to secrete CSF at about 0.4 ml/min in humans.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 24,
+      "claim": "Total CSF volume is about 150\u2013270 ml, with about 25% in ventricles and the remainder in basal cisterns/subarachnoid spaces.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 25,
+      "claim": "Choroid plexus capillaries are fenestrated unlike cerebral capillaries, providing little resistance to small-molecule movement.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 26,
+      "claim": "CSF is formed by active secretion rather than simple ultrafiltration, supported by ionic composition properties and homeostatic control.",
+      "alignment": "Supported"
+    },
+    {
+      "id": 27,
+      "claim": "The high energy requirement of CSF secretion cannot be fulfilled by ATP-based energy; water dissociation (\u201chuman photosynthesis\u201d) makes it affordable.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 28,
+      "claim": "The main source of energy of the human retina is water, not ATP.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 29,
+      "claim": "Melanin can conduct at room temperature a biochemical reaction that in laboratory needs 2000 \u00b0C (water splitting).",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 30,
+      "claim": "\u201cHuman photosynthesis\u201d is more efficient than plant photosynthesis because melanin absorbs energy through the whole electromagnetic spectrum while chlorophyll uses 400\u2013700 nm.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 31,
+      "claim": "In vegetables, the main source of energy is water because chlorophyll transforms solar energy into chemical energy by dissociating water.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 32,
+      "claim": "Oxygen is a by-product of water dissociation that is toxic at any concentration.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 33,
+      "claim": "Hydrogen is an energy carrier but not an energy resource and must be injected with energy because hydrogen itself has no energy.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 34,
+      "claim": "In humans, water dissociation proceeds as 2H2O \u2192 2H2 + O2 \u2192 2H2O + 4e-.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 35,
+      "claim": "Melanin absorbs any kind of energy, including gravitons, and uses absorbed energy mainly to dissociate water.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 36,
+      "claim": "Abrupt reduction of \u201chuman photosynthesis\u201d causes hemorrhage and edema; chronic reduction causes fibrosis and mitosis proportional to reduced water dissociation.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 37,
+      "claim": "The cell nucleus has neither ATP nor mitochondria.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 38,
+      "claim": "Nuclear energy needs are fulfilled by energy released through water dissociation (\u201chuman photosynthesis\u201d).",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 39,
+      "claim": "Melanosomes tend to form an envelope around the nucleus, concentrating emanated energy into a high-energy center.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 40,
+      "claim": "For every two molecules of water re-formed, four high-energy electrons are generated and shared easily.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 41,
+      "claim": "Melanin maintains chemical energy within a stable range by decreasing excessive luminous energy and raising low luminous energy.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 42,
+      "claim": "Melanin is the most stable molecule known, with stability evidenced over about 170 million years, and is likely the most stable molecule in the human body.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 43,
+      "claim": "Mitochondria cannot explain energy stability because they appear/disappear and lack fixed intracellular placement.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 44,
+      "claim": "If glucose were the energy source, diabetics would fly.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 45,
+      "claim": "Nutrients provide building elements for biomolecules but not energy.",
+      "alignment": "Contradicted"
+    },
+    {
+      "id": 46,
+      "claim": "Increasing melanin-derived chemical energy makes tissues resistant to hypoxia/lack of circulation, including CNS.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 47,
+      "claim": "Surgical management of cerebral vascular events produces severe sequelae, whereas QIAPI 1 treatment leaves no anatomic or functional sequelae.",
+      "alignment": "Contested"
+    },
+    {
+      "id": 48,
+      "claim": "Sublingual QIAPI 1 administered hourly for 6 hours reduced brain swelling by about 50% and restored consciousness and mobility.",
+      "alignment": "Speculative"
+    },
+    {
+      "id": 49,
+      "claim": "No humans were used in the research and animal procedures followed the Guide for the Care and Use of Laboratory Animals (8th ed.).",
+      "alignment": "Contested"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Cerebrospinal fluid (CSF)",
+      "definition": "Extracellular fluid in ventricles and subarachnoid space supporting CNS buoyancy, protection, and chemical homeostasis.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Choroid plexus (CP)",
+      "definition": "Ventricular epithelial-vascular tissue producing most CSF via active ion transport and osmotic water movement.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Gibbs\u2013Donnan equilibrium",
+      "definition": "Ion distribution across a semipermeable membrane influenced by impermeant charged species, yielding predictable concentration ratios.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "ATP (adenosine triphosphate)",
+      "definition": "Phosphoryl-transfer molecule coupling exergonic and endergonic reactions; hydrolysis provides free energy for cellular work.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Oxidative phosphorylation",
+      "definition": "Mitochondrial ATP synthesis driven by electron transport chain and proton motive force.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Melanin",
+      "definition": "Broadband-absorbing redox-active biopolymer pigment (eumelanin/pheomelanin) present in skin, eye, and certain brain regions.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Melanosome",
+      "definition": "Organelle where melanin is synthesized and stored, especially in melanocytes and pigmented epithelia.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Water splitting (photolysis)",
+      "definition": "Light-driven oxidation of water to oxygen, protons, and electrons; biologically catalyzed in photosystem II.",
+      "mainstream_status": "Established"
+    },
+    {
+      "term": "Human photosynthesis",
+      "definition": "Proposed melanin-mediated conversion of absorbed energy into chemical energy via water dissociation/reformation in humans.",
+      "mainstream_status": "Fringe"
+    },
+    {
+      "term": "QIAPI 1",
+      "definition": "Named agent claimed to intensify water dissociation and improve outcomes in cerebral vascular events.",
+      "mainstream_status": "Fringe"
+    }
+  ],
+  "logical_flow": [
+    "Observation -> CNS energy is commonly attributed to blood-delivered substrates and mitochondrial ATP.",
+    "Interpretation -> Blood is treated as matter transport, not an energy carrier; glucose is reframed as non-energetic biomass/intermediate.",
+    "Mechanism -> Melanin absorbs ambient energy and dissociates water at physiological temperature, producing H2/O2 and then reforming water with electron release.",
+    "Distribution -> Hydrogen/electrons are asserted to distribute energy symmetrically through cytosol and nucleoplasm; perinuclear melanosomes concentrate energy for nuclear work.",
+    "Extension -> High CSF secretion energy demand is asserted to exceed ATP capacity and be met by water-dissociation energy.",
+    "Implication -> Pharmacologic enhancement of water dissociation is asserted to increase ischemia/hypoxia resistance and improve stroke outcomes compared with surgery.",
+    "Conclusion -> CNS physiology and treatment paradigms should be revised around melanin-driven water dissociation/reformation."
+  ],
+  "source_file": "data/books/Herrera_Melanin_the_Master_Molecule.pdf",
+  "pages": "152-165",
+  "model": "gpt-5.2",
+  "prompt_version": "reconstruct_v_final",
+  "generated_at_utc": "2026-02-14T06:19:30.192849"
+}
