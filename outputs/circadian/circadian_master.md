@@ -599,11 +599,21 @@ The tumour-relevant variable is the melatonin content of circulating blood, and 
 
 ### 8.4 Kruse's account
 
-Kruse (2011) identifies the coupling of circadian and cell cycles as the mechanism linking disrupted timing to oncogenesis. Kruse (2016, 2018) develops this into the position that malignancy is primarily a disorder of cellular timing and energy handling, with mutation accumulating as a consequence of replication and repair proceeding at the wrong phase, and with the light environment acting as an upstream carcinogenic variable through melatonin amplitude, repair timing, and cell cycle gating rather than through direct genotoxicity.
+Kruse (2011, 2015, 2016) runs a single chain from the light environment to malignancy, with the rate of protein turnover as the controlled variable.
 
-The mechanisms this requires are 8.1, 8.2 and 8.3, each independently established. What he adds is a ranking: these constitute the primary route to malignancy, and a light environment is therefore carcinogenic in the sense a chemical is. The mainstream position holds the same mechanisms as contributory, alongside direct genotoxic, inherited, and infectious routes.
+**Protein turnover is the largest energy cost the cell carries.** Peptide bond formation costs five ATP, several times the cost of polymerising nucleotides, and protein synthesis dominates the eukaryotic energy budget. The rate at which proteins are marked by ubiquitin for replacement therefore sets the cell's principal expenditure, and Kruse (2015) treats that marking rate as the quantity the circadian system exists to regulate.
 
-His claim about the order in which timing failure presents clinically is in 7.
+**The marking rate is set at complex I.** SIRT1 deacetylates the machinery that marks proteins for degradation, and SIRT1 activity depends on NAD⁺ supplied at complex I. The same enzyme deacetylates BMAL1 and PER2, setting the amplitude and duration of clock gene expression, while NAMPT, rate-limiting for NAD⁺ salvage, is itself clock-controlled. The loop closes: the clock sets NAD⁺ availability and NAD⁺ availability sets the clock (6.8).
+
+**A truncated spectrum lowers NAD⁺.** Kruse (2019) holds that light without the balancing red and infrared frequencies lowers NAD⁺ at complex I. Falling NAD⁺ costs SIRT1 activity, ubiquitin marking proceeds unchecked, protein replacement accelerates, and the cell consumes divisions against the Hayflick limit with the telomere shortening that accompanies them.
+
+**Glucose is the brake.** Kruse (2015) states the inversion directly: "Glucose down regulates the circadian clock genes… this is why a Warburg metabolism is selected for in oncogenesis. It is the body trying to slow time down." A cell that cannot lower its marking rate, because the light setting that rate is wrong, uses glucose to damp clock gene cycling instead. The glycolytic shift is a control action on this account, and elevated blood glucose reports the ubiquitin rate rather than a failure of fuel handling.
+
+**Damping the clock opens the cell cycle gate.** PER1 and PER2 couple the clock to mitosis through E-box control of Cyclin D1, Cyclin A, Mdm-2, Gadd45α and c-MYC, and *Per2*-null animals show increased tumour formation with decreased apoptosis (8.1). Damping clock gene cycling to slow the protein economy removes that gating as a side effect, and proliferation proceeds without the phase restriction that confines it. Melatonin amplitude and repair timing (8.2, 8.3) fail from the same light input, so all three routes open together.
+
+**The conclusion.** Cancer is on this account an epigenetic disease of light, and the terminal entry in the staging sequence of 7.5 — the point at which both arms of the coupled system have failed. Mutation accumulates as a consequence of replication and repair proceeding at the wrong phase, which makes the light environment carcinogenic in the sense a chemical is.
+
+**Status.** Both ends of the chain are established. The NAD⁺/SIRT1/NAMPT loop and its action on BMAL1 and PER2 are accurately reported, as is the PER-mediated coupling of clock to cell cycle. The middle is his: ubiquitin marking rate as the master regulated variable of circadian health is unsupported, the share of the energy budget he assigns to protein synthesis sits at the extreme end of measured values for differentiated tissue, and Warburg metabolism as a deliberate brake on clock gene cycling — rather than a consequence of oncogenic signalling and hypoxia — is his own reading. The mainstream position holds the established mechanisms as contributory, alongside direct genotoxic, inherited, and infectious routes.
 
 ---
 
