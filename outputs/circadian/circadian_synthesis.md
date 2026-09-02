@@ -6,7 +6,7 @@
 
 ## What this document is, and how to read it
 
-The two companion documents in this folder reconstruct what Jack Kruse argues about circadian biology (`circadian_reconstruction.md` for the graded overview, `circadian_kruse_periods.md` for the period-by-period detail). This one asks a different question: **what is actually true?**
+The two companion documents in this folder reconstruct what Jack Kruse argues about circadian biology (`circadian_reconstruction.md` for the graded overview, `circadian_kruse.md` for the full exposition). This one asks a different question: **what is actually true?**
 
 The spine is mainstream chronobiology. Kruse's claims appear where they add something defensible, marked like this:
 
@@ -463,7 +463,7 @@ What he contributes at his worst is a physics overlay that fails every time it c
 ## Related documents
 
 - `circadian_reconstruction.md` — graded overview of Kruse's position
-- `circadian_kruse_periods.md` — full period-by-period exposition with sources
+- `circadian_kruse.md` — full exposition of the circadian framework, with sources
 - `circadian_primer.md`, `circadian_theory.md`, `circadian_protocol.md` — the earlier mainstream-first chapter set (Feb 2026)
 - `../evolution/semiconductor_theory.md` — the solid-state substrate underlying his Periods 3–5
 

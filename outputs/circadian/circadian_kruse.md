@@ -1,8 +1,8 @@
-# Kruse's Circadian Theory: A Period-by-Period Exposition
+# Jack Kruse on Circadian Biology and Health
 
-*Companion to `circadian_reconstruction.md`. Where that document gives the graded overview, this one explains each period in full — the mechanisms, the named molecules, the arguments, and the sources.*
+*Complete exposition of the circadian framework: its mechanisms, its development across fifteen years, and the metrics and interventions that follow from it.*
 
-*Built from the 737-post archive in `input/kruse_blog_glix/markdown` (June 2011 – January 2026).*
+*Built from the 737-post archive in* `input/kruse_blog_glix/markdown` *(June 2011 – January 2026).*
 
 ---
 
@@ -24,13 +24,20 @@ Claims carry the same labels as the overview:
 - **[Extrapolation]** — his own inference, not textbook chronobiology
 - **[Error]** — wrong on a checkable point
 
+
+
 ### Two corrections to the overview document
 
 Reading deeply changed two things I previously wrote, and both matter:
 
 1. **The light turn is 2013 — the overview was right.** I initially wrote here that it begins in 2012, on the strength of *Cold Thermogenesis 7* (March 2012) and *Brain Gut 11* (September 2012). That was a selection-bias error: those posts were chosen *because* they scored highest on circadian vocabulary, and they run ~5.5x their own half-year average, so they are outliers rather than a trend. Measured across the whole corpus, light:food vocabulary is **flat through 2012** (ratio 0.28 -> 0.35 -> 0.28) and crosses over only in **2013 H1** (0.97), with light decisively dominant from 2013 H2 (1.48). What 2012 actually contains is two remarkable posts sitting inside a corpus still overwhelmingly about food, leptin, and cold: he wrote the thesis before he committed to it. See §1.7 and the note on backdating below.
-
 2. **There are five periods, not four.** The overview folds 2017–2020 into the surrounding eras. It deserves its own treatment, because it contains the framework's single most important structural move: the **unification of the 2011 leptin work with the 2015 eye-clock work into one mechanism**. Without that period, the jump from Period 3 to Period 5 looks unmotivated.
+
+
+
+### Scope
+
+This document covers Kruse's claims about **circadian biology and circadian health**. He writes at comparable length about non-native EMF, magnetism, deuterium, cold thermogenesis, and grounding; those appear here only where he advances them as claims about the timing system — jet lag and magnetoreception in §2.5, temperature as a zeitgeber in §1.6. Treated as exposure topics in their own right they belong elsewhere.
 
 ### Method
 
@@ -38,21 +45,29 @@ All 737 posts were scored on weighted circadian vocabulary (`scripts/rank_circad
 
 ---
 
+
+
 ## The five periods at a glance
 
-| Period | Years | The controller is… | Signature mechanism | Key posts |
-|---|---|---|---|---|
-| **1. Neuroendocrine** | 2011–2012 | Hormones — food, cold, leptin | Leptin → hypocretin → prolactin/GH autophagy window | *Why Do We Sleep*, *CT-7*, *Brain Gut 11* |
-| **2. Electromagnetic** | 2013–2014 | DC current and field geometry | CSF vortex reversing Becker's DC current | *EE 9: Quantum Sleep*, *QB 12*, *EMF 2* |
-| **3. Eye clock** | 2015–2016 | Melanopsin → SCN, gated by DHA | Ubiquitin economy tuned by NAD⁺/SIRT1 | *Ubiquitination 2/4/16/17*, *Time 2/9/17* |
-| **4. Unification** | 2017–2020 | Melanopsin, with leptin as its output | Retinal release from melanopsin's Schiff base | *QT 22*, *CPC 27*, *food vs light* |
-| **5. Mitochondrial** | 2021–2026 | Mitochondrial melatonin + melanin | Melanin electrochemical time-stamping; SCN as time crystal | *QE 18/44/55/65*, *DM 67* |
+
+| Period                 | Years     | The controller is…                    | Signature mechanism                                        | Key posts                                 |
+| ---------------------- | --------- | ------------------------------------- | ---------------------------------------------------------- | ----------------------------------------- |
+| **1. Neuroendocrine**  | 2011–2012 | Hormones — food, cold, leptin         | Leptin → hypocretin → prolactin/GH autophagy window        | *Why Do We Sleep*, *CT-7*, *Brain Gut 11* |
+| **2. Electromagnetic** | 2013–2014 | DC current and field geometry         | CSF vortex reversing Becker's DC current                   | *EE 9: Quantum Sleep*, *QB 12*, *EMF 2*   |
+| **3. Eye clock**       | 2015–2016 | Melanopsin → SCN, gated by DHA        | Ubiquitin economy tuned by NAD⁺/SIRT1                      | *Ubiquitination 2/4/16/17*, *Time 2/9/17* |
+| **4. Unification**     | 2017–2020 | Melanopsin, with leptin as its output | Retinal release from melanopsin's Schiff base              | *QT 22*, *CPC 27*, *food vs light*        |
+| **5. Mitochondrial**   | 2021–2026 | Mitochondrial melatonin + melanin     | Melanin electrochemical time-stamping; SCN as time crystal | *QE 18/44/55/65*, *DM 67*                 |
+
 
 The through-line: **the conclusion never changes, only the mechanism.** Get morning sun, avoid light at night, and your metabolism follows. He has argued this from hormones, from field physics, from membrane biophysics, from photochemistry, and from condensed-matter physics, in that order.
 
 ---
 
+
+
 # Period 1 (2011–2012): The Neuroendocrine Clock
+
+
 
 ## 1.1 The question
 
@@ -90,24 +105,26 @@ The same post already contains the **circadian–cell cycle yoke** that will anc
 
 *CT-7* (21 March 2012) is the most detailed single circadian document in the entire corpus — and an outlier within its own period, running about 5.5x the half-year average for light vocabulary. It sits inside the *Cold Thermogenesis* series, whose subject is cold adaptation, not light. He walks a full 24 hours, hour by hour. Reconstructed:
 
-| Time | Event |
-|---|---|
-| ~4:00 AM | Lowest body temperature; signals hypothalamus that sleep is ending |
-| 6:00 AM | Cortisol surge wakes the cortex via the reticular activating system. **VIP** peaks. Ghrelin peaks |
-| 6:45 AM | Sharpest blood-pressure rise of the day — why cardiac deaths cluster here |
-| Daybreak | Sunlight on retina shuts off pineal melatonin. AM sun is IR-dominant; UV arrives later |
-| 7:30 AM | Melatonin fully suppressed (about an hour after first light) |
-| 8:30 AM | Gastrocolic reflex; peristalsis. Cortisol, aldosterone, ghrelin all elevated |
-| 9–10 AM | Peak sex-steroid secretion; peak alertness ~10 AM |
-| 2:30 PM | Best muscle coordination; fastest reaction times ~3:30 PM |
-| 5:00 PM | Peak cardiovascular efficiency and peak protein synthesis — his prescribed exercise window |
-| 6:30 PM | Highest blood pressure (ANF/ADH, renin–aldosterone) |
-| 7:00 PM | Body temperature rises as leptin and IL-6 release from fat stores |
-| 7–10 PM | Leptin rises, insulin falls, adiponectin falls; adenosine accumulates |
-| 10:00 PM | Adenosine peaks. Melatonin permitted after 3–4 hours of true darkness |
-| 11:30 PM | GI tract shuts down; vagus quiet |
-| **Midnight** | **Leptin enters the hypothalamus, binds its receptor, triggers the prolactin surge** |
-| 12–3 AM | **The autophagy window.** GH released; protein recycling at maximum |
+
+| Time         | Event                                                                                             |
+| ------------ | ------------------------------------------------------------------------------------------------- |
+| ~4:00 AM     | Lowest body temperature; signals hypothalamus that sleep is ending                                |
+| 6:00 AM      | Cortisol surge wakes the cortex via the reticular activating system. **VIP** peaks. Ghrelin peaks |
+| 6:45 AM      | Sharpest blood-pressure rise of the day — why cardiac deaths cluster here                         |
+| Daybreak     | Sunlight on retina shuts off pineal melatonin. AM sun is IR-dominant; UV arrives later            |
+| 7:30 AM      | Melatonin fully suppressed (about an hour after first light)                                      |
+| 8:30 AM      | Gastrocolic reflex; peristalsis. Cortisol, aldosterone, ghrelin all elevated                      |
+| 9–10 AM      | Peak sex-steroid secretion; peak alertness ~10 AM                                                 |
+| 2:30 PM      | Best muscle coordination; fastest reaction times ~3:30 PM                                         |
+| 5:00 PM      | Peak cardiovascular efficiency and peak protein synthesis — his prescribed exercise window        |
+| 6:30 PM      | Highest blood pressure (ANF/ADH, renin–aldosterone)                                               |
+| 7:00 PM      | Body temperature rises as leptin and IL-6 release from fat stores                                 |
+| 7–10 PM      | Leptin rises, insulin falls, adiponectin falls; adenosine accumulates                             |
+| 10:00 PM     | Adenosine peaks. Melatonin permitted after 3–4 hours of true darkness                             |
+| 11:30 PM     | GI tract shuts down; vagus quiet                                                                  |
+| **Midnight** | **Leptin enters the hypothalamus, binds its receptor, triggers the prolactin surge**              |
+| 12–3 AM      | **The autophagy window.** GH released; protein recycling at maximum                               |
+
 
 **[Established]** in outline — the cortisol awakening response, the BP morning surge, evening leptin rise, adenosine accumulation, and nocturnal GH release are all real. **[Extrapolation]** in the precision: the clock times are stated far more exactly than the literature supports, and the causal ordering (leptin entry *causes* the prolactin surge *causes* GH) is his own.
 
@@ -165,7 +182,11 @@ The same post makes a much better argument he doesn't emphasize: E-box regulatio
 
 ---
 
+
+
 # Period 2 (2013–2014): The Electromagnetic Turn
+
+
 
 ## 2.1 The question
 
@@ -223,7 +244,21 @@ Then comes his own addition, and it is the most physically extravagant machinery
 
 Embedded in it, however, is a claim that survives everything: **"we are oxidized during sunlight hours by design; at night cells become chemically reduced."** The diurnal redox oscillation is real, and it becomes the spine of Periods 3–5.
 
-## 2.5 What Period 2 established
+## 2.5 The Jet Lag Rx — the first protocol for an acute phase shift
+
+*The Jet Lag Rx: Human Flight Biohacking* (August 2014) is his only sustained treatment of an acute phase shift, and the closest thing in the corpus to a conventional chronotherapy protocol.
+
+The framing is comparative. Birds do not get jet lag; humans do. His explanation is that birds navigate **along the Earth's magnetic flux lines**, flying predominantly north–south, while human aviation runs east–west, across them. From this he derives the observation that **north–south routes produce little or no jet lag while east–west routes produce most of it**, and that **eastward travel is worse than westward**.
+
+**[Established]** — the directional asymmetry is real and well documented: eastward travel requires phase advance, which is harder than the delay required travelling west, because human τ exceeds 24 hours. **[Extrapolation]** — his explanation for it. The mainstream account is the phase response curve and the advance/delay asymmetry, not magnetic field lines. That north–south travel produces less jet lag is true and requires no magnetic explanation at all: crossing no time zones means no phase shift.
+
+He defines jet lag mechanistically as **"a short term circadian disruption of VIP and melatonin levels"**, connecting it back to the VIP/SCN material of *Cold Thermogenesis 7*. **[Contested]** — VIP is genuinely central to SCN network resynchronisation, and the slow re-entrainment of the SCN after a phase shift is partly a coupling phenomenon, so the intuition is defensible even though the specific claim is his.
+
+The rest of the post enumerates flight hazards, of which the circadian ones are jet lag itself, loss of grounding, altered magnetic sense at altitude, increased cosmic radiation above the atmosphere's protective layers, and in-flight WiFi exposure. He recommends blue-blocking eyewear in flight explicitly to preserve retinal and cutaneous DHA.
+
+This post is also the clearest instance of magnetism entering the circadian argument. Elsewhere he treats the geomagnetic field as a quasi-zeitgeber operating in parallel with light. **[Extrapolation]** — no mechanism for human magnetoreception affecting circadian timing is established.
+
+## 2.6 What Period 2 established
 
 **Carried forward:** the peroxiredoxin/transcription-independent-clock argument; diurnal redox oscillation; light as information not just energy; the leptin-receptor-as-photon-counter reframing; melatonin/cooling coupling.
 
@@ -233,7 +268,11 @@ This is worth stating plainly: **the machinery that this period's posts present 
 
 ---
 
+
+
 # Period 3 (2015–2016): The Eye Clock
+
+
 
 ## 3.1 The question
 
@@ -326,7 +365,39 @@ He extends the idea in *Ubiquitination 4*: **metals precipitating in tissue spee
 
 **[Established]** — and this is one of his strongest points. Melatonin receptors (MT1/MT2) on beta cells are well documented, and the **MTNR1B** variant is among the most robustly replicated type 2 diabetes risk loci in human genetics. The direction of his argument has real support; the monocausal strength does not.
 
-## 3.9 Warburg metabolism as the emergency brake
+## 3.9 Retinal dopamine, myopia, and the ageing eye
+
+*Ubiquitination 24* (August 2015) and *Time 6* (January 2016) develop a thread that runs parallel to the melanopsin material and is, on the mainstream evidence, among his best-supported.
+
+**The synthesis pathway.** Dopamine is made from tyrosine, an aromatic amino acid that absorbs ultraviolet light. The rate-limiting enzyme is **tyrosinase**, which is also rate-limiting for melanin — so pigment and neurotransmitter share a controlled step. Kruse argues that ultraviolet exposure to the eye therefore sets retinal dopamine directly, and that short wavelengths penetrating the orbit reach frontal structures to influence dopamine there as well.
+
+**The myopia mechanism.** Bright full-spectrum outdoor light stimulates release of retinal dopamine; dopamine inhibits axial elongation of the globe; therefore insufficient outdoor light produces an elongated eye and myopia.
+
+**[Established]** — this is correct, and it is mainstream ophthalmology rather than a Kruse invention. Retinal dopamine released by dopaminergic amacrine cells under bright light is the leading candidate mechanism for the well-replicated protective effect of outdoor time against childhood myopia. He reports it accurately and drew the circadian implication early.
+
+**[Extrapolation]** — his additional claim that the *ultraviolet* fraction specifically is the operative component. The mainstream account turns on illuminance, and outdoor light is protective through glass-blocked windows less effectively but not zero.
+
+**The sleep coupling.** From here he derives an inverse relation between dopamine and sleep requirement: the more retinal and frontal dopamine, the less sleep needed for regeneration. He supports it comparatively — chimpanzees, with less developed frontal lobes and lower dopamine, sleep about 12 hours; humans 7.5–8.5. **[Extrapolation]**, and the comparative argument does not survive scrutiny, since sleep duration across primates tracks body mass, diet, and predation risk rather than frontal dopamine.
+
+**The ageing mechanism.** The human lens yellows with age and progressively blocks short wavelengths. Less ultraviolet reaches the retina, less dopamine is made, less ocular melatonin follows, and older adults consequently cannot sustain the sleep needed for regeneration. **[Contested]** — lens yellowing and reduced short-wavelength transmission are established, and are a recognised contributor to circadian fragmentation in older adults; the dopamine-mediated pathway he specifies is his.
+
+**The clinical observation.** *Ubiquitination 24* opens with something he claims to have noticed across a thirty-year neurosurgical career: pupils in his patients have grown larger over the decades, as hospital and examination lighting moved from incandescent to fluorescent and LED. The effect, he says, is most marked in spectacle wearers, sunglass wearers, and universally in patients with implanted intraocular lenses. He attributes it to chronic subtraction of 290–415 nm light.
+
+**[Extrapolation]**, and uncontrolled: it is an uncalibrated observation across an interval in which the examining light source also changed, which is itself sufficient to alter measured pupil size.
+
+The historical material behind it is the most interesting part of the post. He traces his interest to a pterygium study among Cree in northern Canada, where wraparound sunglasses issued as prophylaxis failed to prevent the condition and in some cases coincided with worse outcomes; to Feynman declining protective eyewear at the Trinity test and watching through a truck windscreen instead, which blocks ultraviolet; and to a 1969 experiment by Philip Salvatori of Obrig Laboratories on ultraviolet transmission in contact lenses. The conclusion he draws is that essentially every manufactured lens since the 1930s has been built to block ultraviolet on a precautionary assumption that was never tested against the circadian cost.
+
+## 3.10 *Time 7* — the photoelectric effect as the general mechanism
+
+*Time 7* (January 2016) is the theoretical post underneath the eye-clock series, and supplies the general mechanism the rest of Period 3 assumes.
+
+The argument is that biochemical change in cells is driven **photochemically** rather than by collision chemistry, and that the photoelectric effect — light liberating electrons from a surface — is the operative process. He notes Becker's demonstration of photoelectric behaviour in bone as biological precedent, and extends it to the lipids and proteins of the cell generally.
+
+The distinctive move is assigning the two aspects of light's duality to two different substrates: **DHA** in membranes handles light's particle character, while the **exclusion zone of cell water** handles its wave character, by changing refractive index. Refraction through cornea and lens shortens wavelength while leaving frequency unchanged, which he reads as light being "powered down" for use by specific cell compartments at specific times of day.
+
+**[Extrapolation]** throughout. The photoelectric effect is real and Becker's observations were published, but the assignment of particle behaviour to DHA and wave behaviour to structured water is his own and has no supporting evidence. The refraction physics as stated is correct.
+
+## 3.11 Warburg metabolism as the emergency brake
 
 A striking inversion from *Ubiquitination 4*:
 
@@ -336,7 +407,7 @@ The cell, unable to lower ubiquitination rate because its light environment is w
 
 **[Extrapolation]** — but a genuinely interesting reframing, and it connects directly to the atavism material in `../evolution/evolution_cancer_digest.md`.
 
-## 3.10 Disease staging
+## 3.12 Disease staging
 
 The clinical payload: diseases appear in order of where the clock breaks first.
 
@@ -344,7 +415,11 @@ The clinical payload: diseases appear in order of where the clock breaks first.
 
 ---
 
+
+
 # Period 4 (2017–2020): Unification
+
+
 
 ## 4.1 The question
 
@@ -376,6 +451,8 @@ He adds the therapeutic counterweight: *"The antidote to blue light in nature is
 - He reads CLOCK and PER2 as a "coupled thermodynamic gene pair" whose uncoupling causes extinction of both arms.
 - Practical chronotherapy: topical medications absorb better in the evening.
 
+
+
 ## 4.4 The NAD⁺ chain, formalized
 
 *The food versus light lesson* (July 2019) is the clearest statement of the mature light-over-food argument, written as a direct rebuttal to a former member arguing for micronutrients. He compresses the mechanism into a single chain:
@@ -389,6 +466,8 @@ With supporting claims:
 - **Glass blocks all UVB, most UVA, and 30–50% of IR-A** — so indoor living is a spectral amputation regardless of diet. **[Established]** for ordinary window glass and UVB/UVA.
 - Indoor air is less charged → pseudohypoxia → NAD⁺ drops → SIRT1 falls.
 
+
+
 ## 4.5 The one genuinely falsifiable claim
 
 Stated here more explicitly than anywhere else:
@@ -399,7 +478,11 @@ This is the framework's testable heart: **the metabolic benefit of fasting is co
 
 ---
 
+
+
 # Period 5 (2021–2026): Mitochondrial Melatonin, Melanin, and Time Crystals
+
+
 
 ## 5.1 The question
 
@@ -446,7 +529,21 @@ His statement of clock architecture here is precise and correct: the human SCN f
 
 He also introduces **CSP-1** as a morning-induced transcriptional repressor gating evening gene expression — *"If you do not get AM sun your evening genomic expression will be AWRY."* (CSP-1 is a *Neurospora* clock component; extending it to mammals is unsupported. **[Error]**)
 
-## 5.5 The SCN as time crystal
+## 5.5 Melanin, neuronal migration, and autism
+
+*Quantum Engineering #45* (June 2023) applies the melanin material to development, and is his most specific disease claim of the late period.
+
+The argument runs from albinism. Albino mammals lacking retinal pigment epithelium show **nystagmus and strabismus**, and their optic chiasm is abnormal: almost all retinal ganglion cells cross, with few uncrossed fibres. In pigmented human retinae the retinal vasculature spares the fovea; in albino retinae vessels intrude into it. From this Kruse infers that **melanin acts as a positional beacon guiding neuronal migration** from eye to deeper brain structures during development — and that the routing of retinal ganglion cells to the SCN specifically depends on embryonic retinal pigment.
+
+**[Established]** — the albinism findings are correct. Reduced melanin in the developing RPE genuinely causes misrouting at the chiasm, and this is textbook developmental neurobiology. **[Extrapolation]** — extending it from the visual projection to a general melanin-guided migration principle.
+
+He then observes something he treats as decisive: **melanopsin retinal ganglion cell projections to the SCN are completely crossed or bilaterally projected, and are not affected by albinism in any mammal** — while the image-forming projections are. His reading is that evolution has specifically protected the circadian pathway, because the capacity to read environmental timing outranks the capacity to see.
+
+**[Established]** for the observation, and it is a genuinely striking one that supports his hierarchy claim better than most of the arguments he uses for it.
+
+The autism claim is the extrapolation: insufficient retinal pigment during neurulation misroutes optic neurons, disrupts the melanopsin system, and produces autism as an **atavism** — reversion to an earlier developmental programme, which he connects to reduced social and linguistic capacity by analogy with solitary early primates. **[Reject]** — there is no evidence linking retinal pigmentation to autism aetiology, and the atavism framing does not follow from the migration data. Circadian and melatonin abnormalities are genuinely observed in autism, but as correlates, not as a pigment-driven developmental mechanism.
+
+## 5.6 The SCN as time crystal
 
 *QE #44* (June 2023) is the most physics-forward post of the period, and the least reliable:
 
@@ -463,7 +560,9 @@ The errors cluster densely:
 - **[Contested]** The HeartMath geomagnetic/HRV synchronization study (10 subjects, 31 days, ~2.5-day period).
 - **[Extrapolation]** Schumann resonance (7.83 Hz) entraining thalamic alpha (8–12 Hz). The numerical proximity is often noted; no causal mechanism is established.
 
-## 5.6 Water, vasopressin, and the sodium marker
+
+
+## 5.7 Water, vasopressin, and the sodium marker
 
 *QE #23* (2023) adds a hydration axis:
 
@@ -474,7 +573,9 @@ The errors cluster densely:
 - MS patients respond to vasopressin antagonists, implicating chronic AVP release to light stress. **[Contested]**
 - **REV-ERBα controls Cx43**, determining bladder capacity — hence nocturia in shift workers.
 
-## 5.7 Sunrise and the TCA cycle
+
+
+## 5.8 Sunrise and the TCA cycle
 
 *QE #65* (February 2024) makes the most operationally specific claim in the corpus:
 
@@ -484,13 +585,15 @@ The mechanism: lipid rafts turn sunlight into DC current; that current stabilize
 
 The dietary rule that follows is the Leptin Rx restated as chronotherapy: *"Eat like a king 30 minutes after sunrise, like a prince at lunch, like a pauper at dinner."*
 
-## 5.8 Diurnal death
+## 5.9 Diurnal death
 
 *DM #67* (August 2025), the most recent major circadian post, reaches for **thanatotranscriptomic genes** — the ~1,000+ genes that upregulate for hours to days *after* death, documented in zebrafish and mice. **[Established]** as a phenomenon (Pozhitkov & Noble).
 
 His reading, self-labeled as hypothesis: we undergo a partial **diurnal death** nightly; these genes regulate **ultraweak photon emission (UPE)** during it; melatonin drives the sleep respiratory-quotient shift from ~1.0 to ~0.7 by **inhibiting Complex I via cardiolipin**, promoting fat oxidation through FADH₂ and Complex II, and supporting mitochondrial photorepair. The RQ shift is **[Established]**; the melatonin/Complex I mechanism is his own and flagged as such.
 
 ---
+
+
 
 # What runs through all five periods
 
@@ -507,41 +610,145 @@ Everything else — hypocretin, VIP/eNOS seasonal switching, the CSF vortex, epe
 
 # What changed, and when
 
-| Mechanism | Introduced | Status now |
-|---|---|---|
-| Hypocretin as junction box | 2011 | Dropped after Period 1 |
-| VIP/eNOS seasonal clock switching | 2012 (*CT-7*) | Dropped |
-| Prolactin → GH autophagy gate | 2012 (*CT-7*) | **Explicitly contradicted** in 2023 ("GH released in slow wave sleep... is simply not true") |
-| Peroxiredoxin / transcription-free clock | 2013 (*QB 12*) | Retained |
-| Becker DC current | 2013 (*EE 9*) | Retained as background; mechanism no longer load-bearing |
-| CSF vortex, pineal laser, ependymal SQUIDs | 2013 (*EE 9*) | **Silently abandoned** |
-| Gravitational dilation at the SCN | 2015 (*Ubiq 2*) | Faded; no longer emphasized |
-| Melanopsin hierarchical control | 2015 (*Ubiq 17*) | **Retained — core** |
-| DHA as circadian gain control | 2015 (*Ubiq 17*) | Retained |
-| Ubiquitin economy | 2015 (*Ubiq* series) | Retained, de-emphasized |
-| NAD⁺/SIRT1/NAMPT loop | 2015 | **Retained — strongest anchor** |
-| Leptin resistance = melanopsin dysfunction | 2018 (*QT 22*) | **Retained — the unification** |
-| Mitochondrial melatonin | 2022 (*QE 18*) | **Retained — core of late period** |
-| Melanin electrochemical time-stamping | 2023 (*QE 55*) | Current |
-| SCN as time crystal | 2023 (*QE 44*) | Current |
-| Thanatotranscriptome / diurnal death | 2025 (*DM 67*) | Current |
+
+| Mechanism                                                      | Introduced                    | Status now                                                                                   |
+| -------------------------------------------------------------- | ----------------------------- | -------------------------------------------------------------------------------------------- |
+| Hypocretin as junction box                                     | 2011                          | Dropped after Period 1                                                                       |
+| VIP/eNOS seasonal clock switching                              | 2012 (*CT-7*)                 | Dropped                                                                                      |
+| Prolactin → GH autophagy gate                                  | 2012 (*CT-7*)                 | **Explicitly contradicted** in 2023 ("GH released in slow wave sleep... is simply not true") |
+| Peroxiredoxin / transcription-free clock                       | 2013 (*QB 12*)                | Retained                                                                                     |
+| Becker DC current                                              | 2013 (*EE 9*)                 | Retained as background; mechanism no longer load-bearing                                     |
+| CSF vortex, pineal laser, ependymal SQUIDs                     | 2013 (*EE 9*)                 | **Silently abandoned**                                                                       |
+| Gravitational dilation at the SCN                              | 2015 (*Ubiq 2*)               | Faded; no longer emphasized                                                                  |
+| Melanopsin hierarchical control                                | 2015 (*Ubiq 17*)              | **Retained — core**                                                                          |
+| Jet lag as VIP/melatonin disruption; magnetic-flux explanation | 2014 (*Jet Lag Rx*)           | Directional asymmetry retained; magnetic explanation dropped                                 |
+| Retinal dopamine gates axial eye growth                        | 2015–16 (*Ubiq 24*, *Time 6*) | **Retained — mainstream-supported**                                                          |
+| Photoelectric effect as the general mechanism                  | 2016 (*Time 7*)               | Retained as background assumption                                                            |
+| Melanin guides neuronal migration; autism as atavism           | 2023 (*QE 45*)                | Current                                                                                      |
+| DHA as circadian gain control                                  | 2015 (*Ubiq 17*)              | Retained                                                                                     |
+| Ubiquitin economy                                              | 2015 (*Ubiq* series)          | Retained, de-emphasized                                                                      |
+| NAD⁺/SIRT1/NAMPT loop                                          | 2015                          | **Retained — strongest anchor**                                                              |
+| Leptin resistance = melanopsin dysfunction                     | 2018 (*QT 22*)                | **Retained — the unification**                                                               |
+| Mitochondrial melatonin                                        | 2022 (*QE 18*)                | **Retained — core of late period**                                                           |
+| Melanin electrochemical time-stamping                          | 2023 (*QE 55*)                | Current                                                                                      |
+| SCN as time crystal                                            | 2023 (*QE 44*)                | Current                                                                                      |
+| Thanatotranscriptome / diurnal death                           | 2025 (*DM 67*)                | Current                                                                                      |
+
+
+
 
 # The protocol, across time
 
 Strikingly stable given three mechanism rewrites:
 
-| Rule | First appears | Still current? |
-|---|---|---|
-| No food within 3–4 hrs of sleep | 2012 (*CT-7*) | Yes |
-| Complete darkness for sleep | 2011 | Yes |
-| Morning sun on the eyes, unfiltered | 2012 | Yes — now specified as UV index ≥ 1, 7 AM–noon, 3–5 min minimum |
-| No sunglasses / contacts / windows | 2016 (*Time 9*) | Yes |
-| Eat largest meal after sunrise | 2012 (Leptin Rx) | Yes (*QE 65*) |
-| Blue-blockers after sunset | 2013 | Yes |
-| Cold exposure as circadian tool | 2012 (*CT* series) | De-emphasized |
-| Fasting only under natural light | 2019 (*food vs light*) | Yes — the key testable claim |
+
+| Rule                                | First appears          | Still current?                                                  |
+| ----------------------------------- | ---------------------- | --------------------------------------------------------------- |
+| No food within 3–4 hrs of sleep     | 2012 (*CT-7*)          | Yes                                                             |
+| Complete darkness for sleep         | 2011                   | Yes                                                             |
+| Morning sun on the eyes, unfiltered | 2012                   | Yes — now specified as UV index ≥ 1, 7 AM–noon, 3–5 min minimum |
+| No sunglasses / contacts / windows  | 2016 (*Time 9*)        | Yes                                                             |
+| Eat largest meal after sunrise      | 2012 (Leptin Rx)       | Yes (*QE 65*)                                                   |
+| Blue-blockers after sunset          | 2013                   | Yes                                                             |
+| Cold exposure as circadian tool     | 2012 (*CT* series)     | De-emphasized                                                   |
+| Fasting only under natural light    | 2019 (*food vs light*) | Yes — the key testable claim                                    |
+
 
 ---
+
+
+
+# Metrics derived from the framework
+
+Kruse's claims, taken seriously, imply things that can be measured. Some correspond to validated assays; some correspond to assays that exist but have never been used to test his claim; some are not currently measurable at all. Separating these is what makes the framework testable rather than merely assertable.
+
+Each entry states the claim, the quantity that would read it out, and the status of that measurement.
+
+## Photoreception and input
+
+**Post-illumination pupillary response (PIPR).** Kruse (2015) claims chronic subtraction of ultraviolet and short-wavelength light degrades the photoreceptive apparatus, and reports enlarged pupils across three decades of clinical observation. His observation is uncontrolled, but the underlying quantity is real and validated: the **PIPR** — sustained pupil constriction persisting after a blue light stimulus is extinguished — is the standard non-invasive assay of melanopsin/ipRGC function. It is reduced in glaucoma, seasonal affective disorder, and with age.
+
+This is the closest thing in the corpus to a direct test of his central claim, and to my knowledge he has never invoked it. A cohort with high lifetime indoor exposure and blue-blocked or UV-blocked ocular history should show attenuated PIPR relative to matched outdoor controls. *Status: validated assay, claim untested.*
+
+**Melanopic EDI, and its limits.** Standard for exposure. Kruse (2016, 2022) argues the spectral *sequence* carries information that a single melanopic number cannot represent, because melanopic weighting is by construction blind to the ratio of short to long wavelengths. Recording the **full spectrum**, or at minimum a short-to-long ratio alongside melanopic EDI, is the measurement his position requires. *Status: measurable with a spectroradiometer; the derived metric is undefined.*
+
+**Ultraviolet index during outdoor intervals.** Follows directly from the solar-sequence claim (Kruse, 2016, 2022) that UVA availability, not illuminance, gates the morning photochemistry. Logged per outdoor interval against clock time. *Status: trivially measurable.*
+
+**Ocular media transmittance.** Kruse (2015, 2016) holds that spectacles, contact lenses, intraocular lenses, and window glass each remove part of the signal. Lens transmittance is directly measurable, and crystalline lens yellowing with age is quantifiable. *Status: measurable, standard in ophthalmic optics.*
+
+**Axial length and refractive error.** The dopamine claim (§3.9) predicts that outdoor light exposure inversely tracks axial elongation. *Status: validated, routinely measured, and the mainstream literature already supports the association.*
+
+## Transduction and substrate
+
+**Omega-3 index.** Erythrocyte EPA + DHA as a percentage of membrane fatty acids, from a dried blood spot. Kruse (2015) treats DHA as the gain control of the circadian system, which makes this a direct measure of transduction capacity rather than a general nutritional marker. Desirable above 8%, high-risk below 4%. Erythrocyte turnover of ~120 days means the value integrates over months. *Status: validated assay with established reference ranges; the gain-control interpretation is his.*
+
+**Mitochondrial heteroplasmy.** Kruse (2016, 2022) makes the proportion of mutant mitochondrial genomes the master ageing variable and the quantity that neuropsin-driven melatonin acts to reduce. Heteroplasmy is measurable by deep sequencing of mtDNA, though tissue-specific and expensive. *Status: measurable; no study has tested light exposure as a determinant.*
+
+## Output rhythms
+
+**Dim light melatonin onset.** The reference phase marker. Kruse's (2022) claim that night-time melatonin is set by *morning* ultraviolet exposure is directly testable as DLMO amplitude and timing against logged morning UV dose. *Status: validated; the specific dependency untested.*
+
+**Morning-to-evening glucose ratio.** From the melatonin–insulin antagonism (Kruse, 2016). Identical meals taken early and late in the waking day, with only timing varying. Evening postprandial glucose normally runs about 17% higher; a ratio at or above 1 indicates the peripheral tolerance rhythm has flattened. *Status: validated, and the underlying antagonism is well supported through MTNR1B.*
+
+**Diurnal cortisol slope.** Kruse (2012) treats the flattened or inverted cortisol profile as the earliest measurable sign of circadian mismatch, preceding overt disease. Four-sample salivary series; the tracked quantity is the peak-to-bedtime ratio. *Status: validated; flatter slopes predict adverse outcomes across many conditions.*
+
+**Leptin and TSH bedtime-to-waking ratios.** Both rhythms flatten under misalignment, which follows from Kruse (2011) treating leptin as circadian-gated. *Status: measurable; reference ranges for the ratio are not established.*
+
+**Distal skin temperature amplitude.** Peak-to-trough of the wrist rhythm, reporting melatonin-driven peripheral vasodilation. *Status: validated.*
+
+**Peripheral clock-gene acrophase.** Follicle sampling across a day, referenced to DLMO. Tests the internal-desynchrony claim directly: whether a peripheral oscillator has moved relative to the pacemaker. *Status: research-grade, feasible.*
+
+## Not currently measurable
+
+Several claims imply quantities with no available assay. Stated plainly so they are not mistaken for testable ones: **melanin electrochemical time-stamping** (Kruse, 2023); **ultraweak photon emission as a regenerative signal** (Kruse, 2025); **structured or exclusion-zone water volume in vivo** (Kruse, 2016). Each may be measurable in principle; none has an accepted method.
+
+---
+
+
+
+# Interventions derived from the framework
+
+What the framework prescribes, with the claim each rests on and the independent evidence status. Ordered by strength of support rather than by his emphasis.
+
+## Well supported independently
+
+**1. Unfiltered light on the eyes at and shortly after sunrise.** Outdoors, no spectacles, contact lenses, sunglasses, or glass. From Kruse (2012, 2016). Correct application of the light phase response curve: post-CBTmin light advances and reinforces phase. The mainstream justification is illuminance, not spectrum — outdoor light is 1–2 orders of magnitude above indoor regardless of what one is looking through — so the exposure is right even where his reason is not.
+
+**2. Darkness after sunset.** Dim, long-wavelength-shifted lighting; dark bedroom. From Kruse (2011 onward). Supported both by melatonin suppression thresholds and by the bedroom-light epidemiology.
+
+**3. Terminating food intake several hours before sleep.** From Kruse (2012, 2016), on the melatonin–insulin antagonism. Independently supported: eating within the melatonin window impairs glucose tolerance, with the effect modified by MTNR1B genotype.
+
+**4. Largest meal early, tapering across the day.** From Kruse (2012, 2024). Early time-restricted eating outperforms late on glucose control in controlled trials.
+
+**5. Outdoor time for children.** From the dopamine/axial-growth claim (Kruse, 2015–16). Independently supported as myopia prophylaxis, with a plausible retinal dopamine mechanism.
+
+**6. Regular timing.** Implicit throughout rather than emphasised. Sleep regularity predicts mortality more strongly than duration.
+
+## Plausible, mechanism-supported, direct evidence thin
+
+**7. Deliberate morning UVA exposure once UV index reaches 1.** From the solar-sequence and tryptophan-loading claims (Kruse, 2016, 2022). The OPN5 and UVA–nitric oxide literatures give it a mechanism; no trial has tested the protocol.
+
+**8. Preferring outdoor to window light during the day.** From the glass/spectral-truncation claim (Kruse, 2019). Glass transmittance data are unambiguous; the circadian consequence of the missing UV fraction specifically is not established.
+
+**9. Blue-blocking eyewear after sunset and in flight.** From Kruse (2013 onward). Mechanistically sensible; trial results mixed and effect sizes modest.
+
+**10. Timing fasting and cold exposure to an intact light environment.** From Kruse (2019), his most distinctive and most testable claim. Untested as stated.
+
+**11. Raising DHA intake.** From the gain-control claim (Kruse, 2015). Omega-3 status is independently worth correcting; the circadian-specific rationale is his.
+
+**12. Jet lag management.** From Kruse (2014): prefer north–south routes, blue-block in flight, re-anchor with morning light on arrival. Morning-light re-anchoring is standard chronotherapy; his magnetic-flux rationale is not the operative reason.
+
+## Contested or unsupported
+
+**13. Avoiding sunglasses and UV-blocking lenses generally.** From Kruse (2015, 2016). This is the sharpest divergence from ophthalmological and dermatological consensus. Cumulative UV exposure to the eye is an established risk factor for cataract, pterygium, and ocular surface disease. The circadian cost of blocking is real and under-weighted in standard advice; the risk of not blocking is also real. This is a genuine trade-off, and the framework presents only one side of it.
+
+**14. Matching dietary composition to latitude and photoperiod.** From Kruse (2015, 2022). No supporting evidence.
+
+**15. Grounding, and avoiding non-native EMF at night.** Advanced as circadian interventions. No established mechanism by which either affects circadian timing in humans.
+
+---
+
+
 
 # Assessment
 
@@ -556,6 +763,8 @@ Reading all five periods in sequence produces a clearer verdict than any single 
 **The most interesting thing he has done is Period 4.** The unification of leptin and melanopsin into a single photonic mechanism is a genuine intellectual move: it takes his weakest-supported early work and his strongest later work and makes them one claim, at the cost of a large extrapolation about leptin as an optical chromophore. Whether or not it survives, it is the hinge the whole framework turns on.
 
 ---
+
+
 
 ## Related documents in this repo
 
