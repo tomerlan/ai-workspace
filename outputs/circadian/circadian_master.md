@@ -223,27 +223,62 @@ The practical consequence is that a flattened peripheral rhythm does not localis
 
 ## 3. The central pacemaker
 
-
-
 ### 3.1 The suprachiasmatic nucleus
 
-The **suprachiasmatic nucleus (SCN)** is a paired hypothalamic structure of approximately 20,000 neurons situated immediately dorsal to the optic chiasm.
+The **suprachiasmatic nucleus (SCN)** is a paired hypothalamic structure of approximately 20,000 neurons, sitting immediately dorsal to the optic chiasm and receiving direct retinal innervation.
 
-Its status as master pacemaker rests on three lines of evidence: ablation abolishes behavioural rhythmicity; transplantation of SCN tissue into an arrhythmic host restores rhythmicity with the *donor's* period (Ralph et al., 1990); and isolated SCN tissue sustains oscillation in culture indefinitely.
+Three independent lines of evidence establish it as the pacemaker.
+
+**Ablation.** Bilateral SCN lesion eliminates the circadian rhythm of locomotor activity, drinking, and adrenal corticosterone (Moore and Eichler, 1972; Stephan and Zucker, 1972). The animal remains active and continues to feed; what it loses is the placement of that behaviour in the day. Rhythmicity is abolished rather than displaced, which distinguishes the SCN from a structure that merely relays timing.
+
+**Transplantation.** Grafting SCN tissue into an SCN-lesioned host restores behavioural rhythmicity, and the restored rhythm runs at the *donor's* period rather than the host's (Ralph et al., 1990). The period travels with the tissue. When the graft is sealed in a polymer capsule that permits diffusion but blocks neural outgrowth, locomotor rhythmicity returns even so (Silver et al., 1996), so a diffusible signal suffices to time behaviour. Endocrine and peripheral rhythms do not return under those conditions; they require the neural connections the capsule prevents. The pacemaker therefore reaches behaviour and the body by different routes, and only one of them is chemical.
+
+**Isolation.** Explanted SCN sustains rhythms of firing rate, gene expression, and peptide release for weeks in culture with no input of any kind.
 
 ### 3.2 Network organisation
 
-Individual SCN neurons are imprecise oscillators: period varies by hours between cells and drifts within a cell, while the intact nucleus keeps time to within minutes. Precision is a property of the coupled network rather than of its elements, arising because neurons synchronise through VIP and GABA signalling and the ensemble averages the noise of its members.
+The nucleus is not homogeneous. The **core**, ventrolateral and retinorecipient, expresses vasoactive intestinal peptide (VIP) and gastrin-releasing peptide. The **shell**, dorsomedial, expresses arginine vasopressin (AVP). Light arrives at the core; the shell is driven from within the nucleus.
 
-The **core**, ventrolateral and retinorecipient, expresses vasoactive intestinal peptide (VIP) and gastrin-releasing peptide. The **shell**, dorsomedial, expresses arginine vasopressin (AVP).
+VIP signalling through the **VPAC2** receptor holds the population together. Deleting VIP or VPAC2 renders the animal behaviourally arrhythmic, and the mechanism is desynchronisation rather than silencing: most neurons continue to oscillate, at dispersed phases, and a minority stop (Aton et al., 2005).
 
-VIP signalling through the **VPAC2** receptor is required for network synchrony. Deletion of VIP or VPAC2 renders the animal behaviourally arrhythmic, not by silencing individual oscillators but by desynchronising them.
+Nearly every SCN neuron is GABAergic. GABA couples core to shell, and that coupling is what holds the two regions at a common phase when a change in the light schedule drives them apart (Albus et al., 2005).
 
-Coupling strength governs a trade-off. A strongly coupled network is precise and resists perturbation: the SCN shifts slowly in response to abrupt changes in the light–dark cycle, which accounts for the multi-day time course of re-entrainment after transmeridian travel, and it is not reset by the temperature rhythm it generates. Weakly coupled peripheral networks shift quickly and are reset by temperature and feeding. The hierarchy between central and peripheral oscillators follows from differing coupling strength rather than from any difference in the underlying molecular mechanism.
+### 3.3 Precision from imprecise elements
 
-### 3.3 Efferent connections
+Dispersed SCN neurons in culture oscillate independently, with periods spread from roughly 20 to 28 hours, and their phases separate within days (Welsh et al., 1995). The intact nucleus holds time to within minutes across weeks.
+
+The precision belongs to the network rather than to any cell in it. Coupling averages the error of the members, so the ensemble is far more stable than its elements. The corollary matters clinically: a perturbation that disperses the population without stopping a single oscillator abolishes the rhythm as completely as one that stops them all.
+
+Neurons also do not fire in unison. Peak activity travels across the nucleus over the circadian cycle as a stereotyped spatial wave. Ensemble amplitude therefore depends on how tightly the population phases are clustered, not only on the amplitude of individual cells — which is why amplitude loss measured in an output rhythm (9.2.3) does not distinguish weaker oscillators from a more scattered population.
+
+Coupling strength governs a trade-off. A strongly coupled network is precise and resists perturbation: the SCN shifts slowly after an abrupt change in the light–dark cycle, which accounts for the multi-day course of re-entrainment after transmeridian travel, and it is not reset by the temperature rhythm it generates. Weakly coupled peripheral networks shift quickly and are reset by temperature and feeding. The hierarchy between central and peripheral oscillators follows from differing coupling strength rather than from any difference in the underlying molecular mechanism.
+
+### 3.4 Encoding of day length
+
+The phase distribution across the population is not fixed. Under long photoperiods the phases spread apart; under short photoperiods they cluster (VanderLeest et al., 2007). One subpopulation tracks dusk and another tracks dawn, and the interval between them widens and narrows with the season.
+
+Day length is therefore encoded in the width of the population distribution rather than in the state of any neuron, and the ensemble waveform broadens or narrows with it. The duration of the nightly melatonin signal follows directly (5.2), which is how a mammal reads the calendar.
+
+### 3.5 Dissociation under an abrupt shift
+
+Core and shell do not move together. After an abrupt advance of the light schedule the retinorecipient core re-entrains within a day or two while the shell takes about a week, and for several days the two regions run at different phases (Albus et al., 2005).
+
+This is the internal state underlying jet lag. The symptoms persist not because the pacemaker is slow but because it is transiently split, and every tissue downstream receives contradictory phase information for as long as the split lasts. Advances resolve more slowly than delays, which follows from τ exceeding 24 hours (1.2): the clock is being asked to move against its intrinsic drift.
+
+### 3.6 The limits of its authority
+
+The SCN sets phase. It does not execute the rhythms it times, and it holds no monopoly on circadian timekeeping.
+
+An SCN-lesioned animal is arrhythmic under constant conditions and yet still develops anticipatory activity in the hours before a scheduled meal. A food-entrainable oscillator exists outside the SCN; its anatomical locus has not been established, and it is the clearest demonstration that ablating the pacemaker removes coordination rather than the capacity to keep time.
+
+There is also no return channel. The SCN receives no report of where any peripheral tissue currently sits, which is what makes its output a broadcast rather than a correction (5.1), and what allows a tissue to run free inside an otherwise entrained body.
+
+### 3.7 Efferent connections
 
 The SCN distributes timing information through autonomic outflow, through humoral signals — principally glucocorticoids — and through the daily body temperature rhythm. The multi-synaptic pathway to the pineal runs SCN → paraventricular nucleus → intermediolateral cell column → superior cervical ganglion → pineal.
+
+Direct projections are largely confined to the hypothalamus and adjacent structures: the subparaventricular zone, the dorsomedial hypothalamic nucleus, the paraventricular nucleus, and the preoptic area. Almost everything reaching the rest of the body is relayed, which is why the pacemaker's authority over a tissue depends on the integrity of a chain rather than of a single connection.
+
 ---
 
 
@@ -417,7 +452,7 @@ Melatonin functions as a signal of darkness rather than as a hypnotic, which acc
 
 **Duration encodes season.** Melatonin carries two quantities. Its onset marks the phase of the pacemaker. The length of the elevated period marks the length of the night, and that length changes with the season: long in winter, short in summer. Mammals read seasonal time from this duration, and it drives the annual cycles of reproduction, coat, and metabolism in seasonal species.
 
-Two populations within the SCN track dusk and dawn separately, and the interval between them widens and narrows with the photoperiod, which is what sets the duration of the melatonin signal. Under artificial light the interval is compressed and held constant, so the duration reports a permanent short night regardless of the month. What a person experiences as a season is largely this duration, and indoor living removes it.
+The width of the SCN population phase distribution sets that duration (3.4). Under artificial light the interval is compressed and held constant, so the duration reports a permanent short night regardless of the month. What a person experiences as a season is largely this duration, and indoor living removes it.
 
 **The extrapineal pool.** Melatonin is synthesised well beyond the pineal: in the gastrointestinal tract in far greater total quantity than in the pineal, and in retina, skin, bone marrow, lymphocytes, thymus, gonads, and within mitochondria. Pinealectomy abolishes the circulating rhythm without eliminating tissue melatonin. Extrapineal melatonin is largely non-rhythmic and acts locally, functioning principally as an antioxidant.
 
