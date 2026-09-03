@@ -1,6 +1,6 @@
 # Circadian Organization
 
-## Foundations and Health
+*Foundations and Health*
 
 ---
 
@@ -15,8 +15,6 @@ The timekeeping is internal, and it is distributed. Individual organs hold clock
 That schedule keeps incompatible processes out of each other's way: repair separated from growth, storage from breakdown, cell division from the hours reserved for fixing damage. When light, food and sleep stop agreeing about the hour, the separation fails.
 
 ---
-
-
 
 ## 1. Scope and definitions
 
@@ -89,8 +87,6 @@ That schedule keeps incompatible processes out of each other's way: repair separ
 **Core body temperature minimum (CBTmin)** — the trough of the core temperature rhythm, falling approximately 7 hours after DLMO and 2 hours before waking. The reference point dividing the light phase response curve.
 
 ---
-
-
 
 ## 2. What oscillates
 
@@ -217,9 +213,8 @@ A rhythmic transcript in liver has three possible sources, and they have been se
 Some tissues hold no oscillator at all and report only the signal reaching them. The pineal is the clearest case — it has no autonomous clock, and melatonin output tracks sympathetic drive from the SCN. This is why DLMO is the reference phase marker: it reports pacemaker state with nothing local added. Plasma glucose and blood pressure are similarly driven, by feeding and by autonomic tone.
 
 The practical consequence is that a flattened peripheral rhythm does not localise the fault. It is produced by a damaged local oscillator, by loss of the systemic cue, or by their misalignment, and distinguishing them requires measuring the cue and the rhythm separately — which is why 12.6 logs intake timing alongside the glucose stream.
+
 ---
-
-
 
 ## 3. The central pacemaker
 
@@ -281,14 +276,11 @@ Direct projections are largely confined to the hypothalamus and adjacent structu
 
 ---
 
-
-
 ## 4. How the clock is set
 
 ### 4.1 Irradiance and dose–response
 
 The magnitude of the entraining signal depends on irradiance, spectral composition, duration, and timing.
-
 
 | Environment                         | Approximate illuminance  |
 | ----------------------------------- | ------------------------ |
@@ -297,7 +289,6 @@ The magnitude of the entraining signal depends on irradiance, spectral compositi
 | Well-lit interior                   | 300–500 lux              |
 | Domestic interior, evening          | 50–200 lux               |
 | Threshold for melatonin suppression | approximately 30–100 lux |
-
 
 Phase shift magnitude and melatonin suppression follow a saturating function of the logarithm of irradiance. Half-maximal melatonin suppression occurs at illuminances on the order of a hundred lux, well below ordinary interior lighting, and the curve is steepest at the low end of its range.
 
@@ -379,13 +370,11 @@ Kruse (2012) states the prediction that photoreception is not confined to the ey
 
 For light in humans:
 
-
 | Timing relative to core temperature minimum                 | Effect                                       |
 | ----------------------------------------------------------- | -------------------------------------------- |
 | Several hours before (biological evening and early night)   | Phase delay                                  |
 | Immediately after (biological late night and early morning) | Phase advance                                |
 | Mid-subjective day                                          | Minimal phase shift; amplitude reinforcement |
-
 
 Core body temperature minimum falls approximately 1–3 hours before habitual wake time. Light received before this point delays the clock; light received after it advances the clock. Magnitude scales with irradiance, duration, and spectral composition, and saturates at high intensity.
 
@@ -406,8 +395,6 @@ Light is the dominant cue for the pacemaker. Three further cues reach peripheral
 **The retina** is exceptional among peripheral tissues in entraining directly to light and maintaining autonomous rhythmicity while supplying the central signal.
 
 ---
-
-
 
 ## 5. Hierarchy and control
 
@@ -528,19 +515,19 @@ Circadian gating of the **cell cycle** operates partly through PER2, with downst
 
 Kruse (2011) identifies the coupling of circadian and cell cycles as the mechanism linking disrupted timing to oncogenesis, and Kruse (2016, 2018) develops this into the position that malignancy is fundamentally a disorder of timing: sustained failure of temporal control removes the constraint separating proliferation from repair, and the resulting genomic changes are consequences rather than causes.
 
+---
+
 # PART II — CIRCADIAN DISRUPTION
 
 Under a solar cycle every signal that sets the clock agrees. In the modern environment they separate: artificial light after dark, meals at uncoordinated hours, irregular waking. The clock receives contradictory input, the systems it held together drift apart, and synchrony breaks down.
+
 ---
-
-
 
 ## 6. Mechanisms of harm
 
 ### 6.1 Loss of temporal segregation
 
 Circadian organisation separates incompatible processes in time. These pairs are normally phase-separated; disruption permits overlap, and overlap raises error rates.
-
 
 | Process         | Normally separated from   | Consequence of overlap                     |
 | --------------- | ------------------------- | ------------------------------------------ |
@@ -549,7 +536,6 @@ Circadian organisation separates incompatible processes in time. These pairs are
 | Proliferation   | Inflammation              | Growth amid damage signalling              |
 | Feeding         | Insulin sensitivity nadir | Glycaemic load at the least tolerant phase |
 | Replication     | Oxidative stress peak     | Mutation during synthesis                  |
-
 
 Four further consequences follow from the same loss. Repair windows are mistimed, and autophagy and mitophagy fall with them. Nocturnal immune coordination weakens and inflammatory tone becomes chronic. Metabolic gating is lost and glycolytic bias sets in. Rhythmic expression of adhesion molecules is lost, destabilising tissue architecture. Genomic instability, dysregulated metabolism, and chronic inflammation then act together on initiation, growth, invasion, and metastasis.
 
@@ -576,8 +562,6 @@ The sequence is his own and unestablished. It is testable: it predicts that ocul
 The claim is checkable with the protocol in 13. The baseline yields a within-person standard deviation for every metric, which is what fixes how large a change has to be before it counts as movement. Precedence then means the cortisol slope in 11.3 leaves its own baseline interval before any other tracked metric leaves its own, in the same person, under a known change in exposure. Nothing in the published record establishes it.
 
 ---
-
-
 
 ## 7. Cancer
 
@@ -622,8 +606,6 @@ Kruse (2011, 2015, 2016) runs a single chain from the light environment to malig
 **The ranking.** Cancer is on this account an epigenetic disease of light, and the terminal entry in the staging sequence of 6.5 — the point at which both arms of the coupled system have failed. Mutation accumulates as a consequence of replication and repair proceeding at the wrong phase, which makes the light environment carcinogenic in the sense a chemical is. The mainstream position holds the mechanisms of 7.1 to 7.3 as contributory alongside direct genotoxic, inherited, and infectious routes. What separates the two is the weight assigned, and three claims carry it: the elevation of marking rate to master variable, the reading of Warburg metabolism as a brake, and the route from the protein economy to the cell cycle gate.
 
 ---
-
-
 
 ## 8. Evidence
 
@@ -710,17 +692,11 @@ Four independent lines converge.
 
 ---
 
----
-
-
-
 # PART III — CIRCADIAN HEALTH
 
 Humans evolved under a solar cycle: light by day, darkness by night, and eating and activity at fixed hours. Physiology took that periodicity as its input and built programmes on it — melatonin, cortisol, body temperature, glucose handling, cell division.
 
 ---
-
-
 
 ## 9. Defining circadian health
 
@@ -790,16 +766,11 @@ Stability is defined over a series of days and has no single-day value.
 
 ---
 
-
-
 ## 10. The internal phase map
-
-
 
 ### 10.1 The hormonal day
 
 Approximate mean values for adults conventionally entrained to a 23:00–07:00 sleep schedule, drawn from constant-routine and forced-desynchrony studies. Individual variation is substantial, and the reproducible quantity is the interval between markers rather than the clock time of any one of them.
-
 
 | Variable                              | Approximate phase                                                                     |
 | ------------------------------------- | ------------------------------------------------------------------------------------- |
@@ -824,7 +795,6 @@ Approximate mean values for adults conventionally entrained to a 23:00–07:00 s
 | Alertness and cognitive throughput    | bimodal, with a post-prandial trough and an evening peak preceding the melatonin rise |
 | Epithelial proliferation              | DNA synthesis and mitosis gated to separate restricted windows                        |
 
-
 These offsets encode an anticipatory program. Cortisol rises hours before waking so that fuel is mobilised before it is required. The temperature minimum precedes waking and anchors the phase response curve, light before it delaying and light after it advancing. Melatonin marks the biological night and simultaneously suppresses insulin secretion, so that the metabolic consequence of a meal depends on whether melatonin is present when it is eaten. The antiphase relationship between melatonin and cortisol is the most visible instance of a general rule rather than a special case.
 
 Healthy variation moves the whole map while preserving its internal structure. Chronotype displaces every marker earlier or later by up to several hours without altering the offsets between them. Seasonal photoperiod changes the width of the melatonin window rather than its relationship to sleep. Within the pacemaker itself, day length is encoded by the degree of phase dispersion among SCN neurons — longer days producing a wider spread of individual neuronal phases — so that phase relationships within the network carry the seasonal signal directly.
@@ -833,12 +803,9 @@ Pathology is the alteration of the offsets themselves.
 
 ---
 
-
-
 ### 10.2 The spectral day
 
 The table above maps the day in hormonal terms. Kruse (2016, 2022) maps the same day in spectral terms, and the two run in parallel.
-
 
 | Interval                         | Spectrum reaching the eye                             | Claimed function                                      |
 | -------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
@@ -848,18 +815,13 @@ The table above maps the day in hormonal terms. Kruse (2016, 2022) maps the same
 | Afternoon and sunset             | Ultraviolet withdraws, red and infrared return        | Closes the sequence                                   |
 | After dark                       | No light                                              | Serotonin converted to melatonin                      |
 
-
 The ordering is a real property of atmospheric path length and solar elevation, and the UVB threshold is correct: below roughly 30° elevation, atmospheric absorption removes essentially all of it, which is why UVB is unavailable at high latitude for part of the year.
 
 What is his, and unsupported, is that the *sequence itself* carries information beyond its components — that receiving the same total irradiance in a different order produces a different biological result. Stated as a measurement, this is why 14.2 logs ultraviolet index against outdoor intervals separately from melanopic EDI: melanopic weighting is blind to spectral order by construction.
 
 ---
 
-
-
 ## 11. Metrics
-
-
 
 ### 11.1 Health
 
@@ -951,8 +913,6 @@ These have no validated diagnostic cut-point. Each still carries a target, so th
 
 ---
 
-
-
 ## 12. Raw measurements
 
 Every metric in section 11 is computed from these streams. Seven run continuously; five are collected once or on a short schedule.
@@ -961,25 +921,23 @@ Every metric in section 11 is computed from these streams. Seven run continuousl
 
 ### 12.1 Acceleration
 
-**Device.** Triaxial accelerometer  
-**Placement.** Non-dominant wrist  
-**Sampling.** Raw 25–100 Hz, or 30–60 s epochs  
-**Duration.** ≥14 days; 28 days preferred  
-**Timing.** Continuous, including sleep  
+**Device.** Triaxial accelerometer
+**Placement.** Non-dominant wrist
+**Sampling.** Raw 25–100 Hz, or 30–60 s epochs
+**Duration.** ≥14 days; 28 days preferred
+**Timing.** Continuous, including sleep
 
 - Record raw where storage allows. Raw permits recomputing any epoch length later; binned data does not.
 - Include both work days and free days. The regularity metrics require both.
 - Detect non-wear and exclude those intervals. A removed device reads as perfect rest and inflates relative amplitude and the Sleep Regularity Index.
 
-
-
 ### 12.2 Light
 
-**Device.** Melanopic-capable or spectrally resolved sensor  
-**Placement.** Eye level — spectacle clip or pendant  
-**Sampling.** 1 min epochs, mean and maximum  
-**Duration.** ≥14 days  
-**Timing.** All waking hours, plus the sleep period at the pillow  
+**Device.** Melanopic-capable or spectrally resolved sensor
+**Placement.** Eye level — spectacle clip or pendant
+**Sampling.** 1 min epochs, mean and maximum
+**Duration.** ≥14 days
+**Timing.** All waking hours, plus the sleep period at the pillow
 
 - Record melanopic EDI. A photopic lux meter cannot produce the thresholds in 11.2.
 - Retain the full spectrum where the sensor resolves it. Equal melanopic EDI with a different short-to-long ratio drives the pathway differently.
@@ -988,80 +946,67 @@ Every metric in section 11 is computed from these streams. Seven run continuousl
 - Sensor range: 100,000 lx without saturating, resolution below 1 lx.
 - Confirm epoch length and stored statistic before recording. Firmware binning cannot be undone.
 
-
-
 ### 12.3 Skin temperature
 
-**Device.** Wrist thermistor; second sensor for the distal–proximal gradient  
-**Placement.** Wrist, plus ankle or infraclavicular chest  
-**Sampling.** 1 min epochs at 0.1 °C  
-**Duration.** ≥14 days  
-**Timing.** Continuous  
+**Device.** Wrist thermistor; second sensor for the distal–proximal gradient
+**Placement.** Wrist, plus ankle or infraclavicular chest
+**Sampling.** 1 min epochs at 0.1 °C
+**Duration.** ≥14 days
+**Timing.** Continuous
 
 - Add the second sensor where the gradient is required.
 - Log ambient temperature alongside. The signal moves with room temperature and bedding.
 - For phase without masking, use an ingestible core capsule for one 24-hour period.
 
-
-
 ### 12.4 Cardiac
 
-**Device.** PPG or ECG patch  
-**Placement.** Wrist or chest  
-**Sampling.** Beat-to-beat intervals  
-**Duration.** ≥14 days  
-**Timing.** Continuous  
+**Device.** PPG or ECG patch
+**Placement.** Wrist or chest
+**Sampling.** Beat-to-beat intervals
+**Duration.** ≥14 days
+**Timing.** Continuous
 
 - Extract the nocturnal heart rate minimum, its clock time, and the amplitude of the HRV rhythm.
 - Log alcohol, illness, and training load. Each displaces both.
 
-
-
 ### 12.5 Interstitial glucose
 
-**Device.** Continuous glucose monitor  
-**Placement.** Upper arm or abdomen  
-**Sampling.** 1–5 min  
-**Duration.** ≥14 days  
-**Timing.** Continuous, concurrent with the intake log  
+**Device.** Continuous glucose monitor
+**Placement.** Upper arm or abdomen
+**Sampling.** 1–5 min
+**Duration.** ≥14 days
+**Timing.** Continuous, concurrent with the intake log
 
 - Do not read the free-living 24-hour curve as a rhythm. Its acrophase reports when the person ate. Use two windows instead.
 - **Overnight fasted window.** Take the nocturnal nadir and the onset of the pre-waking rise. Valid only where time since last intake exceeds 6 hours.
 - **Standardised probe.** Two identical meals, one within an hour of waking, one 10–12 hours later, on separate days. The ratio of the two postprandial excursions is the amplitude of the tolerance rhythm. Draw capillary insulin at 0, 30, 60, and 120 min to separate secretion from sensitivity.
 
-
-
 ### 12.6 Intake log
 
-**Device.** Photograph-based log  
-**Sampling.** Every caloric event, timestamped  
-**Duration.** ≥14 days  
-**Timing.** At the moment of intake  
+**Device.** Photograph-based log
+**Sampling.** Every caloric event, timestamped
+**Duration.** ≥14 days
+**Timing.** At the moment of intake
 
 - Photograph at the time. Do not reconstruct from recall.
 - Timing governs; composition is secondary.
 - Required covariate. The fasted glucose window is uninterpretable without time of last intake.
 
-
-
 ### 12.7 Ultraviolet index
 
-**Device.** Published forecast for the location, or a personal UV sensor  
-**Sampling.** Once per outdoor interval  
-**Duration.** ≥14 days  
-**Timing.** Start and end of every outdoor interval  
+**Device.** Published forecast for the location, or a personal UV sensor
+**Sampling.** Once per outdoor interval
+**Duration.** ≥14 days
+**Timing.** Start and end of every outdoor interval
 
 - Log at the time. The melanopic record carries no ultraviolet information, so the index cannot be recovered afterwards.
 
-
-
 ### 12.8 Capillary blood
 
-**Device.** Point-of-care immunoassay analyser  
-**Sampling.** 10–100 µL per assay  
-**Duration.** 3 sampling days  
-**Timing.** Per the schedule below; all series end at sleep onset  
-
+**Device.** Point-of-care immunoassay analyser
+**Sampling.** 10–100 µL per assay
+**Duration.** 3 sampling days
+**Timing.** Per the schedule below; all series end at sleep onset
 
 | Analyte   | Series                                                                  | Yields                                |
 | --------- | ----------------------------------------------------------------------- | ------------------------------------- |
@@ -1070,7 +1015,6 @@ Every metric in section 11 is computed from these streams. Seven run continuousl
 | Cortisol  | Waking, +30–45 min, midday, bedtime, over 3 days                        | Diurnal slope                         |
 | Insulin   | 0, 30, 60, 120 min after each probe meal                                | Tolerance rhythm, secretion component |
 | Leptin    | On waking and at bedtime                                                | Evening-to-morning ratio              |
-
 
 **Melatonin.** Plasma concentrations run roughly threefold saliva, so the DLMO threshold is approximately 10 pg/mL against 3–4 pg/mL in saliva; fix one medium and one threshold and hold both across repeat assessments. Sample under illumination below 10 lux with no emitting screens. Where the analyser menu excludes melatonin, collect dried blood spots or saliva across the same schedule for laboratory assay.
 
@@ -1086,55 +1030,47 @@ Every metric in section 11 is computed from these streams. Seven run continuousl
 - Analyser: coefficient of variation under 10% across the physiological range, verified at the low end. ≤100 µL per assay. Result under 20 minutes.
 - Confirm melatonin is on the analyser menu before purchase. It is the analyte most often absent.
 
-
-
 ### 12.9 Dried blood spot
 
-**Device.** Collection card, finger prick, posted to a laboratory  
-**Sampling.** Single sample, two assays  
-**Duration.** One day  
-**Timing.** Any day for omega-3; same season across assessments for vitamin D  
+**Device.** Collection card, finger prick, posted to a laboratory
+**Sampling.** Single sample, two assays
+**Duration.** One day
+**Timing.** Any day for omega-3; same season across assessments for vitamin D
 
 - One card, two assays. Request them together.
 - **Omega-3 index.** No fasting, no timing constraint. Erythrocyte membrane composition does not vary across the day.
 - **25-hydroxyvitamin D.** Record supplement use on the card. Supplementation raises the value without changing the exposure it stands proxy for.
 
-
-
 ### 12.10 Follicle
 
-**Device.** Plucked scalp or beard follicles  
-**Sampling.** 3 samples  
-**Duration.** One day  
-**Timing.** Spread across waking hours  
+**Device.** Plucked scalp or beard follicles
+**Sampling.** 3 samples
+**Duration.** One day
+**Timing.** Spread across waking hours
 
 - Assay *PER3*, *NR1D1*, and *NR1D2*.
 - Timestamp each sample against the melatonin series. The alignment metric in 11.3 is computed against DLMO.
 - A blood transcript panel substitutes, from the capillary stream.
 
-
-
 ### 12.11 Pupillometry
 
-**Device.** Chromatic pupillometer, blue stimulus near 480 nm  
-**Placement.** Monocular stimulus, both eyes recorded  
-**Sampling.** Continuous diameter through stimulus and ≥30 s after offset  
-**Duration.** Single session  
-**Timing.** Afternoon, after ≥10 min dark adaptation; same hour on repeat  
+**Device.** Chromatic pupillometer, blue stimulus near 480 nm
+**Placement.** Monocular stimulus, both eyes recorded
+**Sampling.** Continuous diameter through stimulus and ≥30 s after offset
+**Duration.** Single session
+**Timing.** Afternoon, after ≥10 min dark adaptation; same hour on repeat
 
 - Report diameter at 6 s post-offset as a percentage of dark-adapted baseline.
 - Record a red stimulus in the same session as control. Cone-driven constriction recovers within about a second; a normal red response with an attenuated blue one localises the deficit to the melanopsin pathway rather than the iris or the efferent limb.
 - Exclude: mydriatic or anticholinergic use, uncorrected media opacity.
 - Record age. Pupil size falls with age.
 
-
-
 ### 12.12 Indirect calorimetry
 
-**Device.** Metabolic cart or ventilated canopy  
-**Sampling.** 20–30 min of steady-state gas exchange per period  
-**Duration.** Two periods in one night  
-**Timing.** Early and late in the sleep period  
+**Device.** Metabolic cart or ventilated canopy
+**Sampling.** 20–30 min of steady-state gas exchange per period
+**Duration.** Two periods in one night
+**Timing.** Early and late in the sleep period
 
 - Standardise the evening meal in composition and timing. Substrate availability at sleep onset sets the starting quotient.
 - Record any nocturnal waking. The measurement is invalid across an arousal.
@@ -1142,18 +1078,13 @@ Every metric in section 11 is computed from these streams. Seven run continuousl
 
 ---
 
-
-
 ## 13. Acquisition
-
-
 
 ### 13.1 Baseline
 
 Four weeks, with no intervention attempted and no deliberate change to routine.
 
 Continuous streams start on day 0 and run without interruption. The episodic panel is collected twice, in week 2 and week 4.
-
 
 | Day   | Action                                                                                      |
 | ----- | ------------------------------------------------------------------------------------------- |
@@ -1167,7 +1098,6 @@ Continuous streams start on day 0 and run without interruption. The episodic pan
 | 26    | Probe meal, late                                                                            |
 | 27    | TSH and leptin                                                                              |
 | 28    | Melatonin series; follicle sampling                                                         |
-
 
 Four weeks rather than two for three reasons. The regularity metrics need several scheduled and free days to be representative. The drift estimate for entrainment improves with the square of the recording length. And two determinations of each episodic marker, taken two weeks apart with nothing changed between them, are what establish how much each measurement varies on its own.
 
@@ -1207,8 +1137,6 @@ Over years, the largest threat to the record is the instrument rather than the p
 
 ---
 
-
-
 ## 14. Limits
 
 The profile characterises the central pacemaker, one peripheral oscillator, and the behavioural and environmental variables that drive both. It does not resolve tissue-specific phase in liver, muscle, or immune cells, which requires biopsy or a validated tissue-specific transcript panel. Rhythmic transcript sets are largely non-overlapping between organs, so a normal glucose rhythm establishes hepatic and pancreatic alignment and does not generalise to other tissues.
@@ -1219,13 +1147,9 @@ The observation window is fourteen days. Seasonal variation in photoperiod, ampl
 
 ---
 
-
-
 # APPENDICES
 
 ---
-
-
 
 ## Kruse attribution index
 
