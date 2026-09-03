@@ -92,15 +92,13 @@ That schedule keeps incompatible processes out of each other's way: repair separ
 
 
 
-## 2. The oscillator
-
-
+## 2. What oscillates
 
 ### 2.1 Defining properties
 
 Self-sustained oscillation persists under constant darkness, constant temperature, and the absence of social cues. Isolated tissue, and isolated single cells, continue to oscillate for weeks in culture.
 
-Temperature compensation holds the period nearly constant across the physiological temperature range, although reaction rates in the underlying biochemistry vary with temperature in the ordinary way. The cancellation that produces this is described in 2.7.
+Temperature compensation holds the period nearly constant across the physiological temperature range, although reaction rates in the underlying biochemistry vary with temperature in the ordinary way. The cancellation that produces this is described in 2.6.
 
 Entrainment is phase-dependent. The magnitude and direction of the shift produced by a stimulus depend on the phase at which it arrives, described by the **phase response curve (PRC)**.
 
@@ -118,29 +116,7 @@ The measurable variables differ by level of organisation.
 
 Rhythmic transcripts within an organ do not all peak together. They cluster into successive waves across the day, each wave corresponding to a coordinated block of the tissue's function.
 
----
-
-
-
-### 2.3 The light phase response curve
-
-For light in humans:
-
-
-| Timing relative to core temperature minimum                 | Effect                                       |
-| ----------------------------------------------------------- | -------------------------------------------- |
-| Several hours before (biological evening and early night)   | Phase delay                                  |
-| Immediately after (biological late night and early morning) | Phase advance                                |
-| Mid-subjective day                                          | Minimal phase shift; amplitude reinforcement |
-
-
-Core body temperature minimum falls approximately 1–3 hours before habitual wake time. Light received before this point delays the clock; light received after it advances the clock. Magnitude scales with irradiance, duration, and spectral composition, and saturates at high intensity.
-
-Exogenous melatonin exhibits an approximately inverted PRC: administration in the biological evening advances phase, administration in the biological morning delays it.
-
-The PRC is the formal basis for all timing-dependent intervention. The same exposure is corrective or harmful according to when it is received.
-
-### 2.4 Amplitude and phase
+### 2.3 Amplitude and phase
 
 A strong rhythm is hard to shift. A weak one is easy. The same dose of light moves a flattened clock much further than a robust one.
 
@@ -152,13 +128,13 @@ This is also why daytime light decides how much harm evening light does. A morni
 
 Light at the wrong hour can destroy amplitude instead of shifting phase. Bright light near the core temperature minimum flattens the next melatonin rhythm rather than moving it, and at sufficient intensity suppresses it almost entirely (Jewett, Kronauer and Czeisler, 1991).
 
-### 2.5 The range of entrainment
+### 2.4 The range of entrainment
 
 A clock locks onto a driving cycle only if its own period is close enough to the driving period, and how close it has to be depends on how strong the signal is. A strong zeitgeber captures a wide range of periods, a weak one a narrow range.
 
 Two things follow. Under dim indoor light the range narrows, so someone whose intrinsic period sits far from 24 hours fails to entrain indoors and entrains normally outdoors. And where the clock settles within the day depends on both quantities together: a long period under a weak signal settles late. Late chronotype indoors is the output of that relation rather than a fixed trait, which is why a week under natural light advances phase and pulls the chronotypes together (Wright et al., 2013).
 
-### 2.6 The transcription–translation feedback loop
+### 2.5 The transcription–translation feedback loop
 
 The core molecular oscillator in mammals is a delayed negative feedback loop operating on a period of approximately 24 hours.
 
@@ -172,7 +148,7 @@ Cryptochrome carries a second, unrelated function as the leading candidate magne
 
 The output of this loop is the set of **clock-controlled genes**. Rhythmic transcripts are enriched for rate-limiting enzymes and pharmacological targets. Most rhythmic genes cycle in only one or two tissues; there is no single circadian program, but many tissue-specific programs sharing a timing reference.
 
-### 2.7 Determination of period
+### 2.6 Determination of period
 
 Period is set principally by imposed delays at the post-translational level: phosphorylation, nuclear entry, and regulated degradation.
 
@@ -192,7 +168,7 @@ Compensation is a property of the loop rather than of any single enzyme in it, w
 
 Kruse (2015) develops this observation into a general principle of cellular economics. Protein synthesis is the dominant energetic expenditure of eukaryotic cells, each peptide bond costing approximately five ATP — several times the cost of nucleotide polymerisation. Because ubiquitin marking governs the rate of that expenditure, and because clock proteins are themselves regulated by ubiquitin-mediated degradation, Kruse treats organism-wide ubiquitination rate as the principal quantity that circadian organisation exists to control. In this framing, chronic elevation of protein turnover — driven by signalling errors originating in the light environment — constitutes the common pathway from environmental mismatch to accelerated cellular ageing, replicative exhaustion, and telomere attrition. Kruse (2018) extends the same logic to interpret elevated fasting glucose as a marker of raised ubiquitination rate rather than solely of impaired fuel handling.
 
-### 2.8 Non-transcriptional oscillators
+### 2.7 Non-transcriptional oscillators
 
 Human erythrocytes are anucleate and transcriptionally inert. Maintained in buffer without substrate and in constant darkness, they sustain a 24-hour rhythm in peroxiredoxin oxidation state (O'Neill and Reddy, 2011). The same rhythm appears in bacteria, archaea and eukaryotes alike (Edgar et al., 2012). In cyanobacteria three purified proteins with ATP — KaiA, KaiB, KaiC — sustain a circadian rhythm in a test tube for days (Nakajima et al., 2005).
 
@@ -200,17 +176,17 @@ A second oscillator therefore underlies the transcriptional loop, older in evolu
 
 What oscillates is redox poise: the ratio of reduced to oxidised carrier across the shared NAD, NADP, glutathione and thioredoxin pools. Every reaction that consumes electrons draws from the same pool that every reaction producing them fills, so the ratio is a single intensive quantity, comparable to a voltage, coupling all metabolism simultaneously. Peroxiredoxin reports it.
 
-The rhythm arises because oxidation triggers the response that reverses it, and that response takes hours to arrive. Meal timing shifts its phase, which is the mechanism by which feeding entrains peripheral clocks (5.3).
+The rhythm arises because oxidation triggers the response that reverses it, and that response takes hours to arrive. Meal timing shifts its phase, which is the mechanism by which feeding entrains peripheral clocks (4.10).
 
-### 2.9 The origin of the redox signal
+### 2.8 The origin of the redox signal
 
 Respiratory electron transfer proceeds by quantum tunnelling between redox centres, at rates that fall exponentially with distance and become negligible beyond approximately 14 Å. The spacing of centres within and between respiratory complexes is held below that limit, which makes the arrangement of the chain a physical constraint rather than a matter of convenience, and makes supercomplex organisation and cristae geometry determinants of transfer efficiency.
 
-Superoxide production at complex I rises steeply with the mitochondrial membrane potential, particularly under reverse electron transport when the potential is high and the ubiquinone pool is reduced. Oxidant load is therefore a function of the thermodynamic state of the membrane rather than a fixed leak fraction, and the redox oscillation of 2.8 is driven by a quantity that responds within minutes to substrate supply and demand.
+Superoxide production at complex I rises steeply with the mitochondrial membrane potential, particularly under reverse electron transport when the potential is high and the ubiquinone pool is reduced. Oxidant load is therefore a function of the thermodynamic state of the membrane rather than a fixed leak fraction, and the redox oscillation of 2.7 is driven by a quantity that responds within minutes to substrate supply and demand.
 
 Inner membrane lipid composition modulates both. Cardiolipin is required for supercomplex assembly and for the activity of several complexes, and the degree of unsaturation of membrane fatty acids alters proton permeability and the packing environment of the respiratory chain. Kruse (2015) builds on this in treating docosahexaenoic acid as a determinant of the gain of light-driven signalling, on the ground that the highly unsaturated membranes of retina and neural tissue are the ones in which photic signal transduction occurs.
 
-### 2.10 Coupling of the redox and transcriptional oscillators
+### 2.9 Coupling of the redox and transcriptional oscillators
 
 The two systems are reciprocally connected rather than arranged as master and slave.
 
@@ -221,6 +197,29 @@ The dependency runs in both directions. Peroxiredoxin and redox rhythms persist 
 Circadian organisation is therefore layered: a redox-based oscillator of great evolutionary antiquity, running on the chemistry of fuel oxidation and requiring no genome, overlaid by a transcriptional loop that provides amplification, tissue-specific outputs, and the interface through which photic input entrains the whole system.
 
 Kruse (2013) treats this architecture as foundational rather than peripheral. If timekeeping precedes and outlasts gene expression, then the genome cannot be the timekeeper; genes amplify and stabilise a timing signal that originates elsewhere. On this account circadian control is imposed by the physical environment on cellular redox state, and transcriptional machinery is downstream of, and subordinate to, that imposed rhythm. Kruse (2023) restates the principle in general form: environmental electromagnetic input determines gene expression rather than the reverse, and disorders arising from disrupted timing will therefore present without any alteration to DNA sequence.
+
+### 2.10 Distribution
+
+Essentially every nucleated cell contains a functional transcription–translation feedback loop. Liver, gut, pancreas, adipose tissue, skeletal muscle, kidney, skin, and immune cells all oscillate autonomously in culture.
+
+The SCN synchronises these oscillators, holding a common phase across tissues whose individual periods differ.
+
+### 2.11 What drives a tissue rhythm
+
+A rhythmic transcript in liver has three possible sources, and they have been separated by deleting the clock in one organ while leaving the rest of the animal intact.
+
+**The local oscillator.** Explanted liver, lung, and pituitary continue to oscillate in culture for weeks with no external input, so the oscillator is intrinsic to the tissue rather than imposed on it.
+
+**Systemic cues.** In liver-specific *Bmal1* knockouts the majority of hepatic transcript rhythms persist, driven by feeding time, body temperature, and glucocorticoid rhythm. Only a minority require the local clock. The same result appears from the other direction: imposing a rhythmic feeding schedule on clock-deficient animals restores a large fraction of liver rhythms.
+
+**Both together.** A third set requires the local clock and a systemic signal simultaneously, and is lost when either is removed. The adrenal works this way: it carries its own clock and receives ACTH drive, so the cortisol rhythm reflects central timing gated by a local oscillator.
+
+Some tissues hold no oscillator at all and report only the signal reaching them. The pineal is the clearest case — it has no autonomous clock, and melatonin output tracks sympathetic drive from the SCN. This is why DLMO is the reference phase marker: it reports pacemaker state with nothing local added. Plasma glucose and blood pressure are similarly driven, by feeding and by autonomic tone.
+
+The practical consequence is that a flattened peripheral rhythm does not localise the fault. It is produced by a damaged local oscillator, by loss of the systemic cue, or by their misalignment, and distinguishing them requires measuring the cue and the rhythm separately — which is why 12.6 logs intake timing alongside the glucose stream.
+---
+
+
 
 ## 3. The central pacemaker
 
@@ -245,14 +244,11 @@ Coupling strength governs a trade-off. A strongly coupled network is precise and
 ### 3.3 Efferent connections
 
 The SCN distributes timing information through autonomic outflow, through humoral signals — principally glucocorticoids — and through the daily body temperature rhythm. The multi-synaptic pathway to the pineal runs SCN → paraventricular nucleus → intermediolateral cell column → superior cervical ganglion → pineal.
-
 ---
 
 
 
-## 4. Photic input
-
-
+## 4. External cues
 
 ### 4.1 The non-image-forming pathway
 
@@ -270,13 +266,31 @@ Rods and cones contribute to entrainment through convergence onto ipRGCs, partic
 
 Clinically, individuals blind from outer retinal disease but retaining intact ipRGCs entrain normally despite absent visual perception. Individuals lacking all light perception free-run with τ slightly exceeding 24 hours, producing **non-24-hour sleep–wake disorder**, in which sleep timing drifts progressively later and cycles in and out of alignment over weeks.
 
-### 4.2 The retina as a timing organ
+### 4.2 The light phase response curve
 
-Kruse (2015) makes the functional separation between the two retinal systems the organising principle of the entire framework: the eye is a clock before it is a camera, and its timing function is hierarchically superior to its imaging function. Under this framing the inner retina constitutes the top of a control hierarchy governing every downstream oscillator, and ocular pathology reports on the state of that hierarchy. The consequences are taken up in section 10.
+For light in humans:
+
+
+| Timing relative to core temperature minimum                 | Effect                                       |
+| ----------------------------------------------------------- | -------------------------------------------- |
+| Several hours before (biological evening and early night)   | Phase delay                                  |
+| Immediately after (biological late night and early morning) | Phase advance                                |
+| Mid-subjective day                                          | Minimal phase shift; amplitude reinforcement |
+
+
+Core body temperature minimum falls approximately 1–3 hours before habitual wake time. Light received before this point delays the clock; light received after it advances the clock. Magnitude scales with irradiance, duration, and spectral composition, and saturates at high intensity.
+
+Exogenous melatonin exhibits an approximately inverted PRC: administration in the biological evening advances phase, administration in the biological morning delays it.
+
+The PRC is the formal basis for all timing-dependent intervention. The same exposure is corrective or harmful according to when it is received.
+
+### 4.3 The retina as a timing organ
+
+Kruse (2015) makes the functional separation between the two retinal systems the organising principle of the entire framework: the eye is a clock before it is a camera, and its timing function is hierarchically superior to its imaging function. Under this framing the inner retina constitutes the top of a control hierarchy governing every downstream oscillator, and ocular pathology reports on the state of that hierarchy. The consequences are taken up in section 9.
 
 The clinical corollaries Kruse (2016) draws from this position govern much of the protocol: light must reach the retina unfiltered, since spectacles, contact lenses, sunglasses, windscreens, and window glass each remove portions of the spectrum that the non-image-forming system requires; and exposure must occur at the times when the required frequencies are present in terrestrial sunlight.
 
-### 4.3 Chromophore stability
+### 4.4 Chromophore stability
 
 Melanopsin binds the chromophore **retinal** through a Schiff base linkage. This linkage is comparatively susceptible to spontaneous cleavage in mammals, and is particularly unstable in human melanopsin.
 
@@ -284,7 +298,7 @@ Melanopsin is also photo-regenerating. The pigment interconverts between resting
 
 Kruse (2018) builds a mechanism of photoreceptor injury on this instability. Excess short-wavelength exposure, particularly in the absence of the balancing red and infrared frequencies present in natural light, liberates retinal from its protein. Free retinal is a reactive aldehyde and an efficient photosensitiser, and in the free state damages chromophores throughout the photoreceptive apparatus. Damaged chromophores no longer absorb light at their design frequencies, degrading the optical signalling on which timing depends. Kruse (2018) identifies this as the proximate lesion underlying the blue light hazard.
 
-### 4.4 Additional opsins
+### 4.5 Additional opsins
 
 **OPN5 (neuropsin)** is sensitive to ultraviolet and violet light and photoentrains local oscillators in the retina and cornea independently of melanopsin (Buhr et al., 2015).
 
@@ -292,7 +306,7 @@ Kruse (2016) assigns neuropsin a central role in tissue regeneration, proposing 
 
 Opsins are expressed outside the eye. **OPN4** and **OPN3** are present in skin, and **OPN3** in adipocytes, where light exposure modulates lipolysis. Kruse (2012) predicted extra-ocular photoreception in skin and subsequently in subcutaneous adipose tissue on the grounds that the cold and light protocols produced systemic effects too rapid and too large to be mediated through the eye alone.
 
-### 4.5 Membrane substrate
+### 4.6 Membrane substrate
 
 Docosahexaenoic acid (DHA) is concentrated in photoreceptor outer segments and synaptic membranes to a degree unmatched elsewhere in the body, and constitutes approximately half of central nervous system polyunsaturated fatty acid. Retinal DHA content exceeds that of brain. Despite the availability of docosapentaenoic acid, which differs by a single double bond and is both cheaper to synthesise and less susceptible to peroxidation, DHA has not been substituted at these positions across approximately 600 million years of eukaryotic evolution.
 
@@ -300,7 +314,7 @@ DHA-rich phospholipids provide the membrane environment permitting G-protein-cou
 
 Kruse (2015) treats DHA concentration as the gain control of the circadian system. Because melanopsin is a G-protein-coupled photopigment dependent on its lipid environment, and because DHA is subject to photo-oxidative destruction by short-wavelength light, tissue DHA status sets the fidelity with which light is transduced into a timing signal. Kruse (2015) accordingly holds that dietary DHA sufficiency is a prerequisite for circadian function rather than a general nutritional recommendation, and that DHA loss and light injury are mutually reinforcing.
 
-### 4.6 Irradiance and dose–response
+### 4.7 Irradiance and dose–response
 
 The magnitude of the entraining signal depends on irradiance, spectral composition, duration, and timing.
 
@@ -326,17 +340,17 @@ Indoor daytime illuminance is one to two orders of magnitude below the level tha
 
 The compression is bilateral: the daytime signal is reduced by three orders of magnitude and the night signal raised by four. Either alone reduces the contrast; together they reduce it to a fraction of the natural value, and oscillator amplitude follows the contrast. Measurement and intervention are therefore directed at the ratio rather than at either level in isolation.
 
-### 4.7 Spectral composition
+### 4.8 Spectral composition
 
 Spectral composition varies systematically through the solar day. At sunrise and sunset the solar disc is viewed through maximal atmospheric path length, and the spectrum reaching the eye is dominated by red and near-infrared frequencies with minimal ultraviolet. Ultraviolet A appears as solar elevation increases; ultraviolet B becomes available only above a solar elevation of approximately 30 degrees, and therefore only during the hours surrounding solar noon, and at higher latitudes only during part of the year.
 
-Kruse (2016, 2022) organises the protocol around this sequence. The ordered daily progression from infrared and red, through ultraviolet A, to ultraviolet B constitutes the signal the system evolved to read, and the sequence carries information that no single component reproduces. Viewing the sunrise establishes the phase reference; subsequent exposure as ultraviolet becomes available supplies the frequencies required for the photochemical steps in 4.4 and 6.1. Kruse (2022) specifies exposure beginning at sunrise and continuing as ultraviolet becomes available, using ultraviolet index 1 as the practical threshold for UVA availability.
+Kruse (2016, 2022) organises the protocol around this sequence. The ordered daily progression from infrared and red, through ultraviolet A, to ultraviolet B constitutes the signal the system evolved to read, and the sequence carries information that no single component reproduces. Viewing the sunrise establishes the phase reference; subsequent exposure as ultraviolet becomes available supplies the frequencies required for the photochemical steps in 4.5 and 5.2. Kruse (2022) specifies exposure beginning at sunrise and continuing as ultraviolet becomes available, using ultraviolet index 1 as the practical threshold for UVA availability.
 
 Ordinary window glass transmits visible light while removing essentially all ultraviolet B, the majority of ultraviolet A, and a substantial fraction of infrared A. Kruse (2019) treats indoor daytime occupancy as spectral truncation rather than merely reduced intensity: the light reaching the retina indoors is not a weaker version of sunlight but a different signal, retaining the short-wavelength component that suppresses melatonin while omitting the components that drive the compensating photochemistry.
 
 The dose required to produce a given effect varies with the receiver. Constitutive melanin density determines the ultraviolet dose needed for equivalent cutaneous photochemistry, and therefore the exposure appropriate at a given latitude and season. Kruse (2015, 2022) treats latitude, season, and pigmentation as jointly determining the appropriate exposure, and holds that dietary composition should correspond to the photoperiod and latitude in which it is consumed, on the grounds that carbohydrate availability historically covaried with long photoperiod and that the two signals are read together.
 
-### 4.8 Tissue optics
+### 4.9 Tissue optics
 
 Absorption and scattering in tissue vary strongly with wavelength. Between approximately 650 and 1350 nm, haemoglobin absorption has fallen and water absorption has not yet risen, producing an optical window in which penetration is greatest. Blue light is attenuated within a fraction of a millimetre of the skin surface; red penetrates several millimetres; near infrared penetrates centimetres.
 
@@ -344,75 +358,27 @@ Extraocular photoreception is therefore constrained by wavelength. Short-wavelen
 
 Kruse (2012) states the prediction that photoreception is not confined to the eye and that skin and subcutaneous tissue respond directly to light; the opsin findings establish the general claim, and the wavelength constraint sets its limits.
 
----
+### 4.10 Non-photic cues
 
-
-
-## 5. Peripheral oscillators and internal synchrony
-
-
-
-### 5.1 Distribution
-
-Essentially every nucleated cell contains a functional transcription–translation feedback loop. Liver, gut, pancreas, adipose tissue, skeletal muscle, kidney, skin, and immune cells all oscillate autonomously in culture.
-
-The SCN synchronises these oscillators, holding a common phase across tissues whose individual periods differ.
-
-```
-                    ┌─────────────┐
-                    │     SCN     │  ← receives light directly
-                    │  (central)  │     most phase-stable oscillator
-                    └──────┬──────┘
-                           │  neural + endocrine output
-           ┌───────────────┼───────────────┐
-           ▼               ▼               ▼
-     ┌──────────┐   ┌──────────┐   ┌──────────┐
-     │  Liver   │   │   Gut    │   │  Muscle  │  ← peripheral: entrained by
-     │  clock   │   │  clock   │   │  clock   │    SCN output + local cues
-     └──────────┘   └──────────┘   └──────────┘
-           │               │               │
-           └───────────────┼───────────────┘
-                           ▼
-                 desynchronise when cues conflict
-```
-
-
-
-### 5.2 What drives a tissue rhythm
-
-A rhythmic transcript in liver has three possible sources, and they have been separated by deleting the clock in one organ while leaving the rest of the animal intact.
-
-**The local oscillator.** Explanted liver, lung, and pituitary continue to oscillate in culture for weeks with no external input, so the oscillator is intrinsic to the tissue rather than imposed on it.
-
-**Systemic cues.** In liver-specific *Bmal1* knockouts the majority of hepatic transcript rhythms persist, driven by feeding time, body temperature, and glucocorticoid rhythm. Only a minority require the local clock. The same result appears from the other direction: imposing a rhythmic feeding schedule on clock-deficient animals restores a large fraction of liver rhythms.
-
-**Both together.** A third set requires the local clock and a systemic signal simultaneously, and is lost when either is removed. The adrenal works this way: it carries its own clock and receives ACTH drive, so the cortisol rhythm reflects central timing gated by a local oscillator.
-
-Some tissues hold no oscillator at all and report only the signal reaching them. The pineal is the clearest case — it has no autonomous clock, and melatonin output tracks sympathetic drive from the SCN. This is why DLMO is the reference phase marker: it reports pacemaker state with nothing local added. Plasma glucose and blood pressure are similarly driven, by feeding and by autonomic tone.
-
-The practical consequence is that a flattened peripheral rhythm does not localise the fault. It is produced by a damaged local oscillator, by loss of the systemic cue, or by their misalignment, and distinguishing them requires measuring the cue and the rhythm separately — which is why 15.6 logs intake timing alongside the glucose stream.
-
-### 5.3 Peripheral zeitgebers
-
-Seven signals carry timing from the pacemaker and the environment to peripheral tissue.
+Light is the dominant cue for the pacemaker. Three further cues reach peripheral tissue directly, and can drive it against the pacemaker's signal.
 
 **Feeding time** is the dominant zeitgeber for hepatic and gastrointestinal oscillators. Restricted feeding at a phase opposed to the light–dark cycle uncouples the liver clock from the SCN entirely, shifting hepatic gene expression within days while the SCN, entrained by light, remains in place (Damiola et al., 2000; Stokkan et al., 2001). In humans, delaying meals by five hours delays adipose tissue clock gene rhythms without shifting central phase markers (Wehrens et al., 2017).
 
-**Temperature.** The SCN-driven body temperature rhythm entrains peripheral oscillators. Peripheral clocks are resettable by temperature while the SCN itself is not, preventing the master oscillator from being reset by its own output (Buhr, Yoo and Takahashi, 2010).
-
-**Glucocorticoids.** The daily cortisol pulse acts on glucocorticoid receptors present in most tissues, and is the broadest single synchronising signal the pacemaker emits.
-
-**Autonomic outflow.** Sympathetic and parasympathetic tone vary across the day and reach every organ, including the sympathetic pathway that drives pineal melatonin synthesis.
-
-**Melatonin.** Acting through MT1 and MT2 receptors, it carries the darkness signal to tissues including the pancreatic beta cell.
-
-**Nutrient state.** Insulin, glucose, and the NAD⁺/SIRT1 and AMPK pathways report feeding at the level of cellular metabolism rather than as a behavioural event (6.8).
+**Nutrient state.** Insulin, glucose, and the NAD⁺/SIRT1 and AMPK pathways report feeding at the level of cellular metabolism rather than as a behavioural event (5.9).
 
 **Activity and mechanical load.** Locomotion, and the oxygen and mechanical cues accompanying it, shift muscle and cardiovascular oscillators.
 
 **The retina** is exceptional among peripheral tissues in entraining directly to light and maintaining autonomous rhythmicity while supplying the central signal.
 
-### 5.4 Hierarchy and override
+---
+
+
+
+## 5. Hierarchy and control
+
+The pacemaker emits five signals: melatonin, cortisol, body temperature, autonomic outflow, and thyrotropin. The processes those signals gate follow from 5.7.
+
+### 5.1 Broadcast and override
 
 ```
     LIGHT (dominant zeitgeber)
@@ -443,15 +409,7 @@ Three consequences follow. Tissues settle at different phase angles to the same 
 
 > **Key.** When cues conflict chronically — bright light at night with daytime feeding — subsystems drift apart. The clocks still run. They disagree.
 
----
-
-
-
-## 6. Output pathways
-
-The pacemaker emits five signals: melatonin, cortisol, body temperature, autonomic outflow, and thyrotropin. The processes those signals gate follow from 6.6.
-
-### 6.1 Melatonin
+### 5.2 Melatonin
 
 Pineal melatonin is synthesised from serotonin, with **AANAT** as rate-limiting enzyme, under SCN control through the pathway described in 3.3. Secretion occurs only in darkness and is acutely suppressed by light. **Dim light melatonin onset** is the reference marker of circadian phase.
 
@@ -467,31 +425,33 @@ Kruse (2022) makes mitochondrial melatonin central. Melatonin is both lipid- and
 
 Kruse (2022) further proposes the daily photochemical sequence: morning ultraviolet exposure supplies the energy for conversion of tryptophan toward serotonin, with neuropsin setting the rhythm; the accumulated serotonin pool is converted to melatonin in darkness. Under this model the quantity of melatonin available at night is determined by the ultraviolet exposure received that morning, and darkness alone is insufficient if the daytime signal was absent.
 
-### 6.2 Cortisol
+### 5.3 Cortisol
 
-Cortisol rises steeply in the period preceding waking and peaks approximately 30–45 minutes after waking, declining across the day to a nadir near midnight. The cortisol awakening response is SCN-driven through the hypothalamic–pituitary–adrenal axis and functions as a synchronising signal to peripheral oscillators.
+Cortisol rises steeply in the period preceding waking and peaks approximately 30–45 minutes after waking, declining across the day to a nadir near midnight. The cortisol awakening response is SCN-driven through the hypothalamic–pituitary–adrenal axis and functions as a synchronising signal to peripheral oscillators. Glucocorticoid receptors are present in most tissues, which makes the daily cortisol pulse the broadest single signal the pacemaker emits.
 
-Kruse (2012) treats the morning cortisol peak as the terminal step of a sequence initiated by photic input. The precedence he assigns to the flattened profile is in 10.
+Kruse (2012) treats the morning cortisol peak as the terminal step of a sequence initiated by photic input. The precedence he assigns to the flattened profile is in 9.
 
-### 6.3 Body temperature
+### 5.4 Body temperature
 
-Core body temperature oscillates with an amplitude of approximately 1°C, reaching its minimum 1–3 hours before habitual wake time. It serves both as a phase marker and, as described in 5.2, as a zeitgeber for peripheral oscillators.
+Core body temperature oscillates with an amplitude of approximately 1°C, reaching its minimum 1–3 hours before habitual wake time. It serves both as a phase marker and, as described in 2.11, as a zeitgeber for peripheral oscillators.
 
-### 6.4 Autonomic outflow
+Peripheral clocks are resettable by temperature while the SCN itself is not, which prevents the master oscillator from being reset by its own output (Buhr, Yoo and Takahashi, 2010).
+
+### 5.5 Autonomic outflow
 
 The SCN reaches the periphery directly through the autonomic nervous system, by way of the subparaventricular zone and the paraventricular nucleus to preganglionic sympathetic and parasympathetic neurons. This is the route to the pineal described in 3.3, and equally the route to liver, pancreas, adrenal cortex, and adipose tissue, carrying phase information independently of any circulating hormone. Denervation of a target organ alters that organ's rhythm while leaving the SCN intact.
 
 Sympathetic tone rises in the hours before waking; parasympathetic tone dominates during night sleep. Heart rate and blood pressure follow, with a morning surge and a nocturnal fall of 10–20%. High-frequency heart rate variability, which indexes vagal activity, peaks during night sleep. A nocturnal blood pressure fall below 10% — **non-dipping** — is the established marker of a flattened autonomic rhythm and predicts cardiovascular events independently of daytime pressure.
 
-### 6.5 Thyrotropin
+### 5.6 Thyrotropin
 
 **Thyrotropin (TSH)** is secreted under hypothalamic TRH control with a distinct circadian profile: a nadir in the late morning and afternoon, a rise beginning in the early evening, and a peak in the hours around sleep onset and the early night.
 
 Sleep acutely inhibits secretion, so the nocturnal level is the product of a circadian rise and a sleep-dependent brake acting against it. Sleep restriction raises nocturnal TSH; displaced sleep separates the two components and the peak appears without its brake.
 
-Amplitude falls under chronic misalignment, which is the quantity the bedtime-to-waking ratio in 12.3 reports.
+Amplitude falls under chronic misalignment, which is the quantity the bedtime-to-waking ratio in 11.3 reports.
 
-### 6.6 Sleep–wake regulation
+### 5.7 Sleep–wake regulation
 
 Sleep timing is set by two quantities that vary independently of each other.
 
@@ -505,13 +465,13 @@ The evening peak is the part that surprises people. Sleep pressure is near its m
 
 Most difficulty falling asleep and staying asleep comes from a mismatch between the two rather than a fault in either. A delayed clock puts the fall in alertness after the intended bedtime, so the person is tired and cannot sleep; an advanced clock puts the trough before morning, so the person wakes early and cannot return.
 
-### 6.7 Glucose regulation
+### 5.8 Glucose regulation
 
 MT1 and MT2 melatonin receptors are expressed on pancreatic beta cells, where melatonin inhibits insulin secretion. The **MTNR1B** locus, encoding MT2, is among the most consistently replicated type 2 diabetes risk loci in human genetics, and genotype at that locus modifies the glucose response to eating inside the melatonin window. Food consumed during the period of elevated circulating melatonin produces measurably impaired glucose tolerance, an effect modified by MTNR1B genotype.
 
 Kruse (2016) treats melatonin and insulin as opposed metronomes carrying complementary information: insulin encodes the high-energy signal associated with long photoperiod and carbohydrate availability, melatonin encodes darkness and the suspension of feeding. Where light at night is present, the opposition collapses, and insulin secretion proceeds at a phase where melatonin should be suppressing it. Kruse (2016) therefore treats insulin resistance as a disorder of light exposure expressed through carbohydrate handling rather than a disorder of carbohydrate intake as such, and prohibits food intake after dark on this basis.
 
-### 6.8 Metabolic coupling
+### 5.9 Metabolic coupling
 
 The clock and cellular metabolism are reciprocally coupled through nicotinamide adenine dinucleotide.
 
@@ -519,7 +479,7 @@ The clock and cellular metabolism are reciprocally coupled through nicotinamide 
 
 Kruse (2015, 2019) places this loop at the centre of the relationship between light and metabolism, expressing it as the sequence: sunlight and fasting raise the NAD⁺/NADH ratio, NAD⁺ activates SIRT1, SIRT1 modulates BMAL1 and CLOCK, which drive NAMPT, which regenerates NAD⁺. Kruse (2019) holds that the entry point of this cycle is the light environment, that artificial light lowers NAD⁺ at complex I, and that the cycle therefore cannot be driven by dietary intervention when the light environment is deficient.
 
-### 6.9 Energy balance and adiposity signalling
+### 5.10 Energy balance and adiposity signalling
 
 **Leptin** is secreted by adipose tissue in proportion to fat mass and acts on hypothalamic receptors, activating POMC/CART neurons and inhibiting NPY/AgRP neurons. Its action is asymmetric: falling leptin produces a powerful signal of energy deficit, while elevated leptin produces a comparatively weak signal of sufficiency. In obesity, circulating leptin is elevated without corresponding central effect — leptin resistance — attributed to impaired transport across the blood–brain barrier, to upregulation of the negative regulators SOCS3 and PTP1B, and to hypothalamic inflammation.
 
@@ -527,7 +487,7 @@ Leptin secretion is rhythmic, rising through the evening and peaking during the 
 
 Kruse (2011) treats sleep and energy balance as a single system rather than two interacting ones, on the grounds that arousal and feeding are governed by an overlapping hypothalamic population, and that leptin resistance therefore necessarily presents with disordered sleep. Kruse (2018) resolves the relationship between adiposity signalling and photoreception by proposing that leptin carries optical as well as energetic information from the skin surface to the hypothalamus, and that free retinal liberated by inappropriate light exposure damages leptin in subcutaneous tissue. On this account leptin resistance is a consequence of photoreceptive failure, and is corrected by repair of the light environment rather than by dietary restriction.
 
-### 6.10 Cell cycle, repair, and immunity
+### 5.11 Cell cycle, repair, and immunity
 
 Circadian gating of the **cell cycle** operates partly through PER2, with downstream effects on Cyclin D1, c-Myc, and Wee1. *Per2*-mutant animals show elevated tumour incidence. **DNA repair** capacity, including nucleotide excision repair, is rhythmic. **Immune function** is rhythmic: TLR9 expression and responsiveness oscillate, and both sepsis severity and vaccine response vary with time of administration.
 
@@ -536,14 +496,13 @@ Kruse (2011) identifies the coupling of circadian and cell cycles as the mechani
 # PART II — CIRCADIAN DISRUPTION
 
 Under a solar cycle every signal that sets the clock agrees. In the modern environment they separate: artificial light after dark, meals at uncoordinated hours, irregular waking. The clock receives contradictory input, the systems it held together drift apart, and synchrony breaks down.
-
 ---
 
 
 
-## 7. Mechanisms of harm
+## 6. Mechanisms of harm
 
-### 7.1 Loss of temporal segregation
+### 6.1 Loss of temporal segregation
 
 Circadian organisation separates incompatible processes in time. These pairs are normally phase-separated; disruption permits overlap, and overlap raises error rates.
 
@@ -559,19 +518,19 @@ Circadian organisation separates incompatible processes in time. These pairs are
 
 Four further consequences follow from the same loss. Repair windows are mistimed, and autophagy and mitophagy fall with them. Nocturnal immune coordination weakens and inflammatory tone becomes chronic. Metabolic gating is lost and glycolytic bias sets in. Rhythmic expression of adhesion molecules is lost, destabilising tissue architecture. Genomic instability, dysregulated metabolism, and chronic inflammation then act together on initiation, growth, invasion, and metastasis.
 
-### 7.2 Signalling at inappropriate phase
+### 6.2 Signalling at inappropriate phase
 
 Nutrient intake during the melatonin window impairs glucose handling; glucocorticoid elevation at the wrong phase disrupts peripheral entrainment.
 
-### 7.3 Amplitude collapse
+### 6.3 Amplitude collapse
 
 Reduced oscillator amplitude propagates to every downstream rhythm, including the NAD⁺/SIRT1 cycle and the rhythm of DNA repair.
 
-### 7.4 Loss of signal acquisition
+### 6.4 Loss of signal acquisition
 
-Kruse (2015, 2018) places this mechanism upstream of the other three. Chronic exposure to short-wavelength light without balancing red and infrared frequencies degrades the photoreceptive apparatus itself, through the chromophore mechanism of 4.3 and through photo-oxidative loss of membrane DHA. Under this account the system loses not only correct timing but the capacity to acquire timing information, and correction requires restoration of the input signal before any downstream intervention can take effect.
+Kruse (2015, 2018) places this mechanism upstream of the other three. Chronic exposure to short-wavelength light without balancing red and infrared frequencies degrades the photoreceptive apparatus itself, through the chromophore mechanism of 4.4 and through photo-oxidative loss of membrane DHA. Under this account the system loses not only correct timing but the capacity to acquire timing information, and correction requires restoration of the input signal before any downstream intervention can take effect.
 
-### 7.5 The order of failure
+### 6.5 The order of failure
 
 **Staging.** Kruse (2015, 2018) adds an ordering claim: circadian failure presents in a fixed sequence, beginning in the organ that carries the clock. Cataract and glaucoma appear first, as the timing apparatus itself degrades; then autoimmune disease; then neurodegeneration; then cancer, at the point where both arms of the feedback loop have collapsed. The clinical corollary is that ophthalmic findings are sentinel signs of systemic timing failure rather than isolated ocular disease.
 
@@ -579,17 +538,17 @@ The sequence is his own and unestablished. It is testable: it predicts that ocul
 
 **Precedence.** Kruse (2012) makes a second ordering claim, at the level of measurement rather than diagnosis: the flattened or inverted diurnal cortisol profile is the earliest measurable sign of circadian mismatch, appearing before overt metabolic disease. The two orderings run from different organs — the staging sequence begins in the eye, this one in the adrenal output — and Kruse holds both without reconciling them.
 
-The claim is checkable with the protocol in 14. The baseline yields a within-person standard deviation for every metric, which is what fixes how large a change has to be before it counts as movement. Precedence then means the cortisol slope in 12.3 leaves its own baseline interval before any other tracked metric leaves its own, in the same person, under a known change in exposure. Nothing in the published record establishes it.
+The claim is checkable with the protocol in 13. The baseline yields a within-person standard deviation for every metric, which is what fixes how large a change has to be before it counts as movement. Precedence then means the cortisol slope in 11.3 leaves its own baseline interval before any other tracked metric leaves its own, in the same person, under a known change in exposure. Nothing in the published record establishes it.
 
 ---
 
 
 
-## 8. Cancer
+## 7. Cancer
 
 Cancer is in part a failure of temporal separation: when timing signals weaken or misalign, proliferation, metabolism, stress response, and immune evasion overlap in ways that favour malignant growth.
 
-### 8.1 Cell cycle gating
+### 7.1 Cell cycle gating
 
 The circadian and cell division cycles are coupled, and the coupling is directional: the circadian oscillator gates progression through the cell cycle rather than the reverse.
 
@@ -599,41 +558,41 @@ Proliferating tissue therefore confines DNA synthesis and mitosis to defined win
 
 Clock gene expression is damped, phase-shifted, or absent in many human tumours, and the degree of loss tracks grade and prognosis: in breast cancer, loss of clock gene expression is associated with tumour progression [[Cadenas 2014](https://pubmed.ncbi.nlm.nih.gov/25485508/)].
 
-### 8.2 Repair at the wrong phase
+### 7.2 Repair at the wrong phase
 
 Nucleotide excision repair, the pathway that removes ultraviolet photoproducts and platinum adducts, oscillates across the day. Its rate-limiting factor XPA is under circadian control at both transcript and protein level, and excision rates in mouse tissue vary several-fold between peak and trough.
 
 Genotoxic exposure therefore carries a mutational cost that depends on the phase at which it arrives. The same dose delivered at the repair trough leaves a larger residual lesion burden than at the peak, which connects mistimed exposure to mutation rate at a fixed exposure.
 
-### 8.3 Melatonin as an oncostatic signal
+### 7.3 Melatonin as an oncostatic signal
 
 Melatonin has direct oncostatic activity independent of its role as a phase marker. Signalling through MT1 suppresses tumour uptake of linoleic acid and its conversion to the mitogenic metabolite 13-HODE, removing a growth signal from the tumour.
 
-The tumour-relevant variable is the melatonin content of circulating blood, and the light environment sets it (9.2).
+The tumour-relevant variable is the melatonin content of circulating blood, and the light environment sets it (8.2).
 
-### 8.4 The ubiquitin economy and the cell cycle gate
+### 7.4 The ubiquitin economy and the cell cycle gate
 
 Kruse (2011, 2015, 2016) runs a single chain from the light environment to malignancy, with the rate of protein turnover as the controlled variable.
 
 **Protein turnover is the largest energy cost the cell carries.** Peptide bond formation costs five ATP, several times the cost of polymerising nucleotides, and protein synthesis dominates the eukaryotic energy budget. The rate at which proteins are marked by ubiquitin for replacement therefore sets the cell's principal expenditure, and Kruse (2015) treats that marking rate as the quantity the circadian system exists to regulate. The elevation of one variable to that role is his, and the share of the energy budget he assigns to protein synthesis sits at the extreme end of measured values for differentiated tissue.
 
-**The marking rate is set at complex I.** SIRT1 deacetylates the machinery that marks proteins for degradation, and SIRT1 activity depends on NAD⁺ supplied at complex I. The same enzyme deacetylates BMAL1 and PER2, setting the amplitude and duration of clock gene expression, while NAMPT, rate-limiting for NAD⁺ salvage, is itself clock-controlled. The loop closes: the clock sets NAD⁺ availability and NAD⁺ availability sets the clock (6.8). This loop is established.
+**The marking rate is set at complex I.** SIRT1 deacetylates the machinery that marks proteins for degradation, and SIRT1 activity depends on NAD⁺ supplied at complex I. The same enzyme deacetylates BMAL1 and PER2, setting the amplitude and duration of clock gene expression, while NAMPT, rate-limiting for NAD⁺ salvage, is itself clock-controlled. The loop closes: the clock sets NAD⁺ availability and NAD⁺ availability sets the clock (5.9). This loop is established.
 
 **A truncated spectrum lowers NAD⁺.** Kruse (2019) holds that light without the balancing red and infrared frequencies lowers NAD⁺ at complex I. Falling NAD⁺ costs SIRT1 activity, ubiquitin marking proceeds unchecked, protein replacement accelerates, and the cell consumes divisions against the Hayflick limit with the telomere shortening that accompanies them.
 
 **Glucose is the brake.** Kruse (2015) states the inversion directly: "Glucose down regulates the circadian clock genes… this is why a Warburg metabolism is selected for in oncogenesis. It is the body trying to slow time down." A cell that cannot lower its marking rate, because the light setting that rate is wrong, uses glucose to damp clock gene cycling instead. The glycolytic shift is a control action on this account, and elevated blood glucose reports the ubiquitin rate rather than a failure of fuel handling. The standard account derives the same shift from oncogenic signalling and hypoxia, placing it at the end of the causal chain rather than inside it as a control action, and the two readings are not compatible.
 
-**Damping the clock opens the cell cycle gate.** PER1 and PER2 couple the clock to mitosis through E-box control of Cyclin D1, Cyclin A, Mdm-2, Gadd45α and c-MYC, and *Per2*-null animals show increased tumour formation with decreased apoptosis (8.1). Damping clock gene cycling to slow the protein economy removes that gating as a side effect, and proliferation proceeds without the phase restriction that confines it. Melatonin amplitude and repair timing (8.2, 8.3) fail from the same light input, so all three routes open together. The coupling itself is established; the route to it through the protein economy is his.
+**Damping the clock opens the cell cycle gate.** PER1 and PER2 couple the clock to mitosis through E-box control of Cyclin D1, Cyclin A, Mdm-2, Gadd45α and c-MYC, and *Per2*-null animals show increased tumour formation with decreased apoptosis (7.1). Damping clock gene cycling to slow the protein economy removes that gating as a side effect, and proliferation proceeds without the phase restriction that confines it. Melatonin amplitude and repair timing (7.2, 7.3) fail from the same light input, so all three routes open together. The coupling itself is established; the route to it through the protein economy is his.
 
-**The ranking.** Cancer is on this account an epigenetic disease of light, and the terminal entry in the staging sequence of 7.5 — the point at which both arms of the coupled system have failed. Mutation accumulates as a consequence of replication and repair proceeding at the wrong phase, which makes the light environment carcinogenic in the sense a chemical is. The mainstream position holds the mechanisms of 8.1 to 8.3 as contributory alongside direct genotoxic, inherited, and infectious routes. What separates the two is the weight assigned, and three claims carry it: the elevation of marking rate to master variable, the reading of Warburg metabolism as a brake, and the route from the protein economy to the cell cycle gate.
+**The ranking.** Cancer is on this account an epigenetic disease of light, and the terminal entry in the staging sequence of 6.5 — the point at which both arms of the coupled system have failed. Mutation accumulates as a consequence of replication and repair proceeding at the wrong phase, which makes the light environment carcinogenic in the sense a chemical is. The mainstream position holds the mechanisms of 7.1 to 7.3 as contributory alongside direct genotoxic, inherited, and infectious routes. What separates the two is the weight assigned, and three claims carry it: the elevation of marking rate to master variable, the reading of Warburg metabolism as a brake, and the route from the protein economy to the cell cycle gate.
 
 ---
 
 
 
-## 9. Evidence
+## 8. Evidence
 
-### 9.1 Epidemiological
+### 8.1 Epidemiological
 
 **Shift work.** Chronic circadian disruption from long-term night work, irregular sleep–wake timing, or nocturnal light exposure is associated with increased cancer incidence and worse prognosis. IARC classified shift work involving circadian disruption as **Group 2A, probably carcinogenic to humans**, in 2007, on limited human and sufficient experimental evidence [[Straif 2007](https://pubmed.ncbi.nlm.nih.gov/19271347/)], and reinforced the classification in the 2020 monograph. Large cohorts report elevated breast cancer risk in long-term night-shift nurses [[Stevens 2011](https://pubmed.ncbi.nlm.nih.gov/20953253/)].
 
@@ -653,7 +612,7 @@ Regularity of sleep timing predicts all-cause mortality more strongly than sleep
 
 **Chronotype, social jetlag, and eating time.** Evening chronotype is associated with elevated all-cause mortality and with metabolic and psychiatric morbidity, substantially mediated by the mismatch between endogenous phase and imposed schedule rather than by lateness itself — the epidemiological expression of the phase angle criterion. Social jetlag is associated with adiposity, adverse lipid and inflammatory markers, and depressive symptoms. In a weight loss intervention, participants eating the principal meal later lost less weight on matched energy intake, with no difference in reported intake or activity (Garaulet et al., 2013).
 
-### 9.2 Controlled human disruption
+### 8.2 Controlled human disruption
 
 Experimental misalignment of behavioural and circadian time induces cancer-relevant molecular changes within days.
 
@@ -665,7 +624,7 @@ A perfusion design carries the same logic to a tumour endpoint. Blood collected 
 
 These designs isolate circadian phase from behaviour within subjects, which is what the observational literature cannot do.
 
-### 9.3 Natural experiments
+### 8.3 Natural experiments
 
 Transitions into daylight saving time are followed by a transient increase in myocardial infarction and traffic accidents, with a corresponding decrease at the autumn transition. The exposure is a one-hour schedule shift applied to an entire population simultaneously, with no accompanying change in behaviour, occupation, or health status.
 
@@ -673,7 +632,7 @@ Position within a time zone separates solar time from clock time across an other
 
 A week of camping under natural light without electric light advances melatonin onset by approximately two hours and compresses the distribution of phase across chronotypes; the effect reproduces in winter (Wright et al., 2013). This is the intervention arm corresponding to the observational findings.
 
-### 9.4 Chronotherapy
+### 8.4 Chronotherapy
 
 Administering therapy at circadian-preferred phases changes tolerability and efficacy.
 
@@ -683,7 +642,7 @@ Administering therapy at circadian-preferred phases changes tolerability and eff
 
 The clinical result across agents is mixed; the underlying observation, that the same dose has different effects at different circadian phases, is not in doubt and is the sharpest available demonstration that biological time is a treatment variable.
 
-### 9.5 Animal models
+### 8.5 Animal models
 
 **Environmental disruption.** Light at night induces circadian disruption that accelerates ageing and promotes tumorigenesis in rats [[Blask 2012](https://pubmed.ncbi.nlm.nih.gov/23237593/)]. Circadian disruption promotes tumour growth through anabolic host metabolism [[2017](https://pubmed.ncbi.nlm.nih.gov/28874144/)]. Chronic jet lag, dim light at night, and rotating light–dark schedules produce comparable effects, and SCN ablation reproduces them. The acceleration occurs with no change in carcinogen exposure.
 
@@ -691,7 +650,7 @@ The clinical result across agents is mixed; the underlying observation, that the
 
 **Genetic disruption.** *Per2*-mutant mice show elevated spontaneous tumour incidence and markedly increased lymphoma after ionising radiation, with deficient p53-mediated apoptosis [[Fu 2002](https://pubmed.ncbi.nlm.nih.gov/12372299/)]. In regenerating mouse liver, mitosis is confined to a restricted window each day, and clock disruption abolishes the confinement [[Matsuo 2003](https://pubmed.ncbi.nlm.nih.gov/12934012/)]. BMAL1 disruption promotes metastasis through PAI-1–TGF-β–dependent mechanisms [[BMAL1](https://pubmed.ncbi.nlm.nih.gov/37330661/)]. Disruption-induced tumours show increased stemness, immunosuppression, and metabolic deregulation.
 
-### 9.6 Reversibility
+### 8.6 Reversibility
 
 **Light structure and melatonin.** Restoring light–dark cycles and preserving nocturnal melatonin suppresses tumour growth and enhances chemosensitivity in preclinical models. Melatonin's efficacy depends on preserved circadian amplitude, and it enhances tumour sensitivity to chemotherapy and radiotherapy while protecting normal tissue [[review](https://pubmed.ncbi.nlm.nih.gov/37916636/)].
 
@@ -701,7 +660,7 @@ The clinical result across agents is mixed; the underlying observation, that the
 
 That disruption accelerates tumour growth and restoration slows it, in the same models, is the strongest preclinical argument that the relationship is causal rather than associative.
 
-### 9.7 Causal inference
+### 8.7 Causal inference
 
 Confounding in the human literature is severe. Shift workers differ from day workers in socioeconomic position, smoking, diet, sleep duration, and healthcare access, and evening chronotypes differ in most of the same respects. No single observational association carries much weight.
 
@@ -728,31 +687,31 @@ Humans evolved under a solar cycle: light by day, darkness by night, and eating 
 
 
 
-## 10. Defining circadian health
+## 9. Defining circadian health
 
 Two accounts. They specify different things to measure.
 
-### 10.1 One quantity
+### 9.1 One quantity
 
 Circadian health is cellular redox state, assayed as mitochondrial heteroplasmy. Phase, amplitude and stability are its readouts and degrade together, so measuring them separately records one failure repeatedly.
 
 Section 2.8 establishes the premise: redox poise is a single intensive quantity coupling all metabolism, and it oscillates in cells that cannot transcribe.
 
-Kruse (2016, 2022) holds this clinically. The ocular, metabolic and oncological presentations are one disease measured at different sites, and they appear in order — ocular findings first, then autoimmunity, neurodegeneration, cancer (7). On this account a patient with normal sleep timing and rising heteroplasmy is already ill, and the timing metrics will not detect it.
+Kruse (2016, 2022) holds this clinically. The ocular, metabolic and oncological presentations are one disease measured at different sites, and they appear in order — ocular findings first, then autoimmunity, neurodegeneration, cancer (6). On this account a patient with normal sleep timing and rising heteroplasmy is already ill, and the timing metrics will not detect it.
 
-Measure: heteroplasmy, plus the exposure record in 12.2.
+Measure: heteroplasmy, plus the exposure record in 11.2.
 
-### 10.2 Five properties
+### 9.2 Five properties
 
 Circadian health comprises entrainment, phase, amplitude, internal alignment and stability. Each can be intact or impaired independently, each fails in a different way, and each is corrected differently.
 
-Measure: all five, separately, per 12.1 and 12.3. Each is defined in 10.2.1 to 10.2.5.
+Measure: all five, separately, per 11.1 and 11.3. Each is defined in 9.2.1 to 9.2.5.
 
 Both are measured. The five dissociate in individuals and a single number does not say what to change; heteroplasmy detects failure before any of the five moves. Repeat assessment separates the accounts: if the five are one quantity their within-person changes co-vary, and if they are not, they do not.
 
-Environmental input — the timing and intensity of light, food and temperature — causes these properties rather than being one of them, and is scored separately in 12.2.
+Environmental input — the timing and intensity of light, food and temperature — causes these properties rather than being one of them, and is scored separately in 11.2.
 
-#### 10.2.1 Entrainment
+#### 9.2.1 Entrainment
 
 Entrainment is the condition in which the oscillator adopts the period of the environmental cycle and maintains a constant phase relationship to it. In health the expressed period is 24.0 hours and the relationship to the solar day persists across weeks.
 
@@ -760,7 +719,7 @@ Entrainment fails when zeitgeber input is insufficient to correct the difference
 
 Entrainment is logically prior to the four properties that follow: phase, amplitude, alignment, and stability are defined only for an oscillator held at a fixed period.
 
-#### 10.2.2 Phase
+#### 9.2.2 Phase
 
 Phase is the position the oscillator occupies within the 24-hour cycle. Two quantities are required to specify it.
 
@@ -772,21 +731,21 @@ The two dissociate, and the distinction determines what is wrong. An individual 
 
 Phase is determined jointly by τ and by zeitgeber strength, so a delayed phase recorded under low daytime illuminance reports the light environment as much as the oscillator.
 
-#### 10.2.3 Amplitude
+#### 9.2.3 Amplitude
 
 Amplitude is the magnitude of the oscillation, measured as the excursion between peak and trough of any rhythmic output.
 
 Reduced amplitude preserves the phase relationships of the system while diminishing the excursion of every rhythm within it. It is the predominant impairment in populations occupying interior environments, and it is found by measuring excursion — relative amplitude from actigraphy, distal temperature range, the cortisol peak-to-bedtime ratio.
 
-Amplitude and phase do not respond independently to perturbation: a low-amplitude oscillator undergoes a larger phase shift than a high-amplitude one for the same stimulus (2.4).
+Amplitude and phase do not respond independently to perturbation: a low-amplitude oscillator undergoes a larger phase shift than a high-amplitude one for the same stimulus (2.3).
 
-#### 10.2.4 Internal alignment
+#### 9.2.4 Internal alignment
 
 Internal alignment is the condition in which the phase intervals between oscillators hold their normal values. It is a property of those intervals rather than of coincidence: the oscillators of a healthy system reach their peaks at different times, in a fixed and reproducible order.
 
 Alignment fails when the intervals change while each oscillator remains internally coherent. Hepatic and adipose oscillators entrain to the feeding schedule while the suprachiasmatic nucleus remains entrained to light, and the two diverge. This is the impairment produced by late feeding, night work, and sleep displaced into daylight.
 
-#### 10.2.5 Stability
+#### 9.2.5 Stability
 
 Stability is the reproducibility of the system's timing from one day to the next.
 
@@ -798,11 +757,11 @@ Stability is defined over a series of days and has no single-day value.
 
 
 
-## 11. The internal phase map
+## 10. The internal phase map
 
 
 
-### 11.1 The hormonal day
+### 10.1 The hormonal day
 
 Approximate mean values for adults conventionally entrained to a 23:00–07:00 sleep schedule, drawn from constant-routine and forced-desynchrony studies. Individual variation is substantial, and the reproducible quantity is the interval between markers rather than the clock time of any one of them.
 
@@ -841,7 +800,7 @@ Pathology is the alteration of the offsets themselves.
 
 
 
-### 11.2 The spectral day
+### 10.2 The spectral day
 
 The table above maps the day in hormonal terms. Kruse (2016, 2022) maps the same day in spectral terms, and the two run in parallel.
 
@@ -863,11 +822,11 @@ What is his, and unsupported, is that the *sequence itself* carries information 
 
 
 
-## 12. Metrics
+## 11. Metrics
 
 
 
-### 12.1 Health
+### 11.1 Health
 
 Phase, amplitude, internal alignment and stability are measured directly. Entrainment is read from the phase trend across the recording: a phase that holds its position over weeks.
 
@@ -893,7 +852,7 @@ This measures the input stage directly. The other health metrics read an output 
 
 *Status:* validated instrument with published normative data; no fixed cut-point for circadian purposes. Read against age-matched reference.
 
-### 12.2 Exposure
+### 11.2 Exposure
 
 Environmental input is the cause of circadian state rather than a component of it, and is scored separately. Six environmental quantities are measured, plus one biomarker of integrated exposure.
 
@@ -935,7 +894,7 @@ Timing for all six is recorded against local solar events as well as clock time.
 *Measure:* venous or dried blood spot; sample in the same season across assessments.
 *Target:* within the laboratory reference interval, stable or rising across the sunlit half of the year. Items 1–6 record light arriving at the sensor. This records ultraviolet-B that reached living tissue and produced a product, integrated over weeks. The two dissociate: sunscreen, clothing, glass, latitude, season, skin pigmentation, and age all sever the link between measured ambient UV index and cutaneous synthesis, so exposure logged without a biomarker can substantially overstate dose delivered. Kruse (2019) treats low vitamin D status as evidence of spectral truncation rather than as a nutrient deficiency to be supplemented, and the distinction matters here: supplementation raises the assay while leaving the exposure it was standing in for unchanged, which destroys its value as a proxy. Record supplement use alongside the value or the metric is uninterpretable.
 
-### 12.3 Tracked quantities
+### 11.3 Tracked quantities
 
 These have no validated diagnostic cut-point. Each still carries a target, so that each assessment has a direction to move in; the targets are working values, derived from reference ranges or from what is physically achievable rather than from outcome studies.
 
@@ -959,13 +918,13 @@ These have no validated diagnostic cut-point. Each still carries a target, so th
 
 
 
-## 13. Raw measurements
+## 12. Raw measurements
 
-Every metric in section 12 is computed from these streams. Seven run continuously; five are collected once or on a short schedule.
+Every metric in section 11 is computed from these streams. Seven run continuously; five are collected once or on a short schedule.
 
 **Epoch** — the interval over which a continuously sampled signal is aggregated before storage. A logger samples internally at a higher rate, reduces each interval to a summary value, and writes that. Epoch length sets the resolution of the stored series, not the fidelity of measurement: a 1-minute epoch over a fortnight yields 20,160 values. The convention matches the integration time of the system being measured, and matches published series so that derived metrics remain comparable.
 
-### 13.1 Acceleration
+### 12.1 Acceleration
 
 **Device.** Triaxial accelerometer  
 **Placement.** Non-dominant wrist  
@@ -979,7 +938,7 @@ Every metric in section 12 is computed from these streams. Seven run continuousl
 
 
 
-### 13.2 Light
+### 12.2 Light
 
 **Device.** Melanopic-capable or spectrally resolved sensor  
 **Placement.** Eye level — spectacle clip or pendant  
@@ -987,7 +946,7 @@ Every metric in section 12 is computed from these streams. Seven run continuousl
 **Duration.** ≥14 days  
 **Timing.** All waking hours, plus the sleep period at the pillow  
 
-- Record melanopic EDI. A photopic lux meter cannot produce the thresholds in 12.2.
+- Record melanopic EDI. A photopic lux meter cannot produce the thresholds in 11.2.
 - Retain the full spectrum where the sensor resolves it. Equal melanopic EDI with a different short-to-long ratio drives the pathway differently.
 - Store mean and maximum per epoch. The dose–response saturates; the mean alone misrepresents a brief outdoor excursion.
 - Mount at eye level. Interiors are lit for horizontal task planes, and a wrist sensor is shadowed by sleeve and posture. Wrist placement requires a documented correction factor.
@@ -996,7 +955,7 @@ Every metric in section 12 is computed from these streams. Seven run continuousl
 
 
 
-### 13.3 Skin temperature
+### 12.3 Skin temperature
 
 **Device.** Wrist thermistor; second sensor for the distal–proximal gradient  
 **Placement.** Wrist, plus ankle or infraclavicular chest  
@@ -1010,7 +969,7 @@ Every metric in section 12 is computed from these streams. Seven run continuousl
 
 
 
-### 13.4 Cardiac
+### 12.4 Cardiac
 
 **Device.** PPG or ECG patch  
 **Placement.** Wrist or chest  
@@ -1023,7 +982,7 @@ Every metric in section 12 is computed from these streams. Seven run continuousl
 
 
 
-### 13.5 Interstitial glucose
+### 12.5 Interstitial glucose
 
 **Device.** Continuous glucose monitor  
 **Placement.** Upper arm or abdomen  
@@ -1037,7 +996,7 @@ Every metric in section 12 is computed from these streams. Seven run continuousl
 
 
 
-### 13.6 Intake log
+### 12.6 Intake log
 
 **Device.** Photograph-based log  
 **Sampling.** Every caloric event, timestamped  
@@ -1050,7 +1009,7 @@ Every metric in section 12 is computed from these streams. Seven run continuousl
 
 
 
-### 13.7 Ultraviolet index
+### 12.7 Ultraviolet index
 
 **Device.** Published forecast for the location, or a personal UV sensor  
 **Sampling.** Once per outdoor interval  
@@ -1061,7 +1020,7 @@ Every metric in section 12 is computed from these streams. Seven run continuousl
 
 
 
-### 13.8 Capillary blood
+### 12.8 Capillary blood
 
 **Device.** Point-of-care immunoassay analyser  
 **Sampling.** 10–100 µL per assay  
@@ -1094,7 +1053,7 @@ Every metric in section 12 is computed from these streams. Seven run continuousl
 
 
 
-### 13.9 Dried blood spot
+### 12.9 Dried blood spot
 
 **Device.** Collection card, finger prick, posted to a laboratory  
 **Sampling.** Single sample, two assays  
@@ -1107,7 +1066,7 @@ Every metric in section 12 is computed from these streams. Seven run continuousl
 
 
 
-### 13.10 Follicle
+### 12.10 Follicle
 
 **Device.** Plucked scalp or beard follicles  
 **Sampling.** 3 samples  
@@ -1115,12 +1074,12 @@ Every metric in section 12 is computed from these streams. Seven run continuousl
 **Timing.** Spread across waking hours  
 
 - Assay *PER3*, *NR1D1*, and *NR1D2*.
-- Timestamp each sample against the melatonin series. The alignment metric in 12.3 is computed against DLMO.
+- Timestamp each sample against the melatonin series. The alignment metric in 11.3 is computed against DLMO.
 - A blood transcript panel substitutes, from the capillary stream.
 
 
 
-### 13.11 Pupillometry
+### 12.11 Pupillometry
 
 **Device.** Chromatic pupillometer, blue stimulus near 480 nm  
 **Placement.** Monocular stimulus, both eyes recorded  
@@ -1135,7 +1094,7 @@ Every metric in section 12 is computed from these streams. Seven run continuousl
 
 
 
-### 13.12 Indirect calorimetry
+### 12.12 Indirect calorimetry
 
 **Device.** Metabolic cart or ventilated canopy  
 **Sampling.** 20–30 min of steady-state gas exchange per period  
@@ -1150,11 +1109,11 @@ Every metric in section 12 is computed from these streams. Seven run continuousl
 
 
 
-## 14. Acquisition
+## 13. Acquisition
 
 
 
-### 14.1 Baseline
+### 13.1 Baseline
 
 Four weeks, with no intervention attempted and no deliberate change to routine.
 
@@ -1177,21 +1136,21 @@ Continuous streams start on day 0 and run without interruption. The episodic pan
 
 Four weeks rather than two for three reasons. The regularity metrics need several scheduled and free days to be representative. The drift estimate for entrainment improves with the square of the recording length. And two determinations of each episodic marker, taken two weeks apart with nothing changed between them, are what establish how much each measurement varies on its own.
 
-### 14.2 What the baseline produces
+### 13.2 What the baseline produces
 
 For every metric, a mean and a within-person standard deviation.
 
-The second quantity is what makes later measurements interpretable. Change is detectable only above the noise of the measurement itself, and the smallest real difference between two single determinations is approximately 2.77 times the within-person standard deviation. A difference exceeding that band is what counts as change. Metrics with no external reference — the whole of section 12.3 — are usable from this point onward, because the individual's own baseline and its spread now supply the comparison.
+The second quantity is what makes later measurements interpretable. Change is detectable only above the noise of the measurement itself, and the smallest real difference between two single determinations is approximately 2.77 times the within-person standard deviation. A difference exceeding that band is what counts as change. Metrics with no external reference — the whole of section 11.3 — are usable from this point onward, because the individual's own baseline and its spread now supply the comparison.
 
 Where the two baseline determinations of an episodic marker disagree by more than expected, the marker is repeated before any intervention begins rather than averaged.
 
-### 14.3 Season
+### 13.3 Season
 
 A baseline is specific to the photoperiod in which it was taken. Season moves phase, amplitude, and the achievable daytime light dose, and a winter measurement compared against a summer baseline will show change that has nothing to do with the intervention.
 
 Repeat the full panel near both solstices and both equinoxes through the first year. From the second year, compare each assessment against the baseline from the matching season. Express every phase metric against sunrise and sunset in addition to clock time, which removes part of the seasonal shift before comparison.
 
-### 14.4 Continuing measurement
+### 13.4 Continuing measurement
 
 Wearable streams run continuously and indefinitely. A month is comparable to other months when at least 16 hours of wear are recorded on at least 20 days; below that the metrics move for reasons of data completeness rather than physiology.
 
@@ -1199,7 +1158,7 @@ CGM runs for one 14-day block per quarter unless continuous wear is tolerated. T
 
 The episodic panel repeats quarterly, aligned to the seasonal points, and again before and after any deliberate change to the light environment, the schedule, or the eating window.
 
-### 14.5 Keeping a long series comparable
+### 13.5 Keeping a long series comparable
 
 Over years, the largest threat to the record is the instrument rather than the physiology.
 
@@ -1215,7 +1174,7 @@ Over years, the largest threat to the record is the instrument rather than the p
 
 
 
-## 15. Limits
+## 14. Limits
 
 The profile characterises the central pacemaker, one peripheral oscillator, and the behavioural and environmental variables that drive both. It does not resolve tissue-specific phase in liver, muscle, or immune cells, which requires biopsy or a validated tissue-specific transcript panel. Rhythmic transcript sets are largely non-overlapping between organs, so a normal glucose rhythm establishes hepatic and pancreatic alignment and does not generalise to other tissues.
 
@@ -1237,13 +1196,13 @@ The observation window is fourteen days. Seasonal variation in photoperiod, ampl
 
 Sections in which each year's claims are cited.
 
-- **2011** — sections 6, 8
-- **2012** — sections 4, 6, 7, 12
+- **2011** — sections 5, 7
+- **2012** — sections 4, 5, 6, 11
 - **2013** — sections 2
-- **2015** — sections 2, 4, 6, 7, 12
-- **2016** — sections 4, 6, 8, 10, 11, 12
-- **2018** — sections 2, 4, 6, 7, 8, 12
-- **2019** — sections 4, 6, 12
-- **2022** — sections 4, 6, 10, 11, 12
+- **2015** — sections 2, 4, 5, 6, 7, 11
+- **2016** — sections 4, 5, 7, 9, 10, 11
+- **2018** — sections 2, 4, 5, 6, 11
+- **2019** — sections 4, 5, 7, 11
+- **2022** — sections 4, 5, 9, 10, 11
 - **2023** — sections 2
-- **2025** — sections 12
+- **2025** — sections 11
