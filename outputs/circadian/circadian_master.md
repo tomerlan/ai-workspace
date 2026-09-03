@@ -6,9 +6,13 @@
 
 # PART I — BIOLOGICAL FOUNDATIONS
 
-Feedback control corrects an error after it occurs. Feedforward control acts before the disturbance arrives, and for a disturbance that is predictable it achieves lower error at lower cost. The daily light–dark cycle is the most predictable disturbance an organism experiences, and a clock converts the response to it from feedback to feedforward: enzymes are positioned before the substrate load arrives, and protective systems before the insult.
+Nearly everything the body does has a preferred hour. Blood pressure, body temperature, hormone release, appetite, immune response and cell division all rise and fall on a daily schedule, and the schedule is remarkably fixed.
 
-The advantage is measurable. Cyanobacterial strains whose intrinsic period matches the imposed light cycle outcompete strains whose period does not, and the advantage disappears in constant light (Ouyang et al., 1998). Plants whose clock period matches the environmental cycle accumulate more carbon and survive better (Dodd et al., 2005). Circadian organisation is maintained by selection because prediction is cheaper than reaction.
+It is easy to assume this follows the day outside — that the body responds to light, warmth and meals as they arrive. It does not. Isolate a person from every cue of time and the rhythms continue, running a little slower or faster than 24 hours but never stopping.
+
+The timekeeping is internal, and it is distributed. Individual organs hold clocks of their own, and the daily business of the body is the work of keeping them in agreement. One clock, in the brain, is reset each day by light and holds the rest to a common schedule.
+
+That schedule keeps incompatible processes out of each other's way: repair separated from growth, storage from breakdown, cell division from the hours reserved for fixing damage. When light, food and sleep stop agreeing about the hour, the separation fails.
 
 ---
 
@@ -78,21 +82,11 @@ The advantage is measurable. Cyanobacterial strains whose intrinsic period match
 
 **Age.** Amplitude declines and phase advances with age. Lens yellowing reduces transmission of short wavelengths, diminishing the entraining signal reaching ipRGCs; this is one contributor to circadian fragmentation in older adults.
 
-### 1.6 Measured quantities
+### 1.6 Phase markers
 
 **Dim light melatonin onset (DLMO)** — the clock time at which melatonin concentration crosses a fixed threshold during a session held under illumination below 10 lux. The reference phase marker for the central pacemaker.
 
 **Core body temperature minimum (CBTmin)** — the trough of the core temperature rhythm, falling approximately 7 hours after DLMO and 2 hours before waking. The reference point dividing the light phase response curve.
-
-**Epoch** — the interval over which a continuously sampled signal is aggregated before storage. A logger samples internally at a higher rate, reduces each interval to a summary value, and writes that. Epoch length sets the resolution of the stored series, not the fidelity of measurement: a 1-minute epoch over a fortnight yields 20,160 values. The convention matches the integration time of the system being measured, and matches published series so that derived metrics remain comparable.
-
-**Melanopic equivalent daylight illuminance (melanopic EDI)** — illuminance weighted by the spectral sensitivity of melanopsin rather than of the cones. The quantity against which light exposure thresholds are set.
-
-**M10 and L5** — computed from the 24-hour activity profile averaged across the recording. Activity is expressed in accelerometer counts, a device-specific quantity, or in milli-g where raw data are retained. M10 is the mean activity of the ten consecutive hours with the highest activity, L5 the mean of the five consecutive hours with the lowest. The clock time at the centre of each window gives a behavioural phase estimate: L5 midpoint approximates the middle of the rest period, M10 midpoint the middle of the active period.
-
-**Relative amplitude (RA)** — (M10 − L5) / (M10 + L5). A dimensionless number between 0 and 1 expressing how sharply the active day separates from the resting night. It approaches 1 when a person is vigorously active by day and still by night, and falls toward 0 as daytime activity declines, night-time restlessness increases, or both. Dividing by the sum removes dependence on absolute activity level, so a sedentary person and an athlete are compared on the contrast of their rhythm rather than on how much they move.
-
-> **Central thesis** — Circadian organisation is a global constraint system on cellular behaviour. Temporal order limits the degrees of freedom available to cells and tissues. Disease of timing follows when that constraint weakens: processes that should be sequential run concurrently, and the error rate of every one of them rises.
 
 ---
 
@@ -106,7 +100,7 @@ The advantage is measurable. Cyanobacterial strains whose intrinsic period match
 
 Self-sustained oscillation persists under constant darkness, constant temperature, and the absence of social cues. Isolated tissue, and isolated single cells, continue to oscillate for weeks in culture.
 
-Temperature compensation holds the period nearly constant across the physiological temperature range. Reaction rates in the underlying biochemistry vary with temperature in the ordinary way; the network is arranged so that these variations cancel.
+Temperature compensation holds the period nearly constant across the physiological temperature range, although reaction rates in the underlying biochemistry vary with temperature in the ordinary way. The cancellation that produces this is described in 2.7.
 
 Entrainment is phase-dependent. The magnitude and direction of the shift produced by a stimulus depend on the phase at which it arrives, described by the **phase response curve (PRC)**.
 
@@ -146,21 +140,23 @@ Exogenous melatonin exhibits an approximately inverted PRC: administration in th
 
 The PRC is the formal basis for all timing-dependent intervention. The same exposure is corrective or harmful according to when it is received.
 
-### 2.4 Amplitude and phase on the limit cycle
+### 2.4 Amplitude and phase
 
-An oscillator's state is a point moving on a closed orbit. A perturbation displaces that point by a fixed vector, and the resulting change in phase depends on the radius of the orbit: the same displacement applied to a small orbit rotates the state through a large angle, and applied to a large orbit rotates it through a small one.
+A strong rhythm is hard to shift. A weak one is easy. The same dose of light moves a flattened clock much further than a robust one.
 
-Phase lability is therefore inversely related to amplitude. A flattened rhythm is displaced further by any given zeitgeber or disturbance. This is the mechanism by which amplitude loss precedes and predisposes to phase instability, and it implies that amplitude must be restored before phase can be reliably corrected.
+The reason is geometric. The oscillator's state travels a closed cycle (2.2), and a disturbance pushes it off that path by a fixed distance. That push turns a small cycle through a large angle, and a large cycle through a small one.
 
-The practical form of this is that daytime light determines how much damage evening light does. High daytime exposure raises amplitude, and a high-amplitude oscillator is displaced less by a given evening stimulus. Sensitivity to evening light is separately modulated by preceding daytime exposure: individuals with high daytime light exposure show reduced melatonin suppression by a given evening stimulus. The same phone at 23:00 shifts an indoor worker further than someone who spent the morning outdoors. Daytime light and evening darkness are therefore one intervention rather than two, and the daytime half determines the tolerance of the evening half.
+So amplitude has to be rebuilt before timing can be held. A clock with low amplitude will not stay where it is put.
 
-The limit is a stimulus strong enough, delivered near enough to the critical phase, to drive the state to the centre of the orbit, where amplitude is zero and phase is undefined. Bright light applied near the core temperature minimum reduces the amplitude of the subsequent melatonin rhythm rather than shifting it, and can suppress it to near zero (Jewett, Kronauer and Czeisler, 1991). Light at the wrong phase does not only mistime the oscillator; at sufficient intensity it degrades it.
+This is also why daytime light decides how much harm evening light does. A morning outdoors raises amplitude, and it separately reduces the eye's sensitivity that evening. The same phone at 23:00 moves an indoor worker much further than someone who was outside that morning. Daytime light and evening darkness are one intervention.
+
+Light at the wrong hour can destroy amplitude instead of shifting phase. Bright light near the core temperature minimum flattens the next melatonin rhythm rather than moving it, and at sufficient intensity suppresses it almost entirely (Jewett, Kronauer and Czeisler, 1991).
 
 ### 2.5 The range of entrainment
 
-An oscillator entrains to a driving cycle only when the mismatch between its intrinsic period and the driving period is small enough relative to the strength of the coupling. The set of period and strength combinations that permit entrainment forms a wedge that narrows to a point as coupling weakens.
+A clock locks onto a driving cycle only if its own period is close enough to the driving period, and how close it has to be depends on how strong the signal is. A strong zeitgeber captures a wide range of periods, a weak one a narrow range.
 
-Two consequences follow. The range of intrinsic periods that can be entrained contracts under a weak zeitgeber, so individuals with periods far from 24 hours fail to entrain under dim indoor conditions and entrain normally outdoors. And the phase angle at which entrainment settles is a function of both intrinsic period and zeitgeber strength: a long intrinsic period under a weak zeitgeber entrains at a delayed phase angle. Late chronotype under indoor conditions is the expected output of that relation rather than an independent trait, which is why a week of natural light exposure advances phase and compresses the spread between chronotypes (Wright et al., 2013).
+Two things follow. Under dim indoor light the range narrows, so someone whose intrinsic period sits far from 24 hours fails to entrain indoors and entrains normally outdoors. And where the clock settles within the day depends on both quantities together: a long period under a weak signal settles late. Late chronotype indoors is the output of that relation rather than a fixed trait, which is why a week under natural light advances phase and pulls the chronotypes together (Wright et al., 2013).
 
 ### 2.6 The transcription–translation feedback loop
 
@@ -187,6 +183,12 @@ Period is set principally by imposed delays at the post-translational level: pho
 **Additional modifications.** SUMOylation, acetylation, and O-GlcNAcylation further modulate stability and activity.
 
 Period is therefore largely determined by protein turnover kinetics.
+
+**Temperature compensation.** Reaction rates roughly double for every 10 °C. A clock assembled from ordinary biochemistry would therefore run fast in a fever and slow in the cold, and would be useless for telling the time. Circadian period barely moves across the range a living tissue occupies.
+
+The cancellation happens among the same post-translational steps that set the period. Warming accelerates all of them, and they do not all act on period in the same direction, so the accelerations largely offset. CK1δ/ε phosphorylation of PER is the best-characterised element: its rate is unusually insensitive to temperature (Isojima et al., 2009), which holds the delay step steady while the surrounding reactions speed up.
+
+Compensation is a property of the loop rather than of any single enzyme in it, which is why it survives in oscillators built on different chemistry — the KaiABC system of cyanobacteria compensates with three proteins and no transcription at all.
 
 Kruse (2015) develops this observation into a general principle of cellular economics. Protein synthesis is the dominant energetic expenditure of eukaryotic cells, each peptide bond costing approximately five ATP — several times the cost of nucleotide polymerisation. Because ubiquitin marking governs the rate of that expenditure, and because clock proteins are themselves regulated by ubiquitin-mediated degradation, Kruse treats organism-wide ubiquitination rate as the principal quantity that circadian organisation exists to control. In this framing, chronic elevation of protein turnover — driven by signalling errors originating in the light environment — constitutes the common pathway from environmental mismatch to accelerated cellular ageing, replicative exhaustion, and telomere attrition. Kruse (2018) extends the same logic to interpret elevated fasting glucose as a marker of raised ubiquitination rate rather than solely of impaired fuel handling.
 
@@ -240,7 +242,7 @@ VIP signalling through the **VPAC2** receptor is required for network synchrony.
 
 Coupling strength governs a trade-off. A strongly coupled network is precise and resists perturbation: the SCN shifts slowly in response to abrupt changes in the light–dark cycle, which accounts for the multi-day time course of re-entrainment after transmeridian travel, and it is not reset by the temperature rhythm it generates. Weakly coupled peripheral networks shift quickly and are reset by temperature and feeding. The hierarchy between central and peripheral oscillators follows from differing coupling strength rather than from any difference in the underlying molecular mechanism.
 
-### 3.3 Output pathways
+### 3.3 Efferent connections
 
 The SCN distributes timing information through autonomic outflow, through humoral signals — principally glucocorticoids — and through the daily body temperature rhythm. The multi-synaptic pathway to the pineal runs SCN → paraventricular nucleus → intermediolateral cell column → superior cervical ganglion → pineal.
 
@@ -455,6 +457,10 @@ Pineal melatonin is synthesised from serotonin, with **AANAT** as rate-limiting 
 
 Melatonin functions as a signal of darkness rather than as a hypnotic, which accounts for its modest sedative effect and substantial phase-shifting effect. Low doses in the range 0.3–0.5 mg are as effective as higher doses for phase shifting, with fewer residual next-day effects.
 
+**Duration encodes season.** Melatonin carries two quantities. Its onset marks the phase of the pacemaker. The length of the elevated period marks the length of the night, and that length changes with the season: long in winter, short in summer. Mammals read seasonal time from this duration, and it drives the annual cycles of reproduction, coat, and metabolism in seasonal species.
+
+Two populations within the SCN track dusk and dawn separately, and the interval between them widens and narrows with the photoperiod, which is what sets the duration of the melatonin signal. Under artificial light the interval is compressed and held constant, so the duration reports a permanent short night regardless of the month. What a person experiences as a season is largely this duration, and indoor living removes it.
+
 **The extrapineal pool.** Melatonin is synthesised well beyond the pineal: in the gastrointestinal tract in far greater total quantity than in the pineal, and in retina, skin, bone marrow, lymphocytes, thymus, gonads, and within mitochondria. Pinealectomy abolishes the circulating rhythm without eliminating tissue melatonin. Extrapineal melatonin is largely non-rhythmic and acts locally, functioning principally as an antioxidant.
 
 Kruse (2022) makes mitochondrial melatonin central. Melatonin is both lipid- and water-soluble, distributes across all subcellular compartments, and acts as a direct free radical scavenger and indirect antioxidant, stimulating superoxide dismutase, glutathione peroxidase, glutathione reductase, and catalase. Kruse (2022) holds that its production is driven locally by near-infrared and ultraviolet A penetrating tissue, and that consequently melatonin status is a function of daytime light exposure rather than solely of nighttime darkness. On this account melatonin is the principal agent limiting mitochondrial heteroplasmy, and sleep quality serves as an index of mitochondrial competence rather than only as its cause.
@@ -487,9 +493,17 @@ Amplitude falls under chronic misalignment, which is the quantity the bedtime-to
 
 ### 6.6 Sleep–wake regulation
 
-Sleep timing is determined by the interaction of two processes (Borbély). **Process S** is homeostatic sleep pressure, accumulating with time awake and dissipating during sleep, with adenosine as the principal candidate substrate. **Process C** is the circadian alertness signal, independent of prior sleep.
+Sleep timing is set by two quantities that vary independently of each other.
 
-The circadian system actively promotes wakefulness during the biological evening, opposing accumulated sleep pressure, and promotes sleep in the early morning as pressure declines. Misalignment between the two processes, rather than abnormality in either alone, underlies most disorders of sleep initiation and maintenance.
+**Sleep pressure** builds throughout waking and discharges during sleep. Adenosine accumulating in the brain is the principal candidate substrate. Sixteen hours awake produces more pressure than four, whatever the hour on the clock. Borbély's two-process model calls this Process S, for sleep homeostasis.
+
+**The alertness signal** is generated by the clock and takes no account of how long a person has been awake. It runs high through the day, peaks in the early evening, and falls through the night to a trough near the core temperature minimum. Borbély calls this Process C, for circadian.
+
+Sleep begins when the falling alertness signal stops opposing accumulated pressure. This is why neither quantity predicts sleep on its own: the same sleep pressure produces sleep readily at 23:00 and barely at all at 11:00, when the alertness signal is climbing against it.
+
+The evening peak is the part that surprises people. Sleep pressure is near its maximum in the two or three hours before habitual bedtime, and the clock is pushing hardest for wakefulness over exactly that interval — the **wake maintenance zone**, in which sleep is unusually hard to initiate even after a long day. An early bedtime lands inside it.
+
+Most difficulty falling asleep and staying asleep comes from a mismatch between the two rather than a fault in either. A delayed clock puts the fall in alertness after the intended bedtime, so the person is tired and cannot sleep; an advanced clock puts the trough before morning, so the person wakes early and cannot return.
 
 ### 6.7 Glucose regulation
 
@@ -597,23 +611,21 @@ Melatonin has direct oncostatic activity independent of its role as a phase mark
 
 The tumour-relevant variable is the melatonin content of circulating blood, and the light environment sets it (9.2).
 
-### 8.4 Kruse's account
+### 8.4 The ubiquitin economy and the cell cycle gate
 
 Kruse (2011, 2015, 2016) runs a single chain from the light environment to malignancy, with the rate of protein turnover as the controlled variable.
 
-**Protein turnover is the largest energy cost the cell carries.** Peptide bond formation costs five ATP, several times the cost of polymerising nucleotides, and protein synthesis dominates the eukaryotic energy budget. The rate at which proteins are marked by ubiquitin for replacement therefore sets the cell's principal expenditure, and Kruse (2015) treats that marking rate as the quantity the circadian system exists to regulate.
+**Protein turnover is the largest energy cost the cell carries.** Peptide bond formation costs five ATP, several times the cost of polymerising nucleotides, and protein synthesis dominates the eukaryotic energy budget. The rate at which proteins are marked by ubiquitin for replacement therefore sets the cell's principal expenditure, and Kruse (2015) treats that marking rate as the quantity the circadian system exists to regulate. The elevation of one variable to that role is his, and the share of the energy budget he assigns to protein synthesis sits at the extreme end of measured values for differentiated tissue.
 
-**The marking rate is set at complex I.** SIRT1 deacetylates the machinery that marks proteins for degradation, and SIRT1 activity depends on NAD⁺ supplied at complex I. The same enzyme deacetylates BMAL1 and PER2, setting the amplitude and duration of clock gene expression, while NAMPT, rate-limiting for NAD⁺ salvage, is itself clock-controlled. The loop closes: the clock sets NAD⁺ availability and NAD⁺ availability sets the clock (6.8).
+**The marking rate is set at complex I.** SIRT1 deacetylates the machinery that marks proteins for degradation, and SIRT1 activity depends on NAD⁺ supplied at complex I. The same enzyme deacetylates BMAL1 and PER2, setting the amplitude and duration of clock gene expression, while NAMPT, rate-limiting for NAD⁺ salvage, is itself clock-controlled. The loop closes: the clock sets NAD⁺ availability and NAD⁺ availability sets the clock (6.8). This loop is established.
 
 **A truncated spectrum lowers NAD⁺.** Kruse (2019) holds that light without the balancing red and infrared frequencies lowers NAD⁺ at complex I. Falling NAD⁺ costs SIRT1 activity, ubiquitin marking proceeds unchecked, protein replacement accelerates, and the cell consumes divisions against the Hayflick limit with the telomere shortening that accompanies them.
 
-**Glucose is the brake.** Kruse (2015) states the inversion directly: "Glucose down regulates the circadian clock genes… this is why a Warburg metabolism is selected for in oncogenesis. It is the body trying to slow time down." A cell that cannot lower its marking rate, because the light setting that rate is wrong, uses glucose to damp clock gene cycling instead. The glycolytic shift is a control action on this account, and elevated blood glucose reports the ubiquitin rate rather than a failure of fuel handling.
+**Glucose is the brake.** Kruse (2015) states the inversion directly: "Glucose down regulates the circadian clock genes… this is why a Warburg metabolism is selected for in oncogenesis. It is the body trying to slow time down." A cell that cannot lower its marking rate, because the light setting that rate is wrong, uses glucose to damp clock gene cycling instead. The glycolytic shift is a control action on this account, and elevated blood glucose reports the ubiquitin rate rather than a failure of fuel handling. The standard account derives the same shift from oncogenic signalling and hypoxia, placing it at the end of the causal chain rather than inside it as a control action, and the two readings are not compatible.
 
-**Damping the clock opens the cell cycle gate.** PER1 and PER2 couple the clock to mitosis through E-box control of Cyclin D1, Cyclin A, Mdm-2, Gadd45α and c-MYC, and *Per2*-null animals show increased tumour formation with decreased apoptosis (8.1). Damping clock gene cycling to slow the protein economy removes that gating as a side effect, and proliferation proceeds without the phase restriction that confines it. Melatonin amplitude and repair timing (8.2, 8.3) fail from the same light input, so all three routes open together.
+**Damping the clock opens the cell cycle gate.** PER1 and PER2 couple the clock to mitosis through E-box control of Cyclin D1, Cyclin A, Mdm-2, Gadd45α and c-MYC, and *Per2*-null animals show increased tumour formation with decreased apoptosis (8.1). Damping clock gene cycling to slow the protein economy removes that gating as a side effect, and proliferation proceeds without the phase restriction that confines it. Melatonin amplitude and repair timing (8.2, 8.3) fail from the same light input, so all three routes open together. The coupling itself is established; the route to it through the protein economy is his.
 
-**The conclusion.** Cancer is on this account an epigenetic disease of light, and the terminal entry in the staging sequence of 7.5 — the point at which both arms of the coupled system have failed. Mutation accumulates as a consequence of replication and repair proceeding at the wrong phase, which makes the light environment carcinogenic in the sense a chemical is.
-
-**Status.** Both ends of the chain are established. The NAD⁺/SIRT1/NAMPT loop and its action on BMAL1 and PER2 are accurately reported, as is the PER-mediated coupling of clock to cell cycle. The middle is his: ubiquitin marking rate as the master regulated variable of circadian health is unsupported, the share of the energy budget he assigns to protein synthesis sits at the extreme end of measured values for differentiated tissue, and Warburg metabolism as a deliberate brake on clock gene cycling — rather than a consequence of oncogenic signalling and hypoxia — is his own reading. The mainstream position holds the established mechanisms as contributory, alongside direct genotoxic, inherited, and infectious routes.
+**The ranking.** Cancer is on this account an epigenetic disease of light, and the terminal entry in the staging sequence of 7.5 — the point at which both arms of the coupled system have failed. Mutation accumulates as a consequence of replication and repair proceeding at the wrong phase, which makes the light environment carcinogenic in the sense a chemical is. The mainstream position holds the mechanisms of 8.1 to 8.3 as contributory alongside direct genotoxic, inherited, and infectious routes. What separates the two is the weight assigned, and three claims carry it: the elevation of marking rate to master variable, the reading of Warburg metabolism as a brake, and the route from the protein economy to the cell cycle gate.
 
 ---
 
@@ -674,6 +686,8 @@ The clinical result across agents is mixed; the underlying observation, that the
 ### 9.5 Animal models
 
 **Environmental disruption.** Light at night induces circadian disruption that accelerates ageing and promotes tumorigenesis in rats [[Blask 2012](https://pubmed.ncbi.nlm.nih.gov/23237593/)]. Circadian disruption promotes tumour growth through anabolic host metabolism [[2017](https://pubmed.ncbi.nlm.nih.gov/28874144/)]. Chronic jet lag, dim light at night, and rotating light–dark schedules produce comparable effects, and SCN ablation reproduces them. The acceleration occurs with no change in carcinogen exposure.
+
+**Fitness.** Cyanobacterial strains whose intrinsic period matches the imposed light cycle outcompete strains whose period does not, and the advantage disappears in constant light [[Ouyang 1998](https://pubmed.ncbi.nlm.nih.gov/9671734/)]. Plants whose clock period matches the environmental cycle accumulate more carbon and survive better [[Dodd 2005](https://pubmed.ncbi.nlm.nih.gov/16040710/)].
 
 **Genetic disruption.** *Per2*-mutant mice show elevated spontaneous tumour incidence and markedly increased lymphoma after ionising radiation, with deficient p53-mediated apoptosis [[Fu 2002](https://pubmed.ncbi.nlm.nih.gov/12372299/)]. In regenerating mouse liver, mitosis is confined to a restricted window each day, and clock disruption abolishes the confinement [[Matsuo 2003](https://pubmed.ncbi.nlm.nih.gov/12934012/)]. BMAL1 disruption promotes metastasis through PAI-1–TGF-β–dependent mechanisms [[BMAL1](https://pubmed.ncbi.nlm.nih.gov/37330661/)]. Disruption-induced tumours show increased stemness, immunosuppression, and metabolic deregulation.
 
@@ -883,6 +897,8 @@ This measures the input stage directly. The other health metrics read an output 
 
 Environmental input is the cause of circadian state rather than a component of it, and is scored separately. Six environmental quantities are measured, plus one biomarker of integrated exposure.
 
+**Melanopic equivalent daylight illuminance (melanopic EDI)** — illuminance weighted by the spectral sensitivity of melanopsin rather than of the cones. The quantity against which light exposure thresholds are set.
+
 **1. Daytime melanopic EDI.**
 *Measure:* melanopic-capable or spectrally resolved sensor at eye height — spectacle clip or pendant — logging 1-minute epochs through all waking hours. Wrist placement underestimates and requires a correction factor.
 *Target:* ≥ 250 lx sustained (Brown et al., 2022).
@@ -946,6 +962,8 @@ These have no validated diagnostic cut-point. Each still carries a target, so th
 ## 13. Raw measurements
 
 Every metric in section 12 is computed from these streams. Seven run continuously; five are collected once or on a short schedule.
+
+**Epoch** — the interval over which a continuously sampled signal is aggregated before storage. A logger samples internally at a higher rate, reduces each interval to a summary value, and writes that. Epoch length sets the resolution of the stored series, not the fidelity of measurement: a 1-minute epoch over a fortnight yields 20,160 values. The convention matches the integration time of the system being measured, and matches published series so that derived metrics remain comparable.
 
 ### 13.1 Acceleration
 
