@@ -248,73 +248,9 @@ The SCN distributes timing information through autonomic outflow, through humora
 
 
 
-## 4. External cues
+## 4. How the clock is set
 
-### 4.1 The non-image-forming pathway
-
-Photic entrainment is mediated by a photoreceptive system anatomically and functionally distinct from the image-forming system.
-
-**Intrinsically photosensitive retinal ganglion cells (ipRGCs)** constitute approximately 1–2% of retinal ganglion cells and express the photopigment **melanopsin (OPN4)**. They depolarise to light directly, in the absence of rod and cone input (Berson, Dunn and Takao, 2002).
-
-Their properties are those of an irradiance detector rather than an image detector: peak spectral sensitivity near **480 nm**, slow kinetics, sustained response, high threshold, and integration over minutes. Phototransduction proceeds through Gq/11 → PLCβ4 → TRPC6/7.
-
-Rods and cones adapt within milliseconds and report contrast. Melanopsin-expressing ipRGCs depolarise slowly, sustain their response for the duration of the stimulus, and decay slowly after it ends. The cell integrates photon capture over minutes to tens of minutes, which makes it an irradiance detector rather than a contrast detector, and makes cumulative dose rather than peak brightness the quantity the clock receives.
-
-ipRGC axons form the **retinohypothalamic tract**, projecting to the SCN and additionally to the olivary pretectal nucleus, intergeniculate leaflet, habenula, and ventrolateral preoptic nucleus.
-
-Rods and cones contribute to entrainment through convergence onto ipRGCs, particularly at low irradiance; complete abolition of entrainment requires elimination of all three photoreceptor classes (Hattar et al., 2003). The ipRGC constitutes the final common path.
-
-Clinically, individuals blind from outer retinal disease but retaining intact ipRGCs entrain normally despite absent visual perception. Individuals lacking all light perception free-run with τ slightly exceeding 24 hours, producing **non-24-hour sleep–wake disorder**, in which sleep timing drifts progressively later and cycles in and out of alignment over weeks.
-
-### 4.2 The light phase response curve
-
-For light in humans:
-
-
-| Timing relative to core temperature minimum                 | Effect                                       |
-| ----------------------------------------------------------- | -------------------------------------------- |
-| Several hours before (biological evening and early night)   | Phase delay                                  |
-| Immediately after (biological late night and early morning) | Phase advance                                |
-| Mid-subjective day                                          | Minimal phase shift; amplitude reinforcement |
-
-
-Core body temperature minimum falls approximately 1–3 hours before habitual wake time. Light received before this point delays the clock; light received after it advances the clock. Magnitude scales with irradiance, duration, and spectral composition, and saturates at high intensity.
-
-Exogenous melatonin exhibits an approximately inverted PRC: administration in the biological evening advances phase, administration in the biological morning delays it.
-
-The PRC is the formal basis for all timing-dependent intervention. The same exposure is corrective or harmful according to when it is received.
-
-### 4.3 The retina as a timing organ
-
-Kruse (2015) makes the functional separation between the two retinal systems the organising principle of the entire framework: the eye is a clock before it is a camera, and its timing function is hierarchically superior to its imaging function. Under this framing the inner retina constitutes the top of a control hierarchy governing every downstream oscillator, and ocular pathology reports on the state of that hierarchy. The consequences are taken up in section 9.
-
-The clinical corollaries Kruse (2016) draws from this position govern much of the protocol: light must reach the retina unfiltered, since spectacles, contact lenses, sunglasses, windscreens, and window glass each remove portions of the spectrum that the non-image-forming system requires; and exposure must occur at the times when the required frequencies are present in terrestrial sunlight.
-
-### 4.4 Chromophore stability
-
-Melanopsin binds the chromophore **retinal** through a Schiff base linkage. This linkage is comparatively susceptible to spontaneous cleavage in mammals, and is particularly unstable in human melanopsin.
-
-Melanopsin is also photo-regenerating. The pigment interconverts between resting and signalling states under illumination, long wavelengths driving the signalling state back toward rest while short wavelengths drive it forward, so the pigment sustains its own chromophore supply independently of the retinal pigment epithelium (Emanuel and Do, 2015). The ratio of short to long wavelengths therefore sets the steady-state fraction of pigment available for signalling, and two spectra with identical melanopic weighting drive the pathway differently. A blue-enriched, red-depleted source and a broadband source of the same melanopic irradiance are not equivalent stimuli.
-
-Kruse (2018) builds a mechanism of photoreceptor injury on this instability. Excess short-wavelength exposure, particularly in the absence of the balancing red and infrared frequencies present in natural light, liberates retinal from its protein. Free retinal is a reactive aldehyde and an efficient photosensitiser, and in the free state damages chromophores throughout the photoreceptive apparatus. Damaged chromophores no longer absorb light at their design frequencies, degrading the optical signalling on which timing depends. Kruse (2018) identifies this as the proximate lesion underlying the blue light hazard.
-
-### 4.5 Additional opsins
-
-**OPN5 (neuropsin)** is sensitive to ultraviolet and violet light and photoentrains local oscillators in the retina and cornea independently of melanopsin (Buhr et al., 2015).
-
-Kruse (2016) assigns neuropsin a central role in tissue regeneration, proposing that UVA acting through corneal and cutaneous neuropsin initiates the melatonin-dependent programme by which mitochondrial populations are renewed and the proportion of defective mitochondrial genomes — **heteroplasmy** — is reduced. On this account the daily UVA signal is not merely a timing cue but the trigger for a repair cycle, and its chronic absence permits heteroplasmy to accumulate, which Kruse (2016) treats as the principal substrate of ageing and degenerative disease.
-
-Opsins are expressed outside the eye. **OPN4** and **OPN3** are present in skin, and **OPN3** in adipocytes, where light exposure modulates lipolysis. Kruse (2012) predicted extra-ocular photoreception in skin and subsequently in subcutaneous adipose tissue on the grounds that the cold and light protocols produced systemic effects too rapid and too large to be mediated through the eye alone.
-
-### 4.6 Membrane substrate
-
-Docosahexaenoic acid (DHA) is concentrated in photoreceptor outer segments and synaptic membranes to a degree unmatched elsewhere in the body, and constitutes approximately half of central nervous system polyunsaturated fatty acid. Retinal DHA content exceeds that of brain. Despite the availability of docosapentaenoic acid, which differs by a single double bond and is both cheaper to synthesise and less susceptible to peroxidation, DHA has not been substituted at these positions across approximately 600 million years of eukaryotic evolution.
-
-DHA-rich phospholipids provide the membrane environment permitting G-protein-coupled photoreceptive events. Photoreceptor discs contain phospholipids bearing ω-3 chains at both SN-1 and SN-2 positions; these species constitute approximately 52% of phosphatidylserine and 31% of phosphatidylcholine in the disc membrane. The DHA-derived docosanoid **neuroprotectin D1** upregulates Bcl-2 and Bcl-xL and downregulates Bax and Bad, generating a pro-survival transcriptional state in the retinal pigment epithelium.
-
-Kruse (2015) treats DHA concentration as the gain control of the circadian system. Because melanopsin is a G-protein-coupled photopigment dependent on its lipid environment, and because DHA is subject to photo-oxidative destruction by short-wavelength light, tissue DHA status sets the fidelity with which light is transduced into a timing signal. Kruse (2015) accordingly holds that dietary DHA sufficiency is a prerequisite for circadian function rather than a general nutritional recommendation, and that DHA loss and light injury are mutually reinforcing.
-
-### 4.7 Irradiance and dose–response
+### 4.1 Irradiance and dose–response
 
 The magnitude of the entraining signal depends on irradiance, spectral composition, duration, and timing.
 
@@ -340,23 +276,87 @@ Indoor daytime illuminance is one to two orders of magnitude below the level tha
 
 The compression is bilateral: the daytime signal is reduced by three orders of magnitude and the night signal raised by four. Either alone reduces the contrast; together they reduce it to a fraction of the natural value, and oscillator amplitude follows the contrast. Measurement and intervention are therefore directed at the ratio rather than at either level in isolation.
 
-### 4.8 Spectral composition
+### 4.2 Spectral composition
 
 Spectral composition varies systematically through the solar day. At sunrise and sunset the solar disc is viewed through maximal atmospheric path length, and the spectrum reaching the eye is dominated by red and near-infrared frequencies with minimal ultraviolet. Ultraviolet A appears as solar elevation increases; ultraviolet B becomes available only above a solar elevation of approximately 30 degrees, and therefore only during the hours surrounding solar noon, and at higher latitudes only during part of the year.
 
-Kruse (2016, 2022) organises the protocol around this sequence. The ordered daily progression from infrared and red, through ultraviolet A, to ultraviolet B constitutes the signal the system evolved to read, and the sequence carries information that no single component reproduces. Viewing the sunrise establishes the phase reference; subsequent exposure as ultraviolet becomes available supplies the frequencies required for the photochemical steps in 4.5 and 5.2. Kruse (2022) specifies exposure beginning at sunrise and continuing as ultraviolet becomes available, using ultraviolet index 1 as the practical threshold for UVA availability.
+Kruse (2016, 2022) organises the protocol around this sequence. The ordered daily progression from infrared and red, through ultraviolet A, to ultraviolet B constitutes the signal the system evolved to read, and the sequence carries information that no single component reproduces. Viewing the sunrise establishes the phase reference; subsequent exposure as ultraviolet becomes available supplies the frequencies required for the photochemical steps in 4.6 and 5.2. Kruse (2022) specifies exposure beginning at sunrise and continuing as ultraviolet becomes available, using ultraviolet index 1 as the practical threshold for UVA availability.
 
 Ordinary window glass transmits visible light while removing essentially all ultraviolet B, the majority of ultraviolet A, and a substantial fraction of infrared A. Kruse (2019) treats indoor daytime occupancy as spectral truncation rather than merely reduced intensity: the light reaching the retina indoors is not a weaker version of sunlight but a different signal, retaining the short-wavelength component that suppresses melatonin while omitting the components that drive the compensating photochemistry.
 
 The dose required to produce a given effect varies with the receiver. Constitutive melanin density determines the ultraviolet dose needed for equivalent cutaneous photochemistry, and therefore the exposure appropriate at a given latitude and season. Kruse (2015, 2022) treats latitude, season, and pigmentation as jointly determining the appropriate exposure, and holds that dietary composition should correspond to the photoperiod and latitude in which it is consumed, on the grounds that carbohydrate availability historically covaried with long photoperiod and that the two signals are read together.
 
-### 4.9 Tissue optics
+### 4.3 The non-image-forming pathway
+
+Photic entrainment is mediated by a photoreceptive system anatomically and functionally distinct from the image-forming system.
+
+**Intrinsically photosensitive retinal ganglion cells (ipRGCs)** constitute approximately 1–2% of retinal ganglion cells and express the photopigment **melanopsin (OPN4)**. They depolarise to light directly, in the absence of rod and cone input (Berson, Dunn and Takao, 2002).
+
+Their properties are those of an irradiance detector rather than an image detector: peak spectral sensitivity near **480 nm**, slow kinetics, sustained response, high threshold, and integration over minutes. Phototransduction proceeds through Gq/11 → PLCβ4 → TRPC6/7.
+
+Rods and cones adapt within milliseconds and report contrast. Melanopsin-expressing ipRGCs depolarise slowly, sustain their response for the duration of the stimulus, and decay slowly after it ends. The cell integrates photon capture over minutes to tens of minutes, which makes it an irradiance detector rather than a contrast detector, and makes cumulative dose rather than peak brightness the quantity the clock receives.
+
+ipRGC axons form the **retinohypothalamic tract**, projecting to the SCN and additionally to the olivary pretectal nucleus, intergeniculate leaflet, habenula, and ventrolateral preoptic nucleus.
+
+Rods and cones contribute to entrainment through convergence onto ipRGCs, particularly at low irradiance; complete abolition of entrainment requires elimination of all three photoreceptor classes (Hattar et al., 2003). The ipRGC constitutes the final common path.
+
+Clinically, individuals blind from outer retinal disease but retaining intact ipRGCs entrain normally despite absent visual perception. Individuals lacking all light perception free-run with τ slightly exceeding 24 hours, producing **non-24-hour sleep–wake disorder**, in which sleep timing drifts progressively later and cycles in and out of alignment over weeks.
+
+### 4.4 The retina as a timing organ
+
+Kruse (2015) makes the functional separation between the two retinal systems the organising principle of the entire framework: the eye is a clock before it is a camera, and its timing function is hierarchically superior to its imaging function. Under this framing the inner retina constitutes the top of a control hierarchy governing every downstream oscillator, and ocular pathology reports on the state of that hierarchy. The consequences are taken up in section 9.
+
+The clinical corollaries Kruse (2016) draws from this position govern much of the protocol: light must reach the retina unfiltered, since spectacles, contact lenses, sunglasses, windscreens, and window glass each remove portions of the spectrum that the non-image-forming system requires; and exposure must occur at the times when the required frequencies are present in terrestrial sunlight.
+
+### 4.5 Chromophore stability
+
+Melanopsin binds the chromophore **retinal** through a Schiff base linkage. This linkage is comparatively susceptible to spontaneous cleavage in mammals, and is particularly unstable in human melanopsin.
+
+Melanopsin is also photo-regenerating. The pigment interconverts between resting and signalling states under illumination, long wavelengths driving the signalling state back toward rest while short wavelengths drive it forward, so the pigment sustains its own chromophore supply independently of the retinal pigment epithelium (Emanuel and Do, 2015). The ratio of short to long wavelengths therefore sets the steady-state fraction of pigment available for signalling, and two spectra with identical melanopic weighting drive the pathway differently. A blue-enriched, red-depleted source and a broadband source of the same melanopic irradiance are not equivalent stimuli.
+
+Kruse (2018) builds a mechanism of photoreceptor injury on this instability. Excess short-wavelength exposure, particularly in the absence of the balancing red and infrared frequencies present in natural light, liberates retinal from its protein. Free retinal is a reactive aldehyde and an efficient photosensitiser, and in the free state damages chromophores throughout the photoreceptive apparatus. Damaged chromophores no longer absorb light at their design frequencies, degrading the optical signalling on which timing depends. Kruse (2018) identifies this as the proximate lesion underlying the blue light hazard.
+
+### 4.6 Additional opsins
+
+**OPN5 (neuropsin)** is sensitive to ultraviolet and violet light and photoentrains local oscillators in the retina and cornea independently of melanopsin (Buhr et al., 2015).
+
+Kruse (2016) assigns neuropsin a central role in tissue regeneration, proposing that UVA acting through corneal and cutaneous neuropsin initiates the melatonin-dependent programme by which mitochondrial populations are renewed and the proportion of defective mitochondrial genomes — **heteroplasmy** — is reduced. On this account the daily UVA signal is not merely a timing cue but the trigger for a repair cycle, and its chronic absence permits heteroplasmy to accumulate, which Kruse (2016) treats as the principal substrate of ageing and degenerative disease.
+
+Opsins are expressed outside the eye. **OPN4** and **OPN3** are present in skin, and **OPN3** in adipocytes, where light exposure modulates lipolysis. Kruse (2012) predicted extra-ocular photoreception in skin and subsequently in subcutaneous adipose tissue on the grounds that the cold and light protocols produced systemic effects too rapid and too large to be mediated through the eye alone.
+
+### 4.7 Membrane substrate
+
+Docosahexaenoic acid (DHA) is concentrated in photoreceptor outer segments and synaptic membranes to a degree unmatched elsewhere in the body, and constitutes approximately half of central nervous system polyunsaturated fatty acid. Retinal DHA content exceeds that of brain. Despite the availability of docosapentaenoic acid, which differs by a single double bond and is both cheaper to synthesise and less susceptible to peroxidation, DHA has not been substituted at these positions across approximately 600 million years of eukaryotic evolution.
+
+DHA-rich phospholipids provide the membrane environment permitting G-protein-coupled photoreceptive events. Photoreceptor discs contain phospholipids bearing ω-3 chains at both SN-1 and SN-2 positions; these species constitute approximately 52% of phosphatidylserine and 31% of phosphatidylcholine in the disc membrane. The DHA-derived docosanoid **neuroprotectin D1** upregulates Bcl-2 and Bcl-xL and downregulates Bax and Bad, generating a pro-survival transcriptional state in the retinal pigment epithelium.
+
+Kruse (2015) treats DHA concentration as the gain control of the circadian system. Because melanopsin is a G-protein-coupled photopigment dependent on its lipid environment, and because DHA is subject to photo-oxidative destruction by short-wavelength light, tissue DHA status sets the fidelity with which light is transduced into a timing signal. Kruse (2015) accordingly holds that dietary DHA sufficiency is a prerequisite for circadian function rather than a general nutritional recommendation, and that DHA loss and light injury are mutually reinforcing.
+
+### 4.8 Tissue optics
 
 Absorption and scattering in tissue vary strongly with wavelength. Between approximately 650 and 1350 nm, haemoglobin absorption has fallen and water absorption has not yet risen, producing an optical window in which penetration is greatest. Blue light is attenuated within a fraction of a millimetre of the skin surface; red penetrates several millimetres; near infrared penetrates centimetres.
 
 Extraocular photoreception is therefore constrained by wavelength. Short-wavelength effects are restricted to the eye and to superficial skin, where opsins are in fact expressed: OPN5 mediates local light entrainment of peripheral tissues, and OPN3 in adipocytes supports light-dependent regulation of lipolysis and thermogenesis (Buhr et al., 2015; Nayak et al., 2020). Long-wavelength effects can reach deep tissue, and the principal deep chromophore is cytochrome c oxidase, whose absorption bands near 660 and 810 nm underlie measurable increases in complex IV activity under red and near-infrared illumination.
 
 Kruse (2012) states the prediction that photoreception is not confined to the eye and that skin and subcutaneous tissue respond directly to light; the opsin findings establish the general claim, and the wavelength constraint sets its limits.
+
+### 4.9 The light phase response curve
+
+For light in humans:
+
+
+| Timing relative to core temperature minimum                 | Effect                                       |
+| ----------------------------------------------------------- | -------------------------------------------- |
+| Several hours before (biological evening and early night)   | Phase delay                                  |
+| Immediately after (biological late night and early morning) | Phase advance                                |
+| Mid-subjective day                                          | Minimal phase shift; amplitude reinforcement |
+
+
+Core body temperature minimum falls approximately 1–3 hours before habitual wake time. Light received before this point delays the clock; light received after it advances the clock. Magnitude scales with irradiance, duration, and spectral composition, and saturates at high intensity.
+
+Exogenous melatonin exhibits an approximately inverted PRC: administration in the biological evening advances phase, administration in the biological morning delays it.
+
+The PRC is the formal basis for all timing-dependent intervention. The same exposure is corrective or harmful according to when it is received.
 
 ### 4.10 Non-photic cues
 
@@ -528,7 +528,7 @@ Reduced oscillator amplitude propagates to every downstream rhythm, including th
 
 ### 6.4 Loss of signal acquisition
 
-Kruse (2015, 2018) places this mechanism upstream of the other three. Chronic exposure to short-wavelength light without balancing red and infrared frequencies degrades the photoreceptive apparatus itself, through the chromophore mechanism of 4.4 and through photo-oxidative loss of membrane DHA. Under this account the system loses not only correct timing but the capacity to acquire timing information, and correction requires restoration of the input signal before any downstream intervention can take effect.
+Kruse (2015, 2018) places this mechanism upstream of the other three. Chronic exposure to short-wavelength light without balancing red and infrared frequencies degrades the photoreceptive apparatus itself, through the chromophore mechanism of 4.5 and through photo-oxidative loss of membrane DHA. Under this account the system loses not only correct timing but the capacity to acquire timing information, and correction requires restoration of the input signal before any downstream intervention can take effect.
 
 ### 6.5 The order of failure
 
